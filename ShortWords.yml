@@ -1,0 +1,23 @@
+---
+extends: substitution
+message: "Consider '%s' instead of '%s'"
+description: "Use short words. They are often Anglo-Saxon rather than Latin in origin. They are easy to spell and easy to understand."
+level: warning
+scope: text
+ignorecase: true
+swap:
+  - approximately: about
+  - following: after
+  - prior to: before
+  - however: but
+  - sufficient: enough
+  - permit: let
+  - manufacfture: make
+  - facility: plant,club,warehouse, etc.
+  - establish: set up
+  - demonstrate: show
+  - spending: expenditure
+  - utilise: use
+  - utilize: use
+  - underdeveloped: poor
+  - substantive: real or big
