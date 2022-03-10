@@ -6,18 +6,195 @@ level: warning
 scope: text
 ignorecase: true
 swap:
+  - abdomen: belly/midriff/womb
+  - action|attitude|manner|conduct: behaviour/bearing/etiquette/guise/way
+  - adept: skillful/crafty/deft
+  - adolescence: youth/teenhood
+  - advantage|benefit: behoof/gain/foredeal/boon/blessing/welfare
+  - affair|enterprise: business/undertaking/note
+  - age: eld/lifetime/lifespan
+  - altitude|elevation: height/loftiness
+  - amicable: friendly/kindly/warm
+  - amorous: loving/fond
+  - ancient|antediluvian: old/stale/elderly/of yore
+  - animate: alive
+  - anniversary: birthday/yeartide
+  - annual: yearly
+  - appear: seem/look
   - approximately: about
-  - following: after
-  - prior to: before
-  - however: but
-  - sufficient: enough
-  - permit: let
-  - manufacfture: make
-  - facility: plant,club,warehouse, etc.
-  - establish: set up
+  - army|militia: here/ferd
+  - arrive: come/land/reach/get/to/make/(to/a/place)
+  - art|science: skill/craft/cunning/list
+  - assemble: gather/forgather/gather/up/group/cluster/lease
+  - assist: help/abet/give/a/hand/bestand/bestead
+  - beef|cattle: cow/bull/neat/ox/steer/bison/aurochs
+  - beneficial: good/well/helpful/gainful/wholesome/worthwhile
+  - boil: seethe/bubble
+  - canid,|canine: dog/hound
+  - career|profession|vocation|occupation|employment: calling/job/lifework/livelihood/living
+  - chief|captain|emperor|count|duke|president: leader/king/head/baron/earl
+  - close the: shut the
+  - close|circa|approximate: nigh/near
+  - cognizant: aware/abreast/up to speed
+  - colour: blee/hue/dye/shade/lit
+  - command|order: behest/bidding
+  - commence: begin/start
+  - comprehend: understand/get/grasp
+  - construct: build/rear/raise
+  - converse|discourse|communication|dictation: speak/talk/prate/prattle
+  - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup/lich
+  - correspond: match/fit/answer/to
+  - court|enclosure: garden/yard/park/pound/paddock
+  - creed: belief/mindset/gospel/truth/leaning
+  - danger|peril|menace: threat/plight/fear
+  - debase,|abase|degrade|humiliate: demean/bemean/belittle/put/down/lower
+  - deity|divine|immortal: god/goddess/godhead
   - demonstrate: show
+  - desire|cupidity: wish/will/yearning/longing/lust/want
+  - detest: hate/loathe/scorn
+  - dictionary: wordbook
+  - different|alternative: other/else
+  - difficulty: hardship/ordeal
+  - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
+  - displeasure|dissatisfaction: chagrin/dismay/shame
+  - diurnal|quotidian: daily
+  - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
+  - double|duplicate: twin/twofold/
+  - educate: teach/show/lear/lere
+  - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
+  - elevating: uplifting/raising/rearing
+  - encounter: meet/hit
+  - ensue: follow/track
+  - entire: whole
+  - error: mistake/blunder/wrength
+  - establish: set up
+  - estimate: guess/fathom/sound/gauge
+  - execute|dispatch: do/perform/undertake
+  - expect: wait/await/bide/tarry/ween
+  - facility: plant,club,warehouse, etc.
+  - fate|destiny: wyrd/doom
+  - felid,|feline: cat
+  - feminine: womanly
+  - fidelity|loyalty: allegiance
+  - finish|complete|discontinue|terminate: end/fulfill/halt/wrap/up/stop/blin
+  - flower: bloom/blossom/bud/burgeon
+  - following: after
+  - forest|copse,|coppice: wood/bush/grove/brush/thicket/frith/shaw
+  - form: shape/build/outline
+  - fraternal: brotherly
+  - frigid: cold/chilly/freezing
+  - grief: sorrow/care/woe
+  - hour|moment|interval: stound/time/tide/while/throw/spell/stint
+  - however: but
+  - idea: thought/hunch/inkling/clue
+  - identical: selfsame
+  - identity: selfhood/likeness/selfdom
+  - imbibe|beverage: drink/swill/carouse/wassail/sup/sip
+  - important|grave: weighty/meaningful/key
+  - infant: child/bairn/baby/kid/newborn
+  - inquire|request: ask/beseech/beg/seek
+  - insect: bug/beetle
+  - intend|signify: mean/betoken/stand/for/ettle
+  - inundate: flood/overwhelm/overset
+  - irritate: itch/irk/tease/fret/grill
+  - isle: island/ait/eyot/holm
+  - joy|felicity|pleasure|delight: gladness/bliss/fairness/merriment/mirth/winsomeness/happiness/glee/thrill/queem
+  - judge|consider|esteem: deem/regard/hold/feel/bethink
+  - juvenile|immature: youthful/young
+  - kiln|furnace: oven/hearth/stove/oast/smithy/smithery
+  - labor: work/drudge/drudgery/swink
+  - lament|deplore: weep/greet/(cry)/regret/bawl/wail/whine/cry/mourn/sob
+  - language: tongue/speech/talk
+  - large|grand: big/great/stour/mickle/huge
+  - latitude: width/breadth/span
+  - launder: wash/cleanse/rinse/lave/bathe/scrub
+  - legal|legitimate,|legit|just|proper: lawful/straight/fair/right/rightful/sound/meet/warranted/fitting
+  - level|planar|equal: even/flat/smooth/in/line/lined/up/steady
+  - liberty: freedom
+  - longitude: length
+  - manufacfture: make
+  - marriage: wedlock
+  - marry: wed
+  - maternal: motherly
+  - minute|petite|diminutive: small/little/tiny/wee
+  - mortal|fatal: deadly/baneful
+  - mount: hill/barrow/mound/down/dune
+  - multiple|numerous|abundant|copious: many/manifold/rife/teeming
+  - mundane|secular: worldly/earthly
+  - mutton: sheep/lamb
+  - nocturnal: nightly
+  - noon: midday
+  - notice|alert|recommendation|admonition: warning/tip off
+  - novel|modern: new/fresh/now
+  - observe|supervise: watch/keep/behold
+  - occidental: western
+  - ochre: yellow
+  - opt|select: choose/pick/wale
+  - oriental: eastern/easterly/eastward
+  - pain|agony: ache/hurt/smart/woe/sore/throe
+  - paternal: fatherly/fatherlike
+  - pensive: thinking/thoughtful/mindful
+  - perceive: see/ken
+  - permit: let
+  - pigeon|culver: dove
+  - pork: swine/farrow/sow/boar/pig/hog
+  - port: harbour/haven
+  - predict: foretell/soothsay/forebode/foreshadow
+  - present: gift/handsel
+  - previous|preceding: former/erstwhile/foregoing/aforegoing/whilom
+  - primary: first/foremost/main
+  - prior to: before
+  - prior: before/beforehand/ahead of/ere
+  - proceed: go/on/wend
+  - prohibit|prevent|interdict: forbid/ban/forestall
+  - projection: forecast/outlook
+  - pronounce: utter/say
+  - provide: give/afford/furnish
+  - prudent|intelligent|sapient: wise/clever/insightful/enlightened/keen/knowledgeable/shrewd
+  - pullet: hen
+  - purchase: buy/cop
+  - putrefy: rot/defile/befoul
+  - rage|ire: anger/wrath
+  - rapid: fast/rathe/rather/snell/quick/swift/speedy
+  - recognize: know/wit/wot/espy/spot/tell
+  - relate|narrate: tell/kithe/make/known
+  - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
+  - remain: belive/belave/abide/tarry/stay
+  - replenish: fill/up/stock/renew
+  - repose|recline: lie/(lie/down)/rest/lean/(back)
+  - response: answer
+  - route|avenue|itinerary: road/way/boulevard/drive/path/street
+  - sacred: holy/hallowed
+  - salary: wage/meed/hire
+  - savage|feral: wild/fell/grim
+  - script: writing/writ
+  - sentiment|sensation: feeling/awareness/touch
+  - series|order|sequence: array/row/range/rank/line/lineup/set/lot/list
+  - serious|grave|sober: earnest/grim/stern
+  - serpent: snake/worm
+  - signal|indicator: beacon/buoy/flag/herald/harbinger/guide
+  - sign|symbol|trace|indication: token/mark/hallmark/hint/stamp
   - spending: expenditure
+  - store: shop
+  - strange: weird/fremd/odd/queer/uncouth/outlandish/eldritch/eerie/fey
+  - substantive: real or big
+  - sufficient: enough
+  - support: uphold/bolster/bear/up/undergird/upbear/shore/up/stay
+  - tardy: late/delayed
+  - task: chore
+  - terrain: dirt/earth/land/ground/landscape
+  - timid: shy
+  - totally: utterly/altogether/fully/wholly
+  - travel|journey|voyage: fare/trek/go/abroad/take/a/trip/rove/gallivant
+  - type|class|sort|genre: kind/ilk/brand/breed/set/strain/tier/like
+  - underdeveloped: poor
   - utilise: use
   - utilize: use
-  - underdeveloped: poor
-  - substantive: real or big
+  - vacation: holiday/leave/break/furlough
+  - various|miscellaneous: sundry/mixed
+  - veal: calf
+  - vend: sell/trade/deal/in/bargain
+  - venison: deer/hart/doe/hind/stag/roe/buck
+  - verdant: green/lush
+  - vigilant: watchful/waking/wary
+  - vision: sight/seeing/ken
