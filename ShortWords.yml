@@ -162,12 +162,14 @@ swap:
   - remain: belive/belave/abide/tarry/stay
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
+  - required: needed
   - response: answer
   - route|avenue|itinerary: road/way/boulevard/drive/path/street
   - sacred: holy/hallowed
   - salary: wage/meed/hire
   - savage|feral: wild/fell/grim
   - script: writing/writ
+  - similar: akin/alike/cognate/like/match
   - sentiment|sensation: feeling/awareness/touch
   - series|order|sequence: array/row/range/rank/line/lineup/set/lot/list
   - serious|grave|sober: earnest/grim/stern
