@@ -1,5 +1,5 @@
 ---
-extends: existence
+extends: substitution
 message: "Try %s. '%s' is overused"
 description: "Nothing betrays the lazy writer faster than fly-blown phrases used in the belief that they are snappy, trendy or cool."
 level: warning
@@ -7,26 +7,26 @@ scope: text
 ignorecase: true
 swap:
   - address: cope/field/handle
-  - brits: ?
-  - care for: ?
-  - challenge: ?
-  - commit to: ?
-  - community: ?
-  - environment: ?
-  - famously: ?
-  - focus: ?
-  - historic: ?
-  - homeland: ?
-  - individual: ?
-  - inform: ?
-  - metrosexual: ?
-  - overseas: ?
-  - participate in: ?
-  - process: ?
-  - relationship: ?
-  - resources: ?
-  - skills: ?
-  - supportive: ?
-  - target: ?
-  - transparency: ?
-  - wannabes: ?
+  - brits: x
+  - care for: x
+  - challenge: x
+  - commit to: x
+  - community: x
+  - environment: x
+  - famously: x
+  - focus: x
+  - historic: x
+  - homeland: x
+  - individual: x
+  - inform: x
+  - metrosexual: x
+  - overseas: x
+  - participate in: x
+  - process: x
+  - relationship: x
+  - resources: x
+  - skills: x
+  - supportive: x
+  - target: x
+  - transparency: x
+  - wannabes: x
