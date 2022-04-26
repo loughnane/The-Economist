@@ -27,6 +27,6 @@ swap:
   - resources: x
   - skills: x
   - supportive: x
-  - target: x
+  - target: intended
   - transparency: x
   - wannabes: x
