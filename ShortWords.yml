@@ -22,11 +22,11 @@ swap:
   - annual: yearly
   - appear: seem/look
   - approximately: about
-  - army|militia: here/ferd
-  - arrive: come/land/reach/get/to/make/(to/a/place)
+  - army|militia: here/
+  - arrive: come/land/reach/get/to/make/(to a place)
   - art|science: skill/craft/cunning
   - assemble: gather/forgather/gather/up/group/cluster/lease
-  - assist: help/abet/give/a/hand/bestand/bestead
+  - assist: help/abet/give a hand/bestead
   - beef|cattle: cow/bull/neat/ox/steer/bison/aurochs
   - beneficial: good/well/helpful/gainful/wholesome/worthwhile
   - boil: seethe/bubble
@@ -65,17 +65,17 @@ swap:
   - encounter: meet/hit
   - ensue: follow/track
   - entire: whole
-  - error: mistake/blunder/wrength
+  - error: mistake/blunder
   - establish: set up
   - estimate: guess/fathom/sound/gauge
   - execute|dispatch: do/perform/undertake
   - expect: wait/await/bide/tarry/ween
   - facility: plant,club,warehouse, etc.
-  - fate|destiny: wyrd/doom
+  - fate|destiny: doom
   - felid,|feline: cat
   - feminine: womanly
   - fidelity|loyalty: allegiance
-  - finish|complete|discontinue|terminate: end/fulfill/halt/wrap/up/stop/blin
+  - finish|complete|discontinue|terminate: end/fulfill/halt/wrap/up/stop
   - flower: bloom/blossom/bud/burgeon
   - following: after
   - forest|copse,|coppice: wood/bush/grove/brush/thicket/frith/shaw
@@ -90,6 +90,7 @@ swap:
   - identity: selfhood/likeness/selfdom
   - imbibe|beverage: drink/swill/carouse/wassail/sup/sip
   - important|grave: weighty/meaningful/key
+  - increase|increasing: build/pump/raise/stoke/swell/up
   - infant: child/bairn/baby/kid/newborn
   - inquire|request: ask/beseech/beg/seek
   - insect: bug/beetle
@@ -183,7 +184,7 @@ swap:
   - terrain: dirt/earth/land/ground/landscape
   - timid: shy
   - totally: utterly/altogether/fully/wholly
-  - travel|journey|voyage: fare/trek/go/abroad/take/a/trip/rove/gallivant
+  - travel|journey|voyage: fare/trek/go/abroad/take a trip/rove/gallivant
   - type|class|sort|genre: kind/ilk/brand/breed/set/strain/tier/like
   - underdeveloped: poor
   - utilise: use
