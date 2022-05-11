@@ -7,12 +7,15 @@ scope: text
 ignorecase: true
 swap:
   - address: cope/deal with/field/handle/work on/
+  - backfill: x
   - brits: x
   - care for: x
   - challenge: x
   - commit to: x
   - community: x
   - environment: x
+  - escalate: x
+  - execute: x
   - famously: x
   - focus: eye is on/is busy with
   - historic: x
@@ -20,13 +23,17 @@ swap:
   - individual: x
   - inform: x
   - metrosexual: x
+  - onboarding: x
   - overseas: x
   - participate in: x
+  - ping: x
   - process: x
   - relationship: x
   - resources: x
+  - scoping: canvassing/casing/checking out/sizing up/
   - skills: x
   - supportive: x
   - target: intended/aim
   - transparency: x
+  - velocity: x
   - wannabes: x
