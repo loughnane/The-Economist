@@ -1,26 +1,27 @@
 ---
-extends: existence
-message: "'%s' - See section 'Horrible words'"
+extends: substitution
+message: "Try '%s', '%s' is horrible"
 description: "Be aware that the use of '%s' may have an emetic effect on some of your readers."
 level: warning
 ignorecase: true
-tokens:
-  - carer
-  - chattering classes
-  - facilitate
-  - famously
-  - Governance
-  - grow the business
-  - guesstimate
-  - informed
-  - leverage
-  - likely
-  - looking to
-  - materiel
-  - poster child
-  - prestigious
-  - proactive
-  - rack up
-  - savvy
-  - segue
-  - stakeholder
+swap:
+  - carer: x
+  - chattering classes: x
+  - escalate: talk
+  - facilitate: help/grease/smooth
+  - famously: x
+  - Governance: x
+  - grow the business: x
+  - guesstimate: x
+  - informed: x
+  - leverage: x
+  - likely: x
+  - looking to: x
+  - materiel: x
+  - poster child: x
+  - prestigious: x
+  - proactive: x
+  - rack up: x
+  - savvy: know-how
+  - segue: shift
+  - stakeholder: folks with an interest
