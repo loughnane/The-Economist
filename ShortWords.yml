@@ -13,7 +13,7 @@ swap:
   - adolescence: youth/teenhood
   - advantage|benefit: gain/boon/blessing/welfare
   - affair|enterprise: business/undertaking
-  - \w*(?<!we |they )age: lifetime/lifespan
+  - age: lifetime/lifespan
   - altitude|elevation: height/loftiness
   - amicable: friendly/kindly/warm
   - amorous: loving/fond
