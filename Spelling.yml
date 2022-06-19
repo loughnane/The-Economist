@@ -1,0 +1,20 @@
+---
+extends: spelling
+message: "Did you really mean '%s'?"
+level: error
+code: false
+ignore:
+  - style/tech-terms/security.txt
+  - style/tech-terms/blockchain.txt
+  - style/tech-terms/devops.txt
+  - style/tech-terms/general.txt
+  - style/tech-terms/techwriting.txt
+  - style/tech-terms/mobile.txt
+  - style/tech-terms/java.txt
+  - style/tech-terms/linux.txt
+  - style/tech-terms/tech-slang.txt
+  - style/tech-terms/csharp.txt
+  - style/tech-terms/ddd.txt
+  - style/tech-terms/business.txt
+  - style/tech-terms/monitoring.txt
+  - style/tech-terms/apis.txt
