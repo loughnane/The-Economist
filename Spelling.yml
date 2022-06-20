@@ -18,3 +18,4 @@ ignore:
   - style/tech-terms/business.txt
   - style/tech-terms/monitoring.txt
   - style/tech-terms/apis.txt
+  - style/personal-terms/names.txt
