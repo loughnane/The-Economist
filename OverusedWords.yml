@@ -7,7 +7,7 @@ scope: text
 ignorecase: true
 swap:
   - address: cope/deal with/field/handle/work on/
-  - backfill: x
+  - backfill: replacement
   - brainstorm: talk about ideas
   - brits: x
   - care for: x
@@ -15,22 +15,24 @@ swap:
   - commit to: x
   - community: x
   - environment: x
-  - execute: x
+  - execute: do/work
   - famously: x
   - focus: eye is on/is busy with
   - historic: x
   - homeland: x
+  - inclination: leaning
   - indviduals: folk(s)/people
   - individual: person/single/soul
   - inform: x
   - metrosexual: x
+  - minimize: drop/dwindle/lessen/low
   - onboarding: x
   - overseas: x
   - participate in: x
-  - ping: x
+  - ping: ask/talk to
   - process: x
   - relationship: x
-  - resources: x
+  - resources: money/people
   - scoping: canvassing/casing/checking out/sizing up/
   - skills: x
   - supportive: x
