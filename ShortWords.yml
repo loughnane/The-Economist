@@ -21,6 +21,7 @@ swap:
   - animate: alive
   - anniversary: birthday/year
   - annual: yearly
+  - anxiety: care/fear/worry
   - appear: seem/look
   - approximately: about
   - army|militia: here/
@@ -44,6 +45,7 @@ swap:
   - comprehend: understand/get/grasp
   - conduct/administer: handle/oversee/run
   - construct: build/rear/raise
+  - continue: abide/go on/hold/keep/last
   - converse|discourse|communication|dictation: speak/talk/prate/prattle
   - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup/lich
   - correspond: match/fit/answer/to
@@ -71,6 +73,7 @@ swap:
   - ensue: follow/track
   - entire: whole
   - error: mistake/blunder
+  - escape: break
   - establish: set up
   - estimate: guess/fathom/sound/gauge
   - execute|dispatch: do/perform/undertake
@@ -166,8 +169,10 @@ swap:
   - recognize: know/see/spot/tell
   - regarding: as to/about/on
   - relate|narrate: tell/kithe/make/known
+  - relax|relaxation: rest 
   - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
   - remain: belive/belave/abide/tarry/stay
+  - replace: took the place of
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
   - required: needed

@@ -5,11 +5,11 @@ description: "Be aware that the use of '%s' may have an emetic effect on some of
 level: warning
 ignorecase: true
 swap:
+  - acquainted: know
   - carer: x
   - chattering classes: x
   - escalate: talk
   - facilitate: help/grease/smooth
-  - famously: x
   - Governance: x
   - grow the business: x
   - guesstimate: x
@@ -18,8 +18,6 @@ swap:
   - likely: x
   - looking to: x
   - materiel: x
-  - poster child: x
-  - prestigious: x
   - proactive: x
   - rack up: x
   - savvy: know-how

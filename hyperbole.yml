@@ -1,0 +1,11 @@
+---
+extends: substitution
+message: "'%s', not '%s'"
+description: "Only exaggerate when warranted"
+level: warning
+ignorecase: true
+swap:
+  - amazing: good
+  - famously: x
+  - prestigious: x
+  - poster child: x
