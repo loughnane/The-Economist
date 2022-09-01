@@ -7,7 +7,7 @@ tokens:
   - appear to be
   - arguably
   - as far as I know
-  - could|may
+  - \w*(?<!How )could|may
   - from my point of view
   - hopefully
   - I believe
