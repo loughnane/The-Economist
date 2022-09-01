@@ -28,7 +28,8 @@ swap:
   - army|militia: here/
   - arrive: come/land/reach/get/to/make/(to a place)
   - art|science: skill/craft/cunning
-  - assemble: gather/forgather/gather/up/group/cluster/lease
+  - assemble: cluster/gather/forgather/gather up/group/lease
+  - assess: set
   - assist: help/abet/give a hand/bestead
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
@@ -46,6 +47,7 @@ swap:
   - command|order: behest/bidding
   - commence: begin/start
   - comprehend: understand/get/grasp
+  - concern[ed]{0,2}: ail/angered/fluster/gall/grate/put off/rattled/shook/weird/worried
   - conduct/administer: handle/oversee/run
   - construct: build/rear/raise
   - continue: abide/go on/hold/keep/last
@@ -58,6 +60,7 @@ swap:
   - debase,|abase|degrade|humiliate: demean/bemean/belittle/put down/lower
   - deity|divine|immortal: god/goddess/godhead
   - delay: push out/push off
+  - depends on: is grounded on/hangs on/hinges on/leans on/needs/rests on
   - deprive: bereave/strip
   - deprived: left bereft/stripped
   - desire|cupidity: wish/will/yearning/longing/lust/want
@@ -68,6 +71,7 @@ swap:
   - difficult(?:y|ies): hardness/hardship/ordeal
   - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
   - disappear|disappearing: fade/melt away
+  - disappointed: forlorn/mournful/sad/sorrowful
   - displeasure|dissatisfaction: chagrin/dismay/shame
   - diurnal|quotidian: daily
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
@@ -100,6 +104,7 @@ swap:
   - form: shape/build/outline
   - fraternal: brotherly
   - frigid: cold/chilly/freezing
+  - generation: age/day/epoch/era/time/year
   - grief: sorrow/care/woe
   - hour|moment|interval: stound/time/tide/while/throw/spell/stint
   - however: but
@@ -119,7 +124,7 @@ swap:
   - irritate: itch/irk/tease/fret/grill
   - isle: island/ait/eyot/holm
   - joy|felicity|pleasure|delight: gladness/bliss/fairness/merriment/mirth/winsomeness/happiness/glee/thrill/queem
-  - judge|consider|esteem: deem/regard/hold/feel/bethink
+  - judge|consider|esteem|believe: bethink/buy/deem/hold/feel/guess/reckon/regard/take/trust/understand/weigh/
   - juvenile|immature: youthful/young
   - kiln|furnace: oven/hearth/stove/oast/smithy/smithery
   - labor: work/drudge/drudgery
@@ -142,6 +147,7 @@ swap:
   - multiple|numerous|abundant|copious: many/manifold/rife/teeming
   - mundane|secular: worldly/earthly
   - mutton: sheep/lamb
+  - neglecft: shirk
   - nocturnal: nightly
   - noon: midday
   - notice|alert|recommendation|admonition: warning/tip off
@@ -180,6 +186,8 @@ swap:
   - rage|ire: anger/wrath
   - rapid: fast/rathe/rather/snell/quick/swift/speedy
   - recognize: know/see/spot/tell
+  - recall: bring back/hearken/remind
+  - recent: late/new
   - regarding: as to/about/on
   - relate|narrate: tell/kithe/make/known
   - relax|relaxation: rest 
@@ -193,6 +201,7 @@ swap:
   - route|avenue|itinerary: road/way/boulevard/drive/path/street
   - sacred: holy/hallowed
   - salary: wage/meed/hire
+  - reason|sanity: clear-headedness/head/mind/soundness/wisdom
   - savage|feral: wild/fell/grim
   - script: writing/writ
   - similar: akin/alike/cognate/like/match
@@ -225,5 +234,6 @@ swap:
   - vend: sell/trade/deal/in/bargain
   - venison: deer/hart/doe/hind/stag/roe/buck
   - verdant: green/lush
+  - view: sight
   - vigilant: watchful/waking/wary
   - vision: sight/seeing/ken
