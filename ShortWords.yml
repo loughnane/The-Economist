@@ -8,6 +8,7 @@ ignorecase: true
 swap:
   - abdomen: belly/midriff
   - action|attitude|manner|conduct: behaviour/bearing/etiquette/guise/way
+  - aberration: odd/oddity
   - adept: skillful/crafty/deft
   - adhere: cling/hew/stick
   - adolescence: youth/teenhood
@@ -30,8 +31,10 @@ swap:
   - assemble: gather/forgather/gather/up/group/cluster/lease
   - assist: help/abet/give a hand/bestead
   - beef|cattle: cow/bull/neat/ox/steer/bison
+  - beget: brought about/yield
   - beneficial: good/well/helpful/gainful/wholesome/worthwhile
   - boil: seethe/bubble
+  - by definition: inescapably/inevitably/unavoidably
   - canid,|canine: dog/hound
   - career|profession|vocation|occupation|employment: calling/job/lifework/livelihood/living
   - cause: bring on/bring about
@@ -47,7 +50,7 @@ swap:
   - construct: build/rear/raise
   - continue: abide/go on/hold/keep/last
   - converse|discourse|communication|dictation: speak/talk/prate/prattle
-  - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup/lich
+  - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup
   - correspond: match/fit/answer/to
   - court|enclosure: garden/yard/park/pound/paddock
   - creed: belief/mindset/gospel/truth/leaning
@@ -57,16 +60,18 @@ swap:
   - delay: push out/push off
   - desire|cupidity: wish/will/yearning/longing/lust/want
   - detest: hate/loathe/scorn
+  - deterioriate|deterioration|deteriorating: ebb/rot/sink/worsen
   - dictionary: wordbook
   - different|alternative: other/else
-  - difficulty: hardship/ordeal
+  - difficult(?:y|ies): hardness/hardship/ordeal
   - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
+  - disappear|disappearing: fade/melt away
   - displeasure|dissatisfaction: chagrin/dismay/shame
   - diurnal|quotidian: daily
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
   - double|duplicate: twin/twofold/
   - drafted: drew up/wrote/crafted
-  - educate: teach/show/lear/lere
+  - educate|education|educating: teach/show/lear
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - encounter: meet/hit
@@ -88,6 +93,7 @@ swap:
   - finish|complete|discontinue|terminate: end/fulfill/halt/wrap up/stop
   - flower: bloom/blossom/bud/burgeon
   - following: after
+  - folly|foolery|absurdity: blunder/drivel/madness 
   - forest|copse,|coppice: wood/bush/grove/brush/thicket/frith/shaw
   - form: shape/build/outline
   - fraternal: brotherly
@@ -99,8 +105,9 @@ swap:
   - identical: selfsame
   - identity: selfhood/likeness/selfdom
   - imbibe|beverage: drink/swill/carouse/wassail/sup/sip
-  - important|grave: big/key/material/meaningful/weighty
+  - important|grave: big/key/material/meaningful/profound/weighty
   - in some ways: anyhow
+  - incorporate|incorporation: embody/embodiment
   - increase|increasing: build/pump/raise/stoke/swell/up
   - infant: child/bairn/baby/kid/newborn
   - inquire|request: ask/beseech/beg/seek
@@ -148,15 +155,19 @@ swap:
   - performed: did
   - pensive: thinking/thoughtful/mindful
   - perceive: see/ken
+  - permanent: deathless/endless/everlasting/undying/unending
+  - persisted|endured: held up/ kept up/
   - pigeon|culver: dove
   - pork: swine/farrow/sow/boar/pig/hog
   - port: harbour/haven
   - predict: foretell/soothsay/forebode/foreshadow
   - previous|preceding: former/erstwhile/foregoing/aforegoing/whilom
+  - present: new
   - primary: first/foremost/main
   - prior to: before
   - prior: before/beforehand/ahead of/ere
   - proceed: go on/wend
+  - progress: further/growth
   - prohibit|prevent|interdict: forbid/ban/forestall
   - projection: forecast/outlook
   - pronounce: utter/say
@@ -171,7 +182,7 @@ swap:
   - relate|narrate: tell/kithe/make/known
   - relax|relaxation: rest 
   - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
-  - remain: belive/belave/abide/tarry/stay
+  - remain: are still/belive/belave/abide/tarry/stay
   - replace: took the place of
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
@@ -183,6 +194,7 @@ swap:
   - savage|feral: wild/fell/grim
   - script: writing/writ
   - similar: akin/alike/cognate/like/match
+  - self-evident: a given/open and shut/undeniable/unmistakeable
   - sentiment|sensation: feeling/awareness/touch
   - series|order|sequence: array/row/range/rank/line/lineup/set/lot/list
   - serious|grave|sober: earnest/grave/grim/sober/staid/stern/weighty

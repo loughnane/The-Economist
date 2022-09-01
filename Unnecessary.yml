@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "'%s' - See section 'Unnecessary words'"
+message: "'%s' could maybe be cut"
 level: warning
 scope: text
 description: Some words add nothing but length to your prose.
@@ -27,10 +27,11 @@ tokens:
   - sold off
   - strike action
   - The fact that
+  - there are
+  - there is
   - This time around
   - top priority
   - track record
+  - very
   - weather conditions
   - wilderness area
-  - there is
-  - there are
