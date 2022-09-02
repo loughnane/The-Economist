@@ -32,6 +32,8 @@ swap:
   - assemble: cluster/gather/forgather/gather up/group/lease
   - assess: set
   - assist: help/abet/give a hand/bestead
+  - attain: gain/have/win
+  - attained: gained/had/won
   - available: at the ready/furnished/on hand
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
@@ -81,7 +83,8 @@ swap:
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
   - double|duplicate: twin/twofold/
   - drafted: drew up/wrote/crafted
-  - educate|education|educating|educational: enlighten/help/teach/show/lear
+  - educate|educating|educational: enlighten/help/learn/show/teach/
+  - education: enlightenment/knowledge/learnedness/learning/reading 
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - encounter: meet/hit
@@ -129,7 +132,7 @@ swap:
   - irritate: itch/irk/tease/fret/grill
   - isle: island/ait/eyot/holm
   - joy|felicity|pleasure|delight: gladness/bliss/fairness/merriment/mirth/winsomeness/happiness/glee/thrill/queem
-  - judge|consider|esteem|believe: bethink/buy/deem/hold/feel/guess/reckon/regard/take/trust/understand/weigh/
+  - judge|consider|esteem|believe|regard: bethink/buy/deem/hold/feel/guess/reckon/take/trust/understand/weigh/
   - juvenile|immature: youthful/young
   - kiln|furnace: oven/hearth/stove/oast/smithy/smithery
   - labor: work/drudge/drudgery
