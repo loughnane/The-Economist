@@ -1,0 +1,15 @@
+---
+extends: substitution
+message: "use '%s' vs. '%s'"
+description: "'Don't x' often has a punchier word"
+level: warning
+scope: text
+ignorecase: true
+swap:
+  - (?:don.t|do not) like: dislike/hate/loathe/scorn/spurnextends: existence
+message: "'%s'"
+ignorecase: true
+level: warning
+raw:
+  - to\s\b[^a][^ ]*\b\s
+tokens:
