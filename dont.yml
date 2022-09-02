@@ -6,10 +6,4 @@ level: warning
 scope: text
 ignorecase: true
 swap:
-  - (?:don.t|do not) like: dislike/hate/loathe/scorn/spurnextends: existence
-message: "'%s'"
-ignorecase: true
-level: warning
-raw:
-  - to\s\b[^a][^ ]*\b\s
-tokens:
+  - (?:don.t|do not) like: dislike/hate/loathe/scorn/spurn
