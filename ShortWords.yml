@@ -9,6 +9,7 @@ swap:
   - abdomen: belly/midriff
   - action|attitude|manner|conduct: behaviour/bearing/etiquette/guise/way
   - aberration: odd/oddity
+  - ability: gift/skill/talent/wherewithal
   - adept: skillful/crafty/deft
   - adhere: cling/hew/stick
   - adolescence: youth/teenhood
@@ -31,6 +32,7 @@ swap:
   - assemble: cluster/gather/forgather/gather up/group/lease
   - assess: set
   - assist: help/abet/give a hand/bestead
+  - available: at the ready/furnished/on hand
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
   - beneficial: good/well/helpful/gainful/wholesome/worthwhile
@@ -53,6 +55,7 @@ swap:
   - continue: abide/go on/hold/keep/last
   - converse|discourse|communication|dictation: speak/talk/prate/prattle
   - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup
+  - correct: better/right
   - correspond: match/fit/answer/to
   - court|enclosure: garden/yard/park/pound/paddock
   - creed: belief/mindset/gospel/truth/leaning
@@ -60,6 +63,7 @@ swap:
   - debase,|abase|degrade|humiliate: demean/bemean/belittle/put down/lower
   - deity|divine|immortal: god/goddess/godhead
   - delay: push out/push off
+  - demand: call for/need/press for
   - depends on: is grounded on/hangs on/hinges on/leans on/needs/rests on
   - deprive: bereave/strip
   - deprived: left bereft/stripped
@@ -70,14 +74,14 @@ swap:
   - different|alternative: other/else
   - difficult(?:y|ies): hardness/hardship/ordeal
   - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
-  - disappear|disappearing: fade/melt away
+  - disappear|disappearing|disappearance: die out/fade/melt away
   - disappointed: forlorn/mournful/sad/sorrowful
   - displeasure|dissatisfaction: chagrin/dismay/shame
   - diurnal|quotidian: daily
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
   - double|duplicate: twin/twofold/
   - drafted: drew up/wrote/crafted
-  - educate|education|educating: teach/show/lear
+  - educate|education|educating|educational: enlighten/help/teach/show/lear
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - encounter: meet/hit
@@ -121,6 +125,7 @@ swap:
   - insect: bug/beetle
   - intend|signify: mean/betoken/stand/for/ettle
   - inundate: flood/overwhelm/overset
+  - instrument: contraption/tool
   - irritate: itch/irk/tease/fret/grill
   - isle: island/ait/eyot/holm
   - joy|felicity|pleasure|delight: gladness/bliss/fairness/merriment/mirth/winsomeness/happiness/glee/thrill/queem
@@ -168,9 +173,10 @@ swap:
   - pigeon|culver: dove
   - pork: swine/farrow/sow/boar/pig/hog
   - port: harbour/haven
-  - predict: foretell/soothsay/forebode/foreshadow
+  - predict: foretell/forebode/forecast/foresee/foreshadow/soothsay/
   - previous|preceding: former/erstwhile/foregoing/aforegoing/whilom
   - present: new
+  - prevalent: everyday/widespread
   - primary: first/foremost/main
   - prior to: before
   - prior: before/beforehand/ahead of/ere
@@ -205,6 +211,7 @@ swap:
   - savage|feral: wild/fell/grim
   - script: writing/writ
   - similar: akin/alike/cognate/like/match
+  - select|selection: choice/choosing/pick/picking
   - self-evident: a given/open and shut/undeniable/unmistakeable
   - sentiment|sensation: feeling/awareness/touch
   - series|order|sequence: array/row/range/rank/line/lineup/set/lot/list
@@ -217,6 +224,7 @@ swap:
   - strange: weird/fremd/odd/queer/uncouth/outlandish/eldritch/eerie/fey
   - substantive: real or big
   - sufficient: enough
+  - superficial: depthless/shallow/skin-deep
   - support: uphold/bolster/bear/up/undergird/upbear/shore/up/stay
   - tardy: late/delayed
   - task: chore
