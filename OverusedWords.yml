@@ -6,7 +6,7 @@ level: warning
 scope: text
 ignorecase: true
 swap:
-  - address: cope/deal with/field/handle/work on/
+  - address (?:the|your): cope with/deal with/field/handle/work on/
   - backfill: replacement
   - brainstorm: talk about ideas
   - brits: x
