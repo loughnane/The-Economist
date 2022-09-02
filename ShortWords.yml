@@ -60,6 +60,7 @@ swap:
   - correct: better/right
   - correspond: match/fit/answer/to
   - court|enclosure: garden/yard/park/pound/paddock
+  - created{0,1}: bring about/made/turned out
   - creed: belief/mindset/gospel/truth/leaning
   - danger|peril|menace: threat/plight/fear
   - debase,|abase|degrade|humiliate: demean/bemean/belittle/put down/lower
@@ -120,6 +121,7 @@ swap:
   - identity: selfhood/likeness/selfdom
   - imbibe|beverage: drink/swill/carouse/wassail/sup/sip
   - important|grave: big/key/material/meaningful/profound/weighty
+  - impossible: far-fetched/outlandish/unthinkable
   - in some ways: anyhow
   - incorporate|incorporation: embody/embodiment
   - increase|increasing: build/pump/raise/stoke/swell/up
@@ -197,6 +199,7 @@ swap:
   - recognize: know/see/spot/tell
   - recall: bring back/hearken/remind
   - recent: late/new
+  - reduction: debasement/dent/drop/fall/loss
   - regarding: as to/about/on
   - relate|narrate: tell/kithe/make/known
   - relax|relaxation: rest 
@@ -205,7 +208,8 @@ swap:
   - replace: took the place of
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
-  - required: needed
+  - represent: embody
+  - require[ds]{0,1}: need/warrant
   - response: answer
   - route|avenue|itinerary: road/way/boulevard/drive/path/street
   - sacred: holy/hallowed
@@ -248,3 +252,5 @@ swap:
   - view: sight
   - vigilant: watchful/waking/wary
   - vision: sight/seeing/ken
+  - re[^ (?:ad)]*: LATINATE
+  - con[^ (?:tent)]*: LATINATE
