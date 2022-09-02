@@ -1,0 +1,41 @@
+---
+extends: substitution
+message: "'%s' vs. '%s'"
+description: "Using 'very' is a sign that there is a more descriptive word"
+level: warning
+scope: text
+ignorecase: true
+swap:
+  - very angry: furious
+  - very bad: atrocious
+  - very beautiful: exquisite
+  - very big: immense
+  - very capable: accomplished
+  - very clever: brilliant
+  - very cold: freezing
+  - very dirty: squalid
+  - very fast: quick
+  - very good: superb
+  - very happy: jubilant
+  - very hot: scalding
+  - very hungry: ravenous
+  - very large: colossal
+  - very lively: vivacious
+  - very loved: adored
+  - very old: ancient
+  - very poor: destitute
+  - very pretty: beautiful
+  - very quiet: silent
+  - very roomy: spacious
+  - very recently: lately,not long ago, a moment ago
+  - very rude: vulgar
+  - very serious: solemn
+  - very small: tiny
+  - very strong: unyielding
+  - very stupid: idiotic
+  - very tasty: delicious
+  - very tired: exhausted
+  - very valuable: precious
+  - very weak: feeble
+  - very wicked: villainous
+  - very wise: sagacious
