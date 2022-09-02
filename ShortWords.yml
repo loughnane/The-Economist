@@ -6,6 +6,8 @@ level: warning
 scope: text
 ignorecase: true
 swap:
+  # - re[^ (?:ad)]*: LATINATE
+  # - con[^ (?:tent)]*: LATINATE
   - abdomen: belly/midriff
   - action|attitude|manner|conduct: behaviour/bearing/etiquette/guise/way
   - aberration: odd/oddity
@@ -89,6 +91,7 @@ swap:
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - encounter: meet/hit
+  - enthusiastic: keen
   - ensue: follow/track
   - entire: whole
   - error: mistake/blunder
@@ -196,15 +199,17 @@ swap:
   - putrefy: rot/defile/befoul
   - rage|ire: anger/wrath
   - rapid: fast/rathe/rather/snell/quick/swift/speedy
-  - recognize: know/see/spot/tell
   - recall: bring back/hearken/remind
   - recent: late/new
+  - recognize: know/see/spot/tell
+  - reconcile[s]{0,1}: blend/dovetail
   - reduction: debasement/dent/drop/fall/loss
   - regarding: as to/about/on
   - relate|narrate: tell/kithe/make/known
   - relax|relaxation: rest 
   - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
   - remain: are still/belive/belave/abide/tarry/stay
+  - remove: shed/shift/strip/take/withdraw
   - replace: took the place of
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
@@ -241,6 +246,7 @@ swap:
   - travel|journey|voyage: fare/trek/go/abroad/take a trip/rove/gallivant
   - type|class|sort|genre: kind/ilk/brand/breed/set/strain/tier/like
   - underdeveloped: poor
+  - unnecessary: undue
   - utilise: use
   - utilize: use
   - vacation: holiday/leave/break/furlough
@@ -252,5 +258,3 @@ swap:
   - view: sight
   - vigilant: watchful/waking/wary
   - vision: sight/seeing/ken
-  - re[^ (?:ad)]*: LATINATE
-  - con[^ (?:tent)]*: LATINATE
