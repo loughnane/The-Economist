@@ -1,29 +1,29 @@
 ---
 extends: substitution
-message: "'%s' vs. '%s'"
+message: "use '%s' vs. '%s'"
 description: "Using 'very' is a sign that there is a more descriptive word"
 level: warning
 scope: text
 ignorecase: true
 swap:
   - very angry: furious
-  - very bad: atrocious
-  - very beautiful: exquisite
-  - very big: immense
-  - very capable: accomplished
-  - very clever: brilliant
+  - very bad: awful/evil/foul/frightful/ghastly/loathsome/scary/sickening/ugly/unsightly/unspeakable
+  - very beautiful: lovely/striking # checked
+  - very (?:big|large): bumper/giant/leviathan/mighty/whopping #checked
+  - very capable: accomplished 
+  - very clever: crafty/quick-witted/sharp-witted/shrewd #checked
+  - very (?:smart|wise): brainy/knowledgeable/well-read #checked
   - very cold: freezing
-  - very dirty: squalid
+  - very dirty: filthy/foul/grimy/grubby/shabby/slovenly
   - very fast: quick
-  - very good: superb
-  - very happy: jubilant
+  - very good: banner/choice/cool/crack/dope/great/heavenly/top/top-shelf/wonderful
+  - very happy: beaming/gleeful/mirthful/thrilled #checked
   - very hot: scalding
   - very hungry: ravenous
-  - very large: colossal
-  - very lively: vivacious
+  - very lively: chipper/frisky/frolicsome/high-strung # checked
   - very loved: adored
-  - very old: ancient
-  - very poor: destitute
+  - very old: ancient/elderly/long-lived/old-fashioned/old-world/timeless/time-honored/timeworn #checked
+  - very poor: hard up/hardscrabble/penniless
   - very pretty: beautiful
   - very quiet: silent
   - very roomy: spacious
@@ -33,9 +33,9 @@ swap:
   - very small: tiny
   - very strong: unyielding
   - very stupid: idiotic
-  - very tasty: delicious
-  - very tired: exhausted
+  - very tasty: choice/mouth-watering/scrumptious #checked
+  - very tired: bleary/drained/tapped/weary/worn out # checked
   - very valuable: precious
   - very weak: feeble
+  - very well: easily/readily/successfully/without trouble
   - very wicked: villainous
-  - very wise: sagacious
