@@ -36,6 +36,7 @@ swap:
   - assist: help/abet/give a hand/bestead
   - attain: gain/have/win
   - attained: gained/had/won
+  - attention: heed
   - available: at the ready/furnished/on hand
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
@@ -94,11 +95,12 @@ swap:
   - enthusiastic: keen
   - ensue: follow/track
   - entire: whole
-  - error: mistake/blunder
+  - error: blunder/mistake
   - escape: break
   - establish: set up
   - estimate: guess/fathom/sound/gauge
   - execute|dispatch: do/perform/undertake
+  - exit: leave
   - expect: anticipate/await/bide/wait/ween
   - expected: anticipated
   - external: outer/outside
@@ -128,7 +130,7 @@ swap:
   - in some ways: anyhow
   - incorporate|incorporation: embody/embodiment
   - increase|increasing: build/pump/raise/stoke/swell/up
-  - infant: child/bairn/baby/kid/newborn
+  - infant: baby/child/bairn/kid/newborn
   - inquire|request: ask/beseech/beg/seek
   - insect: bug/beetle
   - intend|signify: mean/betoken/stand/for/ettle
