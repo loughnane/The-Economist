@@ -6,36 +6,37 @@ level: warning
 scope: text
 ignorecase: true
 swap:
-  - very angry: furious
-  - very bad: awful/evil/foul/frightful/ghastly/loathsome/scary/sickening/ugly/unsightly/unspeakable
-  - very beautiful: lovely/striking # checked
-  - very (?:big|large): bumper/giant/leviathan/mighty/whopping #checked
-  - very capable: accomplished 
-  - very clever: crafty/quick-witted/sharp-witted/shrewd #checked
-  - very (?:smart|wise): brainy/knowledgeable/well-read #checked
-  - very cold: freezing
-  - very dirty: filthy/foul/grimy/grubby/shabby/slovenly
-  - very fast: quick
-  - very good: banner/choice/cool/crack/dope/great/heavenly/top/top-shelf/wonderful
-  - very happy: beaming/gleeful/mirthful/thrilled #checked
-  - very hot: scalding
-  - very hungry: ravenous
-  - very lively: chipper/frisky/frolicsome/high-strung # checked
-  - very loved: adored
-  - very old: ancient/elderly/long-lived/old-fashioned/old-world/timeless/time-honored/timeworn #checked
-  - very poor: hard up/hardscrabble/penniless
-  - very pretty: beautiful
-  - very quiet: silent
-  - very roomy: spacious
-  - very recently: lately,not long ago, a moment ago
-  - very rude: vulgar
-  - very serious: solemn
-  - very small: tiny
-  - very strong: unyielding
-  - very stupid: idiotic
-  - very tasty: choice/mouth-watering/scrumptious #checked
-  - very tired: bleary/drained/tapped/weary/worn out # checked
-  - very valuable: precious
-  - very weak: feeble
-  - very well: easily/readily/successfully/without trouble
-  - very wicked: villainous
+ - (?:so|very|really) angry: furious
+ - (?:so|very|really) bad: awful/evil/foul/frightful/ghastly/loathsome/scary/sickening/ugly/unsightly/unspeakable
+ - (?:so|very|really) beautiful: lovely/striking # checked
+ - (?:so|very|really) (?:big|large): bumper/giant/leviathan/mighty/whopping #checked
+ - (?:so|very|really) capable: accomplished 
+ - (?:so|very|really) clever: crafty/quick-witted/sharp-witted/shrewd #checked
+ - (?:so|very|really) (?:smart|wise): brainy/knowledgeable/well-read #checked
+ - (?:so|very|really) cold: freezing
+ - (?:so|very|really) dirty: filthy/foul/grimy/grubby/shabby/slovenly
+ - (?:so|very|really) fast: quick
+ - (?:so|very|really) good: banner/choice/cool/crack/dope/great/heavenly/top/top-shelf/wonderful
+ - (?:so|very|really) happy: beaming/gleeful/mirthful/thrilled #checked
+ - (?:so|very|really) hot: scalding
+ - (?:so|very|really) hungry: ravenous
+ - (?:so|very|really) lively: chipper/frisky/frolicsome/high-strung # checked
+ - (?:so|very|really) loved: adored
+ - (?:so|very|really) old: ancient/elderly/long-lived/old-fashioned/old-world/timeless/time-honored/timeworn #checked
+ - (?:so|very|really) poor: hard up/hardscrabble/penniless
+ - (?:so|very|really) pretty: beautiful
+ - (?:so|very|really) quiet: silent
+ - (?:so|very|really) roomy: spacious
+ - (?:so|very|really) recently: lately,not long ago, a moment ago
+ - (?:so|very|really) rude: vulgar
+ - (?:so|very|really) serious: solemn
+ - (?:so|very|really) small: tiny
+ - (?:so|very|really) strong: unyielding
+ - (?:so|very|really) stupid: idiotic
+ - (?:so|very|really) tasty: choice/mouth-watering/scrumptious #checked
+ - (?:so|very|really) tired: bleary/drained/tapped/weary/worn out # checked
+ - (?:so|very|really) valuable: precious
+ - (?:so|really) want: ache/crave/itch/long/lust/yearn 
+ - (?:so|very|really) weak: feeble
+ - (?:so|very|really) well: easily/readily/successfully/without trouble
+ - (?:so|very|really) wicked: villainous
