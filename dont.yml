@@ -7,3 +7,4 @@ scope: text
 ignorecase: true
 swap:
   - (?:don.t|do not) like: dislike/hate/loathe/scorn/spurn
+  - not much: dearth/lack/little/want
