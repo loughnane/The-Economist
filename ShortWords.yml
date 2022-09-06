@@ -28,12 +28,13 @@ swap:
   - anxiety: care/fear/worry
   - appear: seem/look
   - approximately: about
-  - army|militia: here/
+  - approve: bless
   - arrive: come/land/reach/get/to/make/(to a place)
   - art|science: skill/craft/cunning
   - assemble: cluster/gather/forgather/gather up/group/lease
   - assess: set
   - assist: help/abet/give a hand/bestead
+  - assume: accept/believe/gather/guess/take/think/understand
   - attain: gain/have/win
   - attained: gained/had/won
   - attention: heed
@@ -152,6 +153,7 @@ swap:
   - legal|legitimate,|legit|just|proper: lawful/straight/fair/right/rightful/sound/meet/warranted/fitting
   - level|planar|equal: even/flat/smooth/in/line/lined/up/steady
   - liberty: freedom
+  - listed: outlined/named/reeled off/tallied
   - longitude: length
   - manufacfture: make
   - marriage: wedlock
@@ -169,6 +171,7 @@ swap:
   - notice|alert|recommendation|admonition: warning/tip off
   - novel|modern: new/fresh/now
   - observe|supervise: watch/keep/behold
+  - obvious: open-and-shut/straightforward
   - occidental: western
   - ochre: yellow
   - opt|select: choose/pick/wale
@@ -234,9 +237,10 @@ swap:
   - serpent: snake/worm
   - signal|indicator: beacon/buoy/flag/herald/harbinger/guide
   - sign|symbol|trace|indication: token/mark/hallmark/hint/stamp
+  - situation: spot
   - spending: expenditure
   - store: shop
-  - strange: weird/fremd/odd/queer/uncouth/outlandish/eldritch/eerie/fey
+  - strange: eerie/odd/queer/uncouth/outlandish/weird
   - substantive: real or big
   - sufficient: enough
   - superficial: depthless/shallow/skin-deep
