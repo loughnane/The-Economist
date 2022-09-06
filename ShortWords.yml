@@ -69,6 +69,7 @@ swap:
   - creed: belief/mindset/gospel/truth/leaning
   - danger|peril|menace: threat/plight/fear
   - debase,|abase|degrade|humiliate: demean/bemean/belittle/put down/lower
+  - decorate|decoration: embellishment
   - deity|divine|immortal: god/goddess/godhead
   - delay: push out/push off
   - demand: call for/need/press for
@@ -94,6 +95,7 @@ swap:
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - encounter: meet/hit
+  - entertain: bewitch/enthral/grip/keep busy
   - enthusiastic: keen
   - ensue: follow/track
   - entire: whole
@@ -111,7 +113,7 @@ swap:
   - felid,|feline: cat
   - feminine: womanly
   - fidelity|loyalty: allegiance
-  - finish|complete|discontinue|terminate: end/fulfill/halt/wrap up/stop
+  - finish|complete|completing|discontinue|terminate: end/fulfill/halt/wrap up/stop
   - flower: bloom/blossom/bud/burgeon
   - following: after
   - folly|foolery|absurdity: blunder/drivel/madness 
@@ -162,6 +164,7 @@ swap:
   - maternal: motherly
   - minute|petite|diminutive: small/little/tiny/wee
   - mortal|fatal: deadly/baneful
+  - motivate: bait/fire up/goad/lure/spark/spur/stir/tempt
   - mount: hill/barrow/mound/down/dune
   - multiple|numerous|abundant|copious: many/manifold/rife/teeming
   - mundane|secular: worldly/earthly
@@ -179,6 +182,7 @@ swap:
   - oriental: eastern/easterly/eastward
   - pain|agony: ache/hurt/smart/woe/sore/throe
   - paternal: fatherly/fatherlike
+  - peculiar: odd/uncommon/striking
   - perform: do
   - performed: did
   - pensive: thinking/thoughtful/mindful
@@ -196,6 +200,7 @@ swap:
   - prior to: before
   - prior: before/beforehand/ahead of/ere
   - proceed: go on/wend
+  - proclaim: bark/call/plug/ring out
   - progress: further/growth
   - prohibit|prevent|interdict: forbid/ban/forestall
   - projection: forecast/outlook
@@ -217,6 +222,7 @@ swap:
   - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
   - remain: are still/belive/belave/abide/tarry/stay
   - remove: shed/shift/strip/take/withdraw
+  - repeatedly: again and again/habitually/over and over
   - replace: took the place of
   - replenish: fill/up/stock/renew
   - repose|recline: lie/(lie/down)/rest/lean/(back)
@@ -249,6 +255,7 @@ swap:
   - tardy: late/delayed
   - task: chore
   - terrain: dirt/earth/land/ground/landscape
+  - terribl[ey]: deep/keen/startling/thoroughly
   - timid: shy
   - totally: utterly/altogether/fully/wholly
   - travel|journey|voyage: fare/trek/go/abroad/take a trip/rove/gallivant
