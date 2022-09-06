@@ -61,6 +61,7 @@ swap:
   - construct: build/rear/raise
   - continue: abide/go on/hold/keep/last
   - converse|discourse|communication|dictation: speak/talk/prate/prattle
+  - conversation: banter/chat/talk
   - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup
   - correct: better/right
   - correspond: match/fit/answer/to
@@ -81,11 +82,12 @@ swap:
   - deterioriate|deterioration|deteriorating: ebb/rot/sink/worsen
   - dictionary: wordbook
   - different|alternative: other/else
-  - difficult(?:y|ies): hardness/hardship/ordeal
+  - difficult(?:y|ies){0,1}: hardness/hardship/ordeal
   - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
   - disappear|disappearing|disappearance: die out/fade/melt away
   - disappointed: forlorn/mournful/sad/sorrowful
   - displeasure|dissatisfaction: chagrin/dismay/shame
+  - distinguish(?:es|ed){0,1}: mark off/set apart
   - diurnal|quotidian: daily
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
   - double|duplicate: twin/twofold/
@@ -94,6 +96,7 @@ swap:
   - education: enlightenment/knowledge/learnedness/learning/reading 
   - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
+  - experience: ordeal
   - encounter: meet/hit
   - entertain: bewitch/enthral/grip/keep busy
   - enthusiastic: keen
@@ -135,6 +138,7 @@ swap:
   - incorporate|incorporation: embody/embodiment
   - increase|increasing: build/pump/raise/stoke/swell/up
   - infant: baby/child/bairn/kid/newborn
+  - influence(?:d|s){0,1}: sway 
   - inquire|request: ask/beseech/beg/seek
   - insect: bug/beetle
   - intend|signify: mean/betoken/stand/for/ettle
@@ -211,6 +215,7 @@ swap:
   - putrefy: rot/defile/befoul
   - rage|ire: anger/wrath
   - rapid: fast/rathe/rather/snell/quick/swift/speedy
+  - realized{0,1}: came to mind/dawned on/saw/see/sprung to mind
   - recall: bring back/hearken/remind
   - recent: late/new
   - recognize: know/see/spot/tell
@@ -246,12 +251,14 @@ swap:
   - sign|symbol|trace|indication: token/mark/hallmark/hint/stamp
   - situation: spot
   - spending: expenditure
+  - stimuli: causes/spur
   - store: shop
   - strange: eerie/odd/queer/uncouth/outlandish/weird
   - substantive: real or big
   - sufficient: enough
   - superficial: depthless/shallow/skin-deep
-  - support: uphold/bolster/bear/up/undergird/upbear/shore/up/stay
+  - support: uphold/bolster/bear/up/undergird/upbear/shore up/stay
+  - suspect: believe/bet/guess/reckon/think/wager
   - tardy: late/delayed
   - task: chore
   - terrain: dirt/earth/land/ground/landscape
@@ -265,6 +272,7 @@ swap:
   - utilise: use
   - utilize: use
   - vacation: holiday/leave/break/furlough
+  - value: worth
   - various|miscellaneous: sundry/mixed
   - veal: calf
   - vend: sell/trade/deal/in/bargain
