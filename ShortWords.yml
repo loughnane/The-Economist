@@ -188,7 +188,7 @@ swap:
   - paternal: fatherly/fatherlike
   - peculiar: odd/uncommon/striking
   - perform: do
-  - performed: did
+  - perform(?:ed|s){0,1}: did/work
   - pensive: thinking/thoughtful/mindful
   - perceive: see/ken
   - permanent: deathless/endless/everlasting/undying/unending
