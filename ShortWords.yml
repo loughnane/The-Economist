@@ -293,7 +293,7 @@ swap:
   - command: bid
   - command|order: behest/bidding
   - commence: begin/start
-  - comment: gossip/input
+  - comment: remark/weigh in
   - commit: give/place/pull/put/send/trust
   - committed: give/place/pull/put/send/trust
   - commodity: good
