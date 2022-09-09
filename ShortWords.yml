@@ -831,8 +831,7 @@ swap:
   - lecture: speech/talk
   - legal: sound
   - legal|legitimate,|legit|proper: lawful/straight/fair/right/rightful/sound/meet/warranted/fitting
-  - level: even/flat/floor/flush/layer
-  - level|planar|equal: even/flat/smooth/in/line/lined/up/steady
+  - \w*(?<!-)level|planar|equal: even/flat/floor/flush/smooth/in line/lined up/steady
   - levy: raise
   - liberal: big/broad/free/loose
   - liberty: freedom
