@@ -6,8 +6,6 @@ level: suggestion
 scope: text
 ignorecase: true
 swap:
-  # - re[^ (?:ad)]*: LATINATE
-  # - con[^ (?:tent)]*: LATINATE
   - \null: nil/nothing/zero
   - \w*(?<!the )cause: bring on/bring about/do/drive/get/have/lawsuit/make/
   - abandon: empty
@@ -38,8 +36,7 @@ swap:
   - actor: player/worker
   - acute: keen/sharp
   - add: bring
-  - address: call/deal/handle/speak/speech/treat
-  - addressed: call/deal/handle/speak/treat
+  - address(?:ed){0,1}: call/deal/handle/speak/speech/treat
   - adept: skillful/crafty/deft
   - adequate: enough/good
   - adhere: cling/hew/stick
@@ -256,8 +253,8 @@ swap:
   - cheer: sunshine
   - chess: cheat
   - chest: breast
-  - chief: head/main
-  - chief|captain|emperor|count|duke|president: leader/king/head/baron/earl
+  - chief(?! (?:executive|marketing|operating|medical|technology)): head/leader/main
+  - captain|emperor|count|duke|president: leader/king/head
   - cinema: film
   - circuit: circle/lap
   - circumstance: setting
