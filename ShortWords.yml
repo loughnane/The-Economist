@@ -1379,7 +1379,7 @@ swap:
   - sophisticated: twist
   - sort: kind
   - source: root/seed
-  - space: blank/place
+  - space: place/room
   - specialize: narrow
   - specially: especially
   - specialty: strength
