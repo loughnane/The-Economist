@@ -14,6 +14,7 @@ exceptions:
   - APA
   - API
   - CBS
+  - CEO
   - CIA
   - CSI
   - CSS
@@ -49,6 +50,7 @@ exceptions:
   - PPV
   - PST
   - SGML
+  - SLT
   - SSN
   - TNT
   - TODO
