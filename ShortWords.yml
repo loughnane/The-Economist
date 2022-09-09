@@ -2,7 +2,7 @@
 extends: substitution
 message: "Consider '%s' instead of '%s'"
 description: "Use short words. They are often Anglo-Saxon rather than Latin in origin. They are easy to spell and easy to understand."
-level: warning
+level: suggestion
 scope: text
 ignorecase: true
 swap:
