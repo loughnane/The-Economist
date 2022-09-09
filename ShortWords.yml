@@ -301,7 +301,7 @@ swap:
   - commonwealth: land
   - compact: bundle/pack/thick
   - companion: fellow
-  - company: companion/fellowship
+  - compan(?:y|ies): companion/fellowship/firm
   - comparable: corresponding/like
   - complaint: ill
   - complete: dispatch/nail/over
