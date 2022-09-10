@@ -7,21 +7,21 @@ scope: text
 ignorecase: true
 swap:
   - \null: nil/nothing/zero
-  - \w*(?<!the )cause: bring on/bring about/do/drive/get/have/lawsuit/make/
-  - abandon: empty
-  - abdomen: belly/midriff
-  - aberration: odd/oddity
+  - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
+  - abandons{0,1}: empty
+  - abdomens{0,1}: belly/midriff
+  - aberrations{0,1}: odd/oddity
   - ability: gift/skill/talent/wherewithal
   - absolute: rank/sheer
   - absolutely: dead
   - abstract: hook/lift/outline
   - abuse: step
-  - accept: bear/have/take
-  - accident: stroke
+  - accepts{0,1}: bear/have/take
+  - accidents{0,1}: stroke
   - accommodate: fit/hold
-  - accompany: companion/follow
-  - accomplish: reach
-  - account: score
+  - accompan(?:y|ies): companion/follow
+  - accomplish(?:es){0,1}: reach
+  - accounts{0,1}: score
   - accounted for by: spring up from
   - accuracy: truth
   - ace: I/crack/nail/one/star/wizard
@@ -48,7 +48,7 @@ swap:
   - adolescence: youth/teenhood
   - adolescent: teen
   - adopt: follow/take
-  - adult: big/grown
+  - adults{0,1}: big/grown
   - advance: boost/further/raise/rise/upgrade/win
   - advantage|benefit: gain/boon/blessing/welfare
   - adventure: gamble/hazard/stake/venture
@@ -174,6 +174,7 @@ swap:
   - battle: fight/struggle
   - beast: wolf
   - beauty: dish
+  - because: as long as/being as/for/seeing as/since/so long as
   - beef: bitch/kick
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
@@ -274,6 +275,7 @@ swap:
   - coast: slide
   - coat: cake
   - cognizant: aware/abreast/up to speed
+  - coherent: good/sound
   - coin: mint/strike
   - collapse: break/burst/crack/crash/give
   - collar: cop/nail
@@ -325,6 +327,7 @@ swap:
   - connection: link
   - consciousness: awareness
   - consecutive: straight
+  - consensus: oneness/understanding
   - consequence: outcome
   - consequently: therefore
   - consider: believe/deal/see/take/think
@@ -344,6 +347,7 @@ swap:
   - continue: abide/go on/hold/keep/last
   - continued{0,1}: keep
   - contract: cut/get/narrow/take/undertake
+  - contradict: fight
   - contrast: line
   - contribute: bring/give/lead
   - contribution: share
@@ -414,7 +418,7 @@ swap:
   - defend: fight/guard/hold
   - defer: bow/table
   - define: set
-  - deity|divine|immortal: god/goddess/godhead
+  - deity|immortal|divine(?! comedy): god/goddess/godhead
   - delay: check/hold/wait
   - delay: push out/push off
   - deliver: bear/birth/have/pitch
@@ -476,7 +480,7 @@ swap:
   - discount: ignore
   - discover: break/find/hear/key/learn/name/see/strike/unwrap
   - discovery: find
-  - discussion: word
+  - discussion: back-and-forth/word
   - disorder: upset
   - dispatch: hit/murder/off/shipment
   - dispatched: dispatch/hit/murder/off
@@ -485,7 +489,7 @@ swap:
   - distance: length
   - distinguish(?:es|ed){0,1}: mark off/set apart
   - distinguish: key/mark/name/spot/tell
-  - distribute: broadcast/deal/lot/spread
+  - distribute(?:s|d){0,1}: broadcast/deal/gettable/lot/spread
   - disturb: touch/upset
   - diurnal|quotidian: daily
   - divide: split/watershed
@@ -495,7 +499,6 @@ swap:
   - dose: Zen/dot
   - double: twice
   - double|duplicate: twin/twofold/
-  - doubt: uncertainty
   - dozen: twelve
   - drafted: drew up/wrote/crafted
   - drama: play
@@ -504,7 +507,8 @@ swap:
   - duplicate: twin
   - durable: lasting
   - duration: length
-  - duty: tariff
+  - \w*(?<!our )duty: tariff
+  - our duty: our job 
   - ease: facilitate/rest
   - easily: well
   - easy: comfortable/light/loose/slow/slowly/soft
@@ -520,6 +524,7 @@ swap:
   - elevating: uplifting/raising/rearing
   - elevation: height/lift/peak/top
   - elite: elect
+  - emphasized{0,1}|accentuated{0,1}: highlight/play up
   - employ: hire
   - employment: work
   - enclose: envelop/wrap
@@ -747,8 +752,8 @@ swap:
   - individually: separately
   - induce: get/have/make/rush
   - induction: trigger
-  - infant: babe/baby
-  - infant: baby/child/bairn/kid/newborn
+  - infant: babe/baby/child/bairn/kid/newborn
+  - inferiors{0,1}: lesser/worse
   - influence(?:d|s){0,1}: sway 
   - influence: shape/work
   - informal: loose
@@ -903,6 +908,7 @@ swap:
   - model: framework/sit
   - moderate: chair/check/hold/lead
   - modern: innovative
+  - modify: rework/remake/tweak
   - moisture: wet
   - moment: bit/mo
   - monitor: reminder
@@ -965,6 +971,7 @@ swap:
   - offering: bid
   - office: place/spot
   - omi(?:t|ssion): leaving out/skip
+  - omitted: left out/skipped
   - operate: go/lock/mesh/run/work
   - operating: go/lock/mesh/run/work
   - opinion: belief/feeling/thought
@@ -1061,7 +1068,7 @@ swap:
   - plenty: batch/deal/enough/lot/mint/pot/sight/stack
   - pocket: bag/scoop
   - poetry: verse
-  - point: dot/head/peak/place/show/spot/steer/stop/target/tip
+  - point(?! of view): dot/head/peak/place/show/spot/steer/stop/target/tip
   - pointer: arrow
   - pole: rod
   - police: law
@@ -1107,7 +1114,7 @@ swap:
   - prevent: keep
   - preview: trailer
   - previous: former/late/old
-  - previous|preceding: former/erstwhile/foregoing/aforegoing/whilom
+  - previous|preceding: earlier/erstwhile/former/foregoing/aforegoing/whilom
   - price: toll
   - pricing: price
   - primarily: mainly
@@ -1161,11 +1168,11 @@ swap:
   - pulse: beat
   - punch: lick/plug
   - purchase: buy
+  - purpose: dream/goal/end 
   - purse: bag/handbag
   - pursue: follow
   - pursuit: interest
   - push: crowd/drive/fight
-  - pussy: cunt/kitty
   - putrefy: rot/defile/befoul
   - qualified: characterize
   - qualify: characterize
@@ -1379,7 +1386,7 @@ swap:
   - specialty: strength
   - specify: narrow/set
   - spectacular: outstanding
-  - spend: drop
+  - spend(?!\s\w* time): drop
   - spending: expenditure
   - sphere: field
   - spine: back/sticker
@@ -1420,7 +1427,7 @@ swap:
   - substantial: strong
   - substantially: well
   - substantive: real or big
-  - substitute: replace/replacement
+  - substitutes{0,1}: back-up/fill-in/replace/replacement/stand-in
   - succeed: follow/win
   - success: winner
   - suddenly: dead/short
@@ -1469,7 +1476,7 @@ swap:
   - tend: lean/run
   - tender: bid/raw/stamp/warm
   - terminal: end/last
-  - termination: outcome
+  - termination: closing/outcome
   - terrace: bench/patio
   - terrain: dirt/earth/land/ground/landscape
   - terribl[ey]: deep/keen/startling/thoroughly
@@ -1486,9 +1493,7 @@ swap:
   - tone: feel/feeling/look/shade/smell/step/strengthen/timber
   - tongue: knife
   - torture: rack
-  - total: come/full
-  - totally: all/whole/wholly
-  - totally: utterly/altogether/fully/wholly
+  - total(?:ly){0,1}: all/altogether/fully/utterly/whole/wholly
   - touch: feeling/ghost/hint/match/meet/reach/spot
   - tour: go/spell/turn
   - trace: draw/follow/ghost/hint/hunt/line/shadow/touch
@@ -1507,7 +1512,7 @@ swap:
   - travel|journey|voyage: fare/trek/go/abroad/take a trip/rove/gallivant
   - tremendous: awful/wonderful
   - trial: run
-  - trick: fox
+  - trick: x
   - trinity: threesome
   - trio: threesome/triple
   - trip: slip/trigger
@@ -1522,7 +1527,7 @@ swap:
   - unit: whole
   - unity: I/one
   - universe: world
-  - unnecessary: undue
+  - unnecessary: undue/unneeded/uncalled-for
   - utilise: use
   - utilize: use
   - vacation: holiday
@@ -1543,8 +1548,7 @@ swap:
   - version: reading
   - vertex: peak
   - victor: winner
-  - view: see/sight/thought/watch
-  - view: sight
+  - \w*(?<!of\s)view: see/sight/thought/watch
   - viewer: witness
   - vigilant: watchful/waking/wary
   - village: settlement
