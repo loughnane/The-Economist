@@ -6,8 +6,18 @@ level: suggestion
 scope: text
 ignorecase: true
 swap:
-  - \null: nil/nothing/zero
+  - (?:get familiar|familiarized{0,1}): briefed/catch up/get versed 
+  - (?:years |days |ages )past: gone by
+  - "null": nil/nothing/zero
+  - \w*(?<!-)level|planar|equal: even/flat/floor/flush/smooth/in line/lined up/steady
+  - \w*(?<!a )second[^,]: back/bit/mo
+  - \w*(?<!do )just: barely/but/fair/good/hardly/only
+  - \w*(?<!get )familiar: companion/fellow
+  - \w*(?<!of )course: feed/flow/line/path/row/run/track/trend
+  - \w*(?<!of\s)view: see/sight/thought/watch
+  - \w*(?<!our )duty: tariff
   - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
+  - abandon: empty
   - abandons{0,1}: empty
   - abdomens{0,1}: belly/midriff
   - aberrations{0,1}: odd/oddity
@@ -15,14 +25,19 @@ swap:
   - absolute: rank/sheer
   - absolutely: dead
   - abstract: hook/lift/outline
-  - abuse: step
+  - abuse: step on
+  - accept: bear/have/take
   - accepts{0,1}: bear/have/take
+  - accident: stroke
   - accidents{0,1}: stroke
   - accommodate: fit/hold
   - accompan(?:y|ies): companion/follow
+  - accompany: companion/follow
   - accomplish(?:es){0,1}: reach
-  - accounts{0,1}: score
+  - accomplish: reach
+  - account: score
   - accounted for by: spring up from
+  - accounts{0,1}: score
   - accuracy: truth
   - ace: I/crack/nail/one/star/wizard
   - achieve: reach
@@ -37,6 +52,8 @@ swap:
   - acute: keen/sharp
   - add: bring
   - address(?:ed){0,1}: call/deal/handle/speak/speech/treat
+  - address: call/deal/handle/speak/speech/treat
+  - addressed: call/deal/handle/speak/treat
   - adept: skillful/crafty/deft
   - adequate: enough/good
   - adhere: cling/hew/stick
@@ -48,6 +65,7 @@ swap:
   - adolescence: youth/teenhood
   - adolescent: teen
   - adopt: follow/take
+  - adult: big/grown
   - adults{0,1}: big/grown
   - advance: boost/further/raise/rise/upgrade/win
   - advantage|benefit: gain/boon/blessing/welfare
@@ -60,12 +78,12 @@ swap:
   - affiliation: tie
   - age: lifetime/lifespan
   - agency: way
-  - agree: acknowledge/check/come around/find/fit/hold/match/settle/yield
+  - agree: acknowledge/check/find/fit/hold/match/settle/yield
   - agreement: understanding
   - aid: care/help
+  - aim: bearing/drive/get/place/take/target
   - air: bare/beam/broadcast/line/send
-  - alarm: alert
-  - alert: alive/merry
+  - alert: alive/merry/tip-off/warn/
   - alien: unknown
   - allege: say
   - alliance: bond
@@ -78,6 +96,7 @@ swap:
   - amber: gold
   - amicable: friendly/kindly/warm
   - amorous: loving/fond
+  - amount: come
   - analyse: canvas
   - anatomy: build/flesh/frame/shape/soma
   - anchor: ground
@@ -90,7 +109,6 @@ swap:
   - announce: herald/say/share
   - annoying: bother
   - annual: yearly
-  - annual: yearly
   - annually: yearly
   - antenna: aerial
   - anticipate: call
@@ -99,7 +117,6 @@ swap:
   - apartment: flat
   - apparel: clothes
   - appear: look/seem
-  - appear: seem/look
   - appearance: show
   - appliance: gadget
   - apply: give/hold
@@ -109,9 +126,9 @@ swap:
   - approach: near
   - approve: bless
   - approximate: guess/near/rough
-  - approximately: about
   - approximately: about/roughly/some
   - arc: bow
+  - Arctic: rubber
   - area: field
   - arena: field
   - argument: case
@@ -120,27 +137,20 @@ swap:
   - arrange: do/put/set
   - arrangement: placement
   - arrest: check/cop/get/hold/nail/stop
-  - arrive: come/get
   - arrive: come/land/reach/get/to/make/(to a place)
-  - art: artwork
-  - art|science: skill/craft/cunning
+  - art|science: artwork/craft/cunning/skill
   - aspect: look
   - ass: behind/bottom/butt/can/fuck/prat/seat/tail
-  - assemble: cluster/gather/forgather/gather up/group/lease
-  - assemble: gather/meet
-  - assess: ass/behind/bottom/butt/can/fuck/prat/seat/tail
+  - assemble: cluster/gather/forgather/gather up/group/lease/meet
   - assess: set
   - assign: put
-  - assist: help
   - assist: help/abet/give a hand/bestead
   - assistance: help
   - assistant: help
   - associate: companion/fellow/link
   - association: tie
-  - assume: accept/believe/gather/guess/take/think/understand
-  - assume: bear/strike/take/wear
-  - assumed: bear/false/strike/take/wear
-  - assurance: pledge
+  - assumed{0,1}: accept/bear/believe/gather/guess/strike/take/think/understand/wear
+  - assurances{0,1}: pledge
   - assure: check/guarantee/secure/see/tell
   - attach: bind/bond/tie
   - attachment: bond
@@ -149,8 +159,7 @@ swap:
   - attained: gained/had/won
   - attempt: seek/try/undertake
   - attend: hang/look/see
-  - attention: care
-  - attention: heed
+  - attention: care/heed
   - attorney: lawyer
   - attract: draw/pull
   - attraction: draw
@@ -178,7 +187,6 @@ swap:
   - beef: bitch/kick
   - beef|cattle: cow/bull/neat/ox/steer/bison
   - beget: brought about/yield
-  - beneficial: good
   - beneficial: good/well/helpful/gainful/wholesome/worthwhile
   - benefit: welfare
   - beverage: drink
@@ -219,6 +227,7 @@ swap:
   - cap: ceiling/hood/roof
   - capable: open
   - capital: great
+  - captain|emperor|count|duke|president: leader/king/head
   - capture: get
   - card: board/plug-in/wit
   - career|profession|vocation|occupation|employment: calling/job/lifework/livelihood/living
@@ -228,8 +237,10 @@ swap:
   - carrier: mailman
   - carry: bear/hold/pack/run/stock/take
   - cartridge: magazine/pickup
+  - case: lawsuit/shell/showcase/slip
   - casual: daily/everyday
   - catch: get/grab/match/see/snap/stop/watch
+  - cause: do/drive/get/have/lawsuit/make
   - caution: care
   - celebrate: keep
   - cent: penny
@@ -255,7 +266,7 @@ swap:
   - chess: cheat
   - chest: breast
   - chief(?! (?:executive|marketing|operating|medical|technology)): head/leader/main
-  - captain|emperor|count|duke|president: leader/king/head
+  - chief: head/main
   - cinema: film
   - circuit: circle/lap
   - circumstance: setting
@@ -296,11 +307,11 @@ swap:
   - commit: give/place/pull/put/send/trust
   - committed: give/place/pull/put/send/trust
   - commodity: good
-  - common: green/park
   - commonwealth: land
   - compact: bundle/pack/thick
-  - companion: fellow
   - compan(?:y|ies): companion/fellowship/firm
+  - companion: fellow
+  - company: companion/fellowship
   - comparable: corresponding/like
   - complaint: ill
   - complete: dispatch/nail/over
@@ -337,14 +348,14 @@ swap:
   - constitute: be/make/name/plant
   - constitution: establishment/make-up
   - constrain(?:ed|ing){0,1}: held/kept/pulled
-  - construct: build/make
-  - construct: build/rear/raise
+  - construct: build/make/rear/raise
   - construction: building/twist
   - consumption: intake
   - contact: link/meet/reach/touch
   - contain: bear/check/hold/stop/take
   - context: setting
   - continue: abide/go on/hold/keep/last
+  - continued: keep
   - continued{0,1}: keep
   - contract: cut/get/narrow/take/undertake
   - contradict: fight
@@ -364,8 +375,7 @@ swap:
   - corporation: corp/pot
   - corps: corp
   - corpus,|corpse|carcass|cadaver: body/embodiment/frame/makeup
-  - correct: better/right
-  - correct: right/set
+  - correct: better/right/set
   - correctly: right
   - correspond: match/fit/answer/to
   - cost: be/price/toll
@@ -373,7 +383,7 @@ swap:
   - count: bet/look
   - country: commonwealth/land
   - couple: match/mate/span/twin
-  - \w*(?<!of )course: feed/flow/line/path/row/run/track/trend
+  - course: feed/flow/line/path/row/run/track/trend
   - court|enclosure: garden/yard/park/pound/paddock
   - cover: back/binding/breed/deal/handle/hide/top/track/treat
   - crap: bull/dirt/make/shit
@@ -419,12 +429,10 @@ swap:
   - defer: bow/table
   - define: set
   - deity|immortal|divine(?! comedy): god/goddess/godhead
-  - delay: check/hold/wait
-  - delay: push out/push off
+  - delay: check/hold/push out/push off/wait
   - deliver: bear/birth/have/pitch
   - delivery: pitch/speech
-  - demand: ask/need/take
-  - demand: call for/need/press for
+  - demand: ask/call for/need/press for/take
   - demo: show
   - democracy: commonwealth
   - demonstrate: show
@@ -455,6 +463,7 @@ swap:
   - develop: arise/break/get/grow/rise
   - developed: arise/break/get/grow/rise
   - development: growth
+  - device: twist
   - devote: give
   - diagram: plot
   - dictionary: wordbook
@@ -475,12 +484,12 @@ swap:
   - disappear|disappearing|disappearance: die out/fade/melt away
   - disappointed: forlorn/mournful/sad/sorrowful
   - discharge: dispatch/drop/empty/fire/free/run
-  - discipline: field
+  - discipline: check/field
   - disclose: break/unwrap
   - discount: ignore
   - discover: break/find/hear/key/learn/name/see/strike/unwrap
   - discovery: find
-  - discussion: back-and-forth/word
+  - discussion: back-and-forth/give-and-take/word
   - disorder: upset
   - dispatch: hit/murder/off/shipment
   - dispatched: dispatch/hit/murder/off
@@ -490,6 +499,7 @@ swap:
   - distinguish(?:es|ed){0,1}: mark off/set apart
   - distinguish: key/mark/name/spot/tell
   - distribute(?:s|d){0,1}: broadcast/deal/gettable/lot/spread
+  - distribute: broadcast/deal/lot/spread
   - disturb: touch/upset
   - diurnal|quotidian: daily
   - divide: split/watershed
@@ -499,6 +509,7 @@ swap:
   - dose: Zen/dot
   - double: twice
   - double|duplicate: twin/twofold/
+  - doubt: uncertainty
   - dozen: twelve
   - drafted: drew up/wrote/crafted
   - drama: play
@@ -507,15 +518,13 @@ swap:
   - duplicate: twin
   - durable: lasting
   - duration: length
-  - \w*(?<!our )duty: tariff
-  - our duty: our job 
+  - duty: tariff
   - ease: facilitate/rest
   - easily: well
   - easy: comfortable/light/loose/slow/slowly/soft
   - echo: recall/ring
   - edit: cut
-  - educate|educating|educational: breeding/enlighten/help/learn/show/teach/
-  - education: enlightenment/knowledge/learnedness/learning/reading 
+  - educat(?:e|ing|ion|ional): breeding/enlighten/help/know/learn/show/teach/
   - effect: burden/core/outcome
   - effective: good
   - effectiveness: strength
@@ -528,8 +537,7 @@ swap:
   - employ: hire
   - employment: work
   - enclose: envelop/wrap
-  - encounter: find/happen/meet/meeting/play/see
-  - encounter: meet/hit
+  - encounter: find/happen/hit/meet/meeting/play/see
   - encourage: boost/further
   - endanger: threaten
   - endorse: back
@@ -540,28 +548,22 @@ swap:
   - enjoy: love
   - ensue: follow/track
   - ensure: check/guarantee/secure/see
-  - entertain: bewitch/enthral/grip/keep busy
-  - entertain: harbour/hold
+  - entertain: bewitch/enthral/harbour/hold/grip/keep busy
   - enthusiastic: keen
-  - entire: full
-  - entire: whole
+  - entire: full/whole
   - entirely: all/alone/only/whole/wholly
   - entrance: incoming
   - entry: incoming
   - equal: be/match/touch
   - equally: as
   - error: blunder/mistake
-  - error: mistake
-  - escape: break
-  - escape: flight/miss/run
+  - escape: break/flight/miss/run
   - escort: see
   - essay: seek/try
   - essence: burden/core/heart/kernel/meat
-  - establish: build/give/ground/make/plant/show
-  - establish: set up
+  - establish: build/give/ground/make/plant/set up/show
   - estate: land
-  - estimate: forecast/guess
-  - estimate: guess/fathom/sound/gauge
+  - estimate: fathom/forecast/gauge/guess/sound
   - eternal: endless
   - event: outcome
   - evidence: show/tell
@@ -586,14 +588,11 @@ swap:
   - exist: be/live
   - existence: being/world
   - exit: go/leave/loss/outlet
-  - exit: leave
   - expand: boom
-  - expect: anticipate/await/bide/wait/ween
-  - expect: ask/bear/look/wait
+  - expect: ask/anticipate/await/bear/bide/look/wait/ween
   - expectation: outlook
   - expected: anticipated
-  - experience: chops/know-how/ordeal
-  - experience: feel/get/have/know/live/see
+  - experience: chops/feel/get/have/know/know-how/live/see/ordeal
   - expert: good/technical
   - expiration: loss
   - expire: go
@@ -605,7 +604,6 @@ swap:
   - extensive: broad/wide
   - exterior: outside
   - external: outer/outside
-  - external: outside
   - extra: spare
   - extract: pull
   - extremely: highly
@@ -619,8 +617,7 @@ swap:
   - failure: bankruptcy
   - fairy: queen
   - faith: trust
-  - \w*(?<!get )familiar: companion/fellow
-  - (?:get familiar|familiarized{0,1}): briefed/catch up/get versed 
+  - familiar: companion/fellow
   - family: fellowship/folk/home/house/household
   - fancy: see
   - fantastic: wild/wonderful
@@ -645,17 +642,19 @@ swap:
   - finish: end/goal/last/stop
   - finish|complete|completing|discontinue|terminate: end/fulfill/halt/wrap up/stop
   - firm: fast/house/steady/strong
+  - fix: get/hole/jam/make/ready/secure/set
   - flame: fire
   - flavour: feel/feeling/look/smell
   - flex: bend/turn/twist
-  - flower: bloom/blossom/bud/burgeon
-  - flower: bloom/flush/peak
+  - flower: bloom/blossom/bud/burgeon/flush/peak
   - fluid: smooth
   - flux: blend/flow
   - following: after
   - folly|foolery|absurdity: blunder/drivel/madness 
   - fool: cod/mark/mug/sap/shoot
+  - force: draw/drive/pull/ram/storm/strength
   - forced{0,1}: draw/drive/pull/ram/storm/strength
+  - forest: timber/wood
   - forest|copse,|coppice: wood/bush/grove/brush/thicket/timber/frith/shaw
   - forge: fake/hammer/shape/work
   - form: build/cast/flesh/frame/kind/make/shape/soma/spring/outline/work
@@ -712,13 +711,13 @@ swap:
   - hostel: inn
   - hour|moment|interval: stound/time/tide/while/throw/spell/stint
   - however: but
+  - human: man
   - humanity: world
   - humour: mood/wit
   - hurt: harm/smart
   - hydrogen: H
   - hypothesis: guess
-  - idea: mind/thought
-  - idea: thought/hunch/inkling/clue
+  - idea: clue/hunch/inkling/mind/thought
   - identical: selfsame
   - identified: key/name/place
   - identify: key/name/place
@@ -764,15 +763,13 @@ swap:
   - innocent: free
   - inquire: ask/wonder
   - inquire|request: ask/beseech/beg/seek
-  - insect: bug/beetle
-  - insect: worm
+  - insect: bug/beetle/worm
   - inspiration: intake
   - instant: flash
   - instantly: now
   - institute: bring/plant
   - institution: establishment
   - instrument: contraption/tool
-  - instrument: tool
   - insure: check/guarantee/secure/see
   - intelligence: news/word
   - intelligent: healthy/sound
@@ -796,7 +793,7 @@ swap:
   - involve: ask/need/take
   - irritate: itch/irk/tease/fret/grill
   - isle: island/ait/eyot/holm
-  - issue: topic
+  - issue: cut/outcome/outlet/take/topic/yield
   - item: token
   - ivory: bone/pearl
   - jet: green/squirt
@@ -809,9 +806,10 @@ swap:
   - judgement: mind
   - judge|consider|esteem|believe|\w*(?<!with )regard: bethink/buy/deem/hold/feel/guess/reckon/see/take/trust/understand/weigh/
   - junk: dust/trash
-  - \w*(?<!do )just: barely/but/fair/good/hardly/only
+  - just: barely/but/fair/good/hardly/only
   - justify: free
   - juvenile|immature: youthful/young
+  - K: G/M/green/thou/thousand/yard
   - keno: bingo
   - kiln|furnace: oven/hearth/stove/oast/smithy/smithery
   - label: mark/tag
@@ -819,8 +817,7 @@ swap:
   - labour: drive
   - lament|deplore: weep/greet/(cry)/regret/bawl/wail/whine/cry/mourn/sob
   - lance: gig/shaft/spear
-  - language: lyric/speech
-  - language: tongue/speech/talk
+  - language: lyric/tongue/speech/talk
   - large amount: bunch/good deal/great deal/load
   - large: big/great/heavy
   - largely: mostly
@@ -833,7 +830,7 @@ swap:
   - lecture: speech/talk
   - legal: sound
   - legal|legitimate,|legit|proper: lawful/straight/fair/right/rightful/sound/meet/warranted/fitting
-  - \w*(?<!-)level|planar|equal: even/flat/floor/flush/smooth/in line/lined up/steady
+  - level: even/flat/floor/flush/layer
   - levy: raise
   - liberal: big/broad/free/loose
   - liberty: freedom
@@ -865,10 +862,8 @@ swap:
   - mark: brand/check/label/marker/mug/pit/score/scratch/set/tag/target
   - market: marketplace/mart
   - marketplace: mart
-  - marriage: wedding
-  - marriage: wedlock
+  - marriage: wedding/wedlock
   - marry: tie/wed
-  - marry: wed
   - marvel: wonder
   - mass: batch/bulk/deal/lot/mint/pot/sight/stack
   - master: lord/main/overcome
@@ -894,6 +889,7 @@ swap:
   - mess: batch/deal/hole/jam/lot/mint/pot/sight/stack
   - messenger: courier
   - metre: beat/time
+  - Metro: underground
   - mi: mile
   - microphone: mike
   - mil: cc/mile/ml
@@ -945,7 +941,7 @@ swap:
   - norm: average
   - note: line/mark
   - notice: acknowledge/find/mark
-  - notice|alert|recommendation|admonition: warning/tip off
+  - notice|recommendation|admonition: warning/tip off
   - notion: belief/feeling
   - novel: fresh/new
   - novel|modern: new/fresh/now
@@ -964,6 +960,7 @@ swap:
   - occidental: western
   - occup(?:y|ies|ied): busy/fill/interest/take/worry
   - occupation: business/job/line
+  - occupy: busy/fill/interest/take/worry
   - occur: come/happen
   - ocean: sea
   - ochre: yellow
@@ -971,6 +968,7 @@ swap:
   - offering: bid
   - office: place/spot
   - omi(?:t|ssion): leaving out/skip
+  - omission: skip
   - omitted: left out/skipped
   - operate: go/lock/mesh/run/work
   - operating: go/lock/mesh/run/work
@@ -990,6 +988,7 @@ swap:
   - organized: engineer
   - oriental: eastern/easterly/eastward
   - origin: blood/line/root/stock
+  - our duty: our job 
   - oxygen: O
   - pa: dad/daddy/pop
   - pace: step/yard
@@ -1017,8 +1016,7 @@ swap:
   - passenger: rider
   - passion: heat/love
   - password: word
-  - (?:years |days |ages )past: gone by
-  - the past: the last
+  - past: by
   - paste: spread
   - patch: plot/spell/spot
   - paternal: fatherly/fatherlike
@@ -1036,11 +1034,9 @@ swap:
   - perfectly: dead
   - perform(?:ed|s){0,1}: did/work
   - perform: do
-  - perform: do
   - perhaps: maybe
   - period: day/time/stop/stretch
-  - permanent: deathless/endless/everlasting/undying/unending
-  - permanent: lasting
+  - permanent: deathless/endless/everlasting/lasting/undying/unending
   - permit: let
   - persisted|endured: held up/ kept up/
   - persistent: dogged/lasting
@@ -1069,6 +1065,7 @@ swap:
   - pocket: bag/scoop
   - poetry: verse
   - point(?! of view): dot/head/peak/place/show/spot/steer/stop/target/tip
+  - point: dot/head/peak/place/show/spot/steer/stop/target/tip
   - pointer: arrow
   - pole: rod
   - police: law
@@ -1095,8 +1092,7 @@ swap:
   - powerful: mighty/right
   - practice: do/drill
   - precede: lead
-  - predict: call/forecast
-  - predict: foretell/forebode/forecast/foresee/foreshadow/soothsay/
+  - predict: call/foretell/forebode/forecast/foresee/foreshadow/soothsay/
   - prefer: choose
   - preference: taste
   - preferred: choose/pet
@@ -1105,6 +1101,7 @@ swap:
   - prepare: make/ready/set
   - prepared: make/ready/set
   - presence: bearing
+  - present: award/gift/give/show
   - present[^-]: award/gift/give/new/show
   - presently: shortly/soon
   - preserve: keep
@@ -1119,7 +1116,6 @@ swap:
   - pricing: price
   - primarily: mainly
   - primary: first/foremost/main
-  - primary: main
   - prime: bloom/choice/flush/ground/peak
   - principal: dealer/head/lead/main/star
   - print: mark
@@ -1128,8 +1124,7 @@ swap:
   - prize: award/booty/choice/jimmy/treasure
   - probably: likely
   - problem: job
-  - proceed: go on/wend
-  - proceed: go/keep
+  - proceed: go on/keep/wend
   - proceeding: go/keep
   - process: treat/work
   - proclaim: bark/call/plug/ring out
@@ -1139,8 +1134,7 @@ swap:
   - productive: fat/rich
   - profit: net
   - programme: broadcast
-  - progress: build
-  - progress: further/growth
+  - progress: build/further/growth
   - prohibit|prevent|interdict: forbid/ban/forestall
   - project: cast/see/throw
   - projection: forecast/outlook
@@ -1161,6 +1155,7 @@ swap:
   - provide: give/afford/furnish
   - proximity: closeness/nearness
   - prudent|intelligent|sapient: wise/clever/insightful/enlightened/keen/knowledgeable/shrewd
+  - Pt: platinum
   - public: world
   - publicity: packaging
   - publish: write
@@ -1173,6 +1168,7 @@ swap:
   - pursue: follow
   - pursuit: interest
   - push: crowd/drive/fight
+  - pussy: cunt/kitty
   - putrefy: rot/defile/befoul
   - qualified: characterize
   - qualify: characterize
@@ -1199,8 +1195,8 @@ swap:
   - rating: place/rank/rat/shit/shop
   - ray: beam/shaft
   - reality: world
-  - realize: earn/make/see/understand/win
-  - realized{0,1}: came to mind/dawned on/saw/see/sprung to mind
+  - realize: earn/make/win
+  - realized{0,1}: came to mind/dawned on/saw/see/sprung to mind/understand
   - really: truly
   - realm: kingdom/land
   - rear: ass/back/behind/bottom/butt/can/lift/prat/raise/rise/seat/tail
@@ -1213,11 +1209,9 @@ swap:
   - recall: bring back/hearken/remind
   - receipt: acknowledge
   - receive: find/get/have/meet/welcome
-  - recent: late
   - recent: late/new
   - recently: late/lately
-  - recognize: acknowledge/greet/know/spot
-  - recognize: know/see/spot/tell
+  - recognize: acknowledge/greet/know/see/spot/tell
   - reconcile[s]{0,1}: blend/dovetail
   - record: book/read/show/tape
   - recording: read/show/tape
@@ -1230,6 +1224,7 @@ swap:
   - refine: down
   - reflect: shine
   - refuse: garbage
+  - regard: see/wish
   - regarding: as to/about/on
   - register: read/show
   - regular: even/steady
@@ -1247,13 +1242,11 @@ swap:
   - relinquish|abdicate|desert|renounce: abandon/leave/forsake/give up
   - reluctant(?:ly): loath
   - rely: bank/trust
-  - remain: are still/belive/belave/abide/tarry/stay
-  - remain: rest
+  - remain: are still/belive/belave/abide/rest/tarry/stay
   - remark: input
   - remember: recall/think
   - remote: outside
-  - remove: dispatch/hit/murder/off/take
-  - remove: shed/shift/strip/take/withdraw
+  - remove: dispatch/hit/murder/shed/shift/strip/take off/withdraw
   - render: give/show/try/yield
   - repeatedly: again and again/habitually/over and over
   - replace: swap/took the place of
@@ -1262,6 +1255,7 @@ swap:
   - report: paper
   - repose|recline: lie/(lie/down)/rest/lean/(back)
   - represent(?:ed|s){0,1}: be/embody/makes up/play/show
+  - represent: be/play
   - reproduction: breeding
   - republic: commonwealth
   - require: ask/need/take/want
@@ -1275,7 +1269,6 @@ swap:
   - resolution: answer/settlement
   - resolve: answer/settle
   - respond: answer
-  - response: answer
   - response: answer
   - result: answer/lead/leave/outcome
   - retain: hold/keep
@@ -1305,11 +1298,12 @@ swap:
   - sacrifice: give
   - safe: good/rubber/secure
   - safety: guard/rubber
-  - salary: wage
   - salary: wage/meed/hire
   - sally: crack
   - sass: lip/mouth
   - satisf(?:y|ies|ied): fill/happy/meet/shown/sure
+  - satisfied: fill/meet
+  - satisfy: fill/meet
   - savage: blast/wild/wolf
   - savage|feral: wild/fell/grim
   - save: keep/spare/write
@@ -1324,12 +1318,11 @@ swap:
   - scout: watch
   - screen: blind/shield
   - screw: ass/bang/bed/cheat/eff/fuck/jazz/know/love/shaft
-  - script: book/hand
-  - script: writing/writ
+  - script: book/hand/writing/writ
   - sculpture: grave
   - seal: stamp
   - search: hunt/hunting/look/lookup/seek
-  - \w*(?<!a )second[^,]: back/bit/mo
+  - second: back/bit/mo
   - secret: hidden/mysterious/underground
   - secure: good/guarantee/plug/strong
   - select: choice/choose/take
@@ -1362,13 +1355,11 @@ swap:
   - sign|symbol|trace|indication: token/mark/hallmark/hint/stamp
   - silent: dumb
   - similar: akin/alike/cognate/like/match
-  - similar: alike/like
   - similarly: likewise
   - simple: bare
   - simply: but/only
   - single: I/one
   - situation: place/spot
-  - situation: spot
   - society: club/fellowship/guild
   - soil: dirt/dirty/ground/land
   - sole: lone/only
@@ -1380,13 +1371,14 @@ swap:
   - sophisticated: twist
   - sort: kind
   - source: root/seed
-  - space: place/room
+  - space: blank/place/room
   - specialize: narrow
   - specially: especially
   - specialty: strength
   - specify: narrow/set
   - spectacular: outstanding
   - spend(?!\s\w* time): drop
+  - spend: drop
   - spending: expenditure
   - sphere: field
   - spine: back/sticker
@@ -1406,11 +1398,9 @@ swap:
   - stomach: bear/belly/brook/stand
   - storage: memory
   - store: memory/shop/stock
-  - store: shop
   - story: floor/tale
   - strain: breed/line/reach/song/stock/try
-  - strange: eerie/odd/queer/uncouth/outlandish/weird
-  - strange: unknown/unusual
+  - strange: eerie/odd/queer/uncouth/outlandish/unknown/unusual/weird
   - stranger: unknown/unusual
   - strategy: scheme
   - stress: try
@@ -1427,6 +1417,7 @@ swap:
   - substantial: strong
   - substantially: well
   - substantive: real or big
+  - substitute: replace/replacement
   - substitutes{0,1}: back-up/fill-in/replace/replacement/stand-in
   - succeed: follow/win
   - success: winner
@@ -1442,8 +1433,7 @@ swap:
   - super: crack
   - superficial: depthless/shallow/skin-deep
   - superior: higher/ranking
-  - support: back/bear/brook/hold/keep/stand
-  - support: uphold/bolster/bear/up/undergird/upbear/shore up/stay
+  - support: uphold/bolster/back/back up/bear up/hold/keep/stand/shore up/stay/undergird/upbear/
   - supporter: friend/help
   - suppose: guess/say/think
   - surface: open/rise
@@ -1454,8 +1444,7 @@ swap:
   - surround: border/ring/skirt/wall
   - survey: follow/sight
   - survive: go/last/live
-  - suspect: believe/bet/guess/reckon/think/wager
-  - suspect: funny
+  - suspect: believe/bet/funny/guess/reckon/think/wager
   - suspend: freeze
   - suspension: break
   - sustain: get/have/hold/keep
@@ -1463,10 +1452,10 @@ swap:
   - synopsis: outline
   - system: scheme
   - tablet: pad/pill/tab
+  - taken{0,1} part: been in/got in/helped/lent a hand/pitched in/share/thrown in
   - tan: burn
   - tardy: late/delayed
-  - task: chore
-  - task: job
+  - task: chore/job
   - taste: sample/try
   - taxi: hack
   - technological: technical
@@ -1486,6 +1475,7 @@ swap:
   - testament: will
   - textile: cloth
   - the cause: mother/root/spring/ 
+  - the past: the last
   - theatre: field/house
   - theme: paper/root/stem
   - timid: shy
@@ -1494,10 +1484,13 @@ swap:
   - tongue: knife
   - torture: rack
   - total(?:ly){0,1}: all/altogether/fully/utterly/whole/wholly
+  - total: come/full
+  - totally: all/whole/wholly
   - touch: feeling/ghost/hint/match/meet/reach/spot
   - tour: go/spell/turn
   - trace: draw/follow/ghost/hint/hunt/line/shadow/touch
   - trademark: brand
+  - train: check/coach/gear/string/take/trail
   - trance: spell
   - transfer: shift
   - transferred: shift
@@ -1509,6 +1502,8 @@ swap:
   - transport: send/ship
   - trauma: harm
   - travel(?:ling){0,1}: go
+  - travel: go
+  - travelling: go
   - travel|journey|voyage: fare/trek/go/abroad/take a trip/rove/gallivant
   - tremendous: awful/wonderful
   - trial: run
@@ -1530,17 +1525,14 @@ swap:
   - unnecessary: undue/unneeded/uncalled-for
   - utilise: use
   - utilize: use
-  - vacation: holiday
   - vacation: holiday/leave/break/furlough
   - validation: establishment
-  - value: treasure
-  - value: worth
+  - value: treasure/worth
   - variety: kind
-  - various: x
   - various|miscellaneous: sundry/mixed
   - veal: calf
   - velocity: speed
-  - vend: sell/trade/deal/in/bargain
+  - vend: sell/trade/deal in/bargain
   - vendor: seller
   - venison: deer/hart/doe/hind/stag/roe/buck
   - verdant: green/lush
@@ -1548,14 +1540,14 @@ swap:
   - version: reading
   - vertex: peak
   - victor: winner
-  - \w*(?<!of\s)view: see/sight/thought/watch
+  - video: television
+  - view: see/sight/thought/watch
   - viewer: witness
   - vigilant: watchful/waking/wary
   - village: settlement
   - violent: red/wild
   - virtually: about/almost/near/nearly
   - visceral: knee-jerk/deep-rooted/deep-seated
-  - vision: sight
   - vision: sight/seeing/ken
   - visit: call/chat/gossip/see
   - vocal: song
