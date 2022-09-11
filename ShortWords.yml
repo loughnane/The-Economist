@@ -75,8 +75,8 @@ swap:
   - affiliation: tie
   - age: lifetime/lifespan
   - agency: way
-  - agree: acknowledge/check/find/fit/hold/match/settle/yield
-  - agreement: understanding
+  - agree: acknowledge/check/find/fit/hold/match/placate/settle/yield
+  - agreement: accord/understanding
   - aid: care/help
   - aim: bearing/drive/get/place/take/target
   - air: bare/beam/broadcast/line/send
@@ -328,6 +328,7 @@ swap:
   - configuration: shape
   - confirmation: check
   - conflict: fight/struggle
+  - congratulate|laud: praise
   - connect: link/tie
   - connection: link
   - consciousness: awareness
@@ -585,7 +586,7 @@ swap:
   - expand: boom
   - expect(?:ed){0,1}: ask/await/bear/bide/look/wait/ween
   - expectation: outlook
-  - experience: chops/feel/get/have/know/know-how/live/see/ordeal
+  - experience: chops/eminence/feel/get/have/know/know-how/live/see/ordeal/venerable
   - expert: good/technical
   - expiration: loss
   - expire: go

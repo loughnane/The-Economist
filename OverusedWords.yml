@@ -7,12 +7,13 @@ scope: text
 ignorecase: true
 swap:
   - address (?:the|your): cope with/deal with/field/handle/work on/
+  - ambigu(?:ity|ous): amorphous/nebulous/opaque
   - backfill: replacement
   - brainstorm: talk about ideas
   - brits: x
   - care for: x
   - challenge: x
-  - commit to: x
+  - commit to: pledge/promise/swear
   - community: x
   - environment: time/world
   - execute: do/work
