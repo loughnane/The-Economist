@@ -26,7 +26,6 @@ swap:
   - absolutely: dead
   - abstract: hook/lift/outline
   - abuse: step on
-  - accept: bear/have/take
   - accepts{0,1}: bear/have/take
   - accident: stroke
   - accidents{0,1}: stroke
@@ -45,15 +44,13 @@ swap:
   - acquire: get/grow/learn/take/win
   - acquisition: skill
   - act: bit/do/play/turn/work
-  - action|attitude|manner|conduct: behaviour/bearing/etiquette/guise/way
+  - action|attitude|manner|conduct: behaviour/bearing/etiquette/way
   - activate: trigger
   - active: alive
   - actor: player/worker
   - acute: keen/sharp
   - add: bring
   - address(?:ed){0,1}: call/deal/handle/speak/speech/treat
-  - address: call/deal/handle/speak/speech/treat
-  - addressed: call/deal/handle/speak/treat
   - adept: skillful/crafty/deft
   - adequate: enough/good
   - adhere: cling/hew/stick
@@ -83,7 +80,7 @@ swap:
   - aid: care/help
   - aim: bearing/drive/get/place/take/target
   - air: bare/beam/broadcast/line/send
-  - alert: alive/merry/tip-off/warn/
+  - alert: alive/tip-off/warn/
   - alien: unknown
   - allege: say
   - alliance: bond
@@ -97,7 +94,6 @@ swap:
   - amicable: friendly/kindly/warm
   - amorous: loving/fond
   - amount: come
-  - analyse: canvas
   - anatomy: build/flesh/frame/shape/soma
   - anchor: ground
   - ancient|antediluvian: old/stale/elderly/of yore
@@ -108,9 +104,7 @@ swap:
   - anniversary: birthday/year
   - announce: herald/say/share
   - annoying: bother
-  - annual: yearly
-  - annually: yearly
-  - antenna: aerial
+  - annual(?:ly){0,1}: yearly
   - anticipate: call
   - anxiety: care/fear/worry
   - apart: aside
@@ -144,12 +138,12 @@ swap:
   - assemble: cluster/gather/forgather/gather up/group/lease/meet
   - assess: set
   - assign: put
-  - assist: help/abet/give a hand/bestead
+  - assist: help/give a hand/bestead
   - assistance: help
   - assistant: help
   - associate: companion/fellow/link
   - association: tie
-  - assumed{0,1}: accept/bear/believe/gather/guess/strike/take/think/understand/wear
+  - assumed{0,1}: bear/believe/gather/guess/strike/take/think/understand/wear
   - assurances{0,1}: pledge
   - assure: check/guarantee/secure/see/tell
   - attach: bind/bond/tie
@@ -185,7 +179,7 @@ swap:
   - beauty: dish
   - because: as long as/being as/for/seeing as/since/so long as
   - beef: bitch/kick
-  - beef|cattle: cow/bull/neat/ox/steer/bison
+  - beef|cattle: bison/cow/bull/neat/ox/steer/
   - beget: brought about/yield
   - beneficial: good/well/helpful/gainful/wholesome/worthwhile
   - benefit: welfare
@@ -196,7 +190,7 @@ swap:
   - biography: life
   - blame: pick/rap
   - blanket: broad/wide
-  - block: forget/freeze/jam/stop/stuff
+  - block: freeze/jam/stop/stuff
   - boil: seethe/bubble
   - bomb: turkey
   - boot: bang/flush/kick/rush
@@ -251,7 +245,7 @@ swap:
   - chair: chairman/lead
   - chamber: bedroom
   - champion: fighter/friend/star/wizard
-  - chance: find/gamble/happen/hazard/luck
+  - chance: find/gamble/ehappen/hazard/luck
   - change: shift/switch
   - channel: groove/line
   - charge: accuse/bang/bearing/buck/burden/care/flush/kick/load/rush/send/shoot/tear
@@ -589,9 +583,8 @@ swap:
   - existence: being/world
   - exit: go/leave/loss/outlet
   - expand: boom
-  - expect: ask/anticipate/await/bear/bide/look/wait/ween
+  - expect(?:ed){0,1}: ask/await/bear/bide/look/wait/ween
   - expectation: outlook
-  - expected: anticipated
   - experience: chops/feel/get/have/know/know-how/live/see/ordeal
   - expert: good/technical
   - expiration: loss
@@ -610,11 +603,10 @@ swap:
   - fabric: cloth/framework
   - face: brass/look/nerve/side
   - facilitate: help
-  - facility: plant,club,warehouse, etc.
+  - facility: plant,club,warehouse
   - factory: mill
   - faculty: staff
   - fail: break/go
-  - failure: bankruptcy
   - fairy: queen
   - faith: trust
   - familiar: companion/fellow
@@ -887,9 +879,7 @@ swap:
   - merge: blend
   - mesa: table
   - mess: batch/deal/hole/jam/lot/mint/pot/sight/stack
-  - messenger: courier
   - metre: beat/time
-  - Metro: underground
   - mi: mile
   - microphone: mike
   - mil: cc/mile/ml
@@ -1053,13 +1043,12 @@ swap:
   - piece: bit/man/pick/spell
   - pigeon|culver: dove
   - pilot: buffer/fly
-  - pine: yen
+  - pine: yearn
   - pink: knock/rap/tap
   - piss: make/water
   - plain: bare/field/kick/knit/sheer/spare
   - plane: flat/shave/sheet
   - plate: home/shell
-  - platinum: Pt
   - plaza: place
   - plenty: batch/deal/enough/lot/mint/pot/sight/stack
   - pocket: bag/scoop
