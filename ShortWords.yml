@@ -584,6 +584,7 @@ swap:
   - existence: being/world
   - exit: go/leave/loss/outlet
   - expand: boom
+  - explain(?:ed|ing){0,1}: break down/spell out 
   - expect(?:ed){0,1}: ask/await/bear/bide/look/wait/ween
   - expectation: outlook
   - experience: chops/eminence/feel/get/have/know/know-how/live/see/ordeal/venerable
