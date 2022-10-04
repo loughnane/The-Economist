@@ -31,10 +31,7 @@ swap:
   - accidents{0,1}: stroke
   - accommodate: fit/hold
   - accompan(?:y|ies): companion/follow
-  - accompany: companion/follow
-  - accomplish(?:es){0,1}: reach
-  - accomplish: reach
-  - account: score
+  - accomplish(?:es|ed){0,1}: reach
   - accounted for by: spring up from
   - accounts{0,1}: score
   - accuracy: truth
