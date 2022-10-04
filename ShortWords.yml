@@ -737,7 +737,8 @@ swap:
   - independent: freelance/main
   - indicate: show
   - indication: reading
-  - individual: somebody/someone/soul
+  - individual: person/somebody/someone/soul
+  - individuals: people
   - individually: separately
   - induce: get/have/make/rush
   - induction: trigger
