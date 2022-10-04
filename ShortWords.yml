@@ -640,7 +640,7 @@ swap:
   - flower: bloom/blossom/bud/burgeon/flush/peak
   - fluid: smooth
   - flux: blend/flow
-  - following: after
+  - following(?! up): after
   - folly|foolery|absurdity: blunder/drivel/madness 
   - fool: cod/mark/mug/sap/shoot
   - force: draw/drive/pull/ram/storm/strength
