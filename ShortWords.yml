@@ -31,10 +31,7 @@ swap:
   - accidents{0,1}: stroke
   - accommodate: fit/hold
   - accompan(?:y|ies): companion/follow
-  - accompany: companion/follow
-  - accomplish(?:es){0,1}: reach
-  - accomplish: reach
-  - account: score
+  - accomplish(?:es|ed){0,1}: reach
   - accounted for by: spring up from
   - accounts{0,1}: score
   - accuracy: truth
@@ -133,6 +130,7 @@ swap:
   - arrest: check/cop/get/hold/nail/stop
   - arrive: come/land/reach/get/to/make/(to a place)
   - art|science: artwork/craft/cunning/skill
+  - as well as: and
   - aspect: look
   - ass: behind/bottom/butt/can/fuck/prat/seat/tail
   - assemble: cluster/gather/forgather/gather up/group/lease/meet
@@ -441,7 +439,7 @@ swap:
   - deprived: left bereft/stripped
   - derive: come
   - descend: come/fall/settle
-  - describe: draw/key/line/name
+  - describ(?:e|ed|ing): draw/show/sketch out/sum up/tell/
   - designate: doom/show
   - desirable: worthy
   - desire: hope/trust/want
@@ -514,7 +512,6 @@ swap:
   - durable: lasting
   - duration: length
   - duty: tariff
-  - ease: facilitate/rest
   - easily: well
   - easy: comfortable/light/loose/slow/slowly/soft
   - echo: recall/ring
@@ -584,6 +581,7 @@ swap:
   - existence: being/world
   - exit: go/leave/loss/outlet
   - expand: boom
+  - explain(?:ed|ing){0,1}: break down/spell out 
   - expect(?:ed){0,1}: ask/await/bear/bide/look/wait/ween
   - expectation: outlook
   - experience: chops/eminence/feel/get/have/know/know-how/live/see/ordeal/venerable
@@ -603,7 +601,7 @@ swap:
   - extremely: highly
   - fabric: cloth/framework
   - face: brass/look/nerve/side
-  - facilitate: help
+  - facilitate: ease/forward/further/help/smooth
   - facility: plant,club,warehouse
   - factory: mill
   - faculty: staff
@@ -642,7 +640,7 @@ swap:
   - flower: bloom/blossom/bud/burgeon/flush/peak
   - fluid: smooth
   - flux: blend/flow
-  - following: after
+  - following(?! up): after
   - folly|foolery|absurdity: blunder/drivel/madness 
   - fool: cod/mark/mug/sap/shoot
   - force: draw/drive/pull/ram/storm/strength
@@ -740,7 +738,8 @@ swap:
   - independent: freelance/main
   - indicate: show
   - indication: reading
-  - individual: somebody/someone/soul
+  - individual: person/somebody/someone/soul
+  - individuals: people
   - individually: separately
   - induce: get/have/make/rush
   - induction: trigger
@@ -1145,7 +1144,6 @@ swap:
   - provide: give/afford/furnish
   - proximity: closeness/nearness
   - prudent|intelligent|sapient: wise/clever/insightful/enlightened/keen/knowledgeable/shrewd
-  - Pt: platinum
   - public: world
   - publicity: packaging
   - publish: write
@@ -1414,7 +1412,7 @@ swap:
   - suddenly: dead/short
   - suffer: bear/brook/get/have/lose/meet/stand
   - sufficient: enough
-  - suggest: hint
+  - suggest: hint/point out
   - suggestion: hint
   - suit: become/fit/lawsuit
   - suitable: worthy
