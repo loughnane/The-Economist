@@ -16,6 +16,7 @@ swap:
   - commit to: pledge/promise/swear
   - community: x
   - coordinates{0,1}: guide
+  - conduct(?:s|ed|ing): run
   - environment: time/world
   - execute: do/work
   - evaluat(?:e|es|ed|ing){1}: assess/check
