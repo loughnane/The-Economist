@@ -15,6 +15,7 @@ swap:
   - challenge: x
   - commit to: pledge/promise/swear
   - community: x
+  - coordinates{0,1}:guide
   - environment: time/world
   - execute: do/work
   - famously: x
