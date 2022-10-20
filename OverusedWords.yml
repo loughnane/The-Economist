@@ -18,6 +18,7 @@ swap:
   - coordinates{0,1}: guide
   - environment: time/world
   - execute: do/work
+  - evaluate: assess/check
   - famously: x
   - focus: aim/mind is on/set on/eye is on/is busy with 
   - follow up: get back to you/let you know/tell you
