@@ -7,6 +7,7 @@ scope: text
 ignorecase: true
 swap:
   - address (?:the|your): cope with/deal with/field/handle/work on/
+  - adopt(?s|ed|ion|ing): take on/use
   - ambigu(?:ity|ous): amorphous/nebulous/opaque
   - backfill: replacement
   - brainstorm: talk about ideas
