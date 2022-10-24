@@ -974,8 +974,7 @@ swap:
   - ordered: place/put/rank/say/tell
   - ordinary: average
   - organization: brass/establishment
-  - organize: engineer
-  - organized: engineer
+  - organiz(?:e|ed|ing): engineer/lay out/order
   - oriental: eastern/easterly/eastward
   - origin: blood/line/root/stock
   - our duty: our job 
