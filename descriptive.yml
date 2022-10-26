@@ -1,0 +1,12 @@
+---
+extends: substitution
+message: "'%s' might be richer than '%s'"
+description: "Build with plain words, decorate with rich ones"
+level: error
+scope: text
+ignorecase: true
+swap:
+  - ambigu(?:ity|ous): amorphous/nebulous/opaque
+  - poor: destitute/indigent
+  - rich: opulent
+  - food: bread/fare/meat
