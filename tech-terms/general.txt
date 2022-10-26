@@ -19,3 +19,4 @@ orm
 wget
 httpie
 youtube
+linkedin
