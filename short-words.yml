@@ -628,7 +628,7 @@ swap:
   - figure: build/flesh/forecast/frame/name/see/shape/soma
   - final: last/net
   - finally: last
-  - fine: OK/ticket
+  - fine: all right/good/OK/ticket
   - finish: end/goal/last/stop
   - finish|complete|completing|discontinue|terminate: end/fulfill/halt/wrap up/stop
   - firm: fast/house/steady/strong
@@ -966,7 +966,7 @@ swap:
   - opt: choose
   - optic: eye
   - option: choice/pick
-  - opt|select: choose/pick/wale
+  - opt|select: choose/pick
   - oracle: prophet
   - orbit: field/reach
   - order: club/guild/place/put/rank/say/tell
