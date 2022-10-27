@@ -163,7 +163,7 @@ swap:
   - automobile: car
   - autumn: fall
   - available: at the ready/furnished/on hand
-  - balance: remainder/rest
+  - (?<!to )balance: remainder/rest
   - ballot: vote
   - bar: cake/stop/stripe
   - bargain: buy/deal/steal
