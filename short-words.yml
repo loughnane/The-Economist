@@ -345,6 +345,7 @@ swap:
   - consumption: intake
   - contact: link/meet/reach/touch
   - contain: bear/check/hold/stop/take
+  - contemplat(?:e|ion|ing): muse/ 
   - context: setting
   - continue: abide/go on/hold/keep/last
   - continued: keep
@@ -551,7 +552,6 @@ swap:
   - escape: break/flight/miss/run
   - eschew(?:s|ed): dodge/shirk/shun
   - escort: see
-  - essay: seek/try
   - essence: burden/core/heart/kernel/meat
   - establish: build/give/ground/make/plant/set up/show
   - estate: land
