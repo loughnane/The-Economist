@@ -7,124 +7,125 @@ scope: text
 ignorecase: true
 swap:
  - (?:so|really) want: ache/crave/itch/long/lust/yearn 
- - (?:so|very|really) (?:big|large): bumper/giant/leviathan/mighty/whopping #checked
- - (?:so|very|really) (?:hard|difficult): back breaking/bruising/draining/grueling/harrowing/harsh/killer/tiresome/wearisome #checked
- - (?:so|very|really) (?:smart|wise): brainy/knowledgeable/well-read #checked
- - (?:so|very|really) angry: livid/enraged/fuming/furious
- - (?:so|very|really) annoying: aggravating/irritating/disturbing
- - (?:so|very|really) anxious: spooked/restless
- - (?:so|very|really) aroused: lascivious/horny
- - (?:so|very|really) ashamed: contrite/repentant/humiliated
- - (?:so|very|really) awful: dire/atrocious/deplorable/abominable/harrowing/appalling
- - (?:so|very|really) bad: abominable/atrocious/awful/criminal/detrimental/dreadful/evil/foul/frightful/ghastly/loathsome/scary/sickening/ugly/unsightly/unspeakable/vile/wicked/
- - (?:so|very|really) beautiful: lovely/striking # checked
- - (?:so|very|really) bold: gumptious/enterprising/brazen/audacious
- - (?:so|very|really) brave: resolute/valiant/audacious
- - (?:so|very|really) bright: beaming/dazzling/keen/brilliant/glistening
- - (?:so|very|really) calm: placid/serene/zen/temperate/tranquil
- - (?:so|very|really) capable: accomplished 
- - (?:so|very|really) careful: meticulous/scrupulous/deliberate/vigilant/fastidious
- - (?:so|very|really) cautious: calculating/circumspect/judicious
- - (?:so|very|really) challenging: strenuous/laborious
- - (?:so|very|really) clearly: distinctly/precisely/overtly/explicitly
- - (?:so|very|really) clever: crafty/cunning/keen/nimble/quick-witted/sharp-witted/shrewd #checked
- - (?:so|very|really) clumsy: all thumbs/unwieldy/bumbling/inept
- - (?:so|very|really) cold: freezing
- - (?:so|very|really) complex: convoluted/labyrinthine/byzantine/perplexing
- - (?:so|very|really) concerned: perturbed/exercised/distressed
- - (?:so|very|really) confused: bewildered/befuddled/flummoxed/perplexed/baffled
- - (?:so|very|really) cool: dandy/nifty/composed/unflappable/swell/neat
- - (?:so|very|really) creepy: ghastly/creepy/macabre
- - (?:so|very|really) cute: dainty/adorable
- - (?:so|very|really) dangerous: formidable/perilous/treacherous
- - (?:so|very|really) different: incomparable/peculiar/distinctive
- - (?:so|very|really) difficult: challenging/strenuous/laborious
- - (?:so|very|really) dirty: disarrayed/unkempt/disheveled/sullied/filthy
- - (?:so|very|really) dirty: filthy/foul/grimy/grubby/shabby/slovenly
- - (?:so|very|really) disgusted: abhorred/outraged/repulsed/repelled/appalled
- - (?:so|very|really) dry: arid
- - (?:so|very|really) entertaining: engrossing/captivating/gripping/delightful/thrilling/absorbing
- - (?:so|very|really) envious: yearning/hankering
- - (?:so|very|really) exciting: inspiring/astonishing/breathtaking
- - (?:so|very|really) expensive: exorbitant/lavish/extravagant
- - (?:so|very|really) fair: principled/honorable/courteous
- - (?:so|very|really) faithful: unwavering/enduring/ardent/devoted
- - (?:so|very|really) fancy: ornate/lavish/baroque/ostentatious/sumptuous/gaudy
- - (?:so|very|really) fast: breakneck/dashing/nimble/quick/rapid
- - (?:so|very|really) foolish: preposterous/ludicrous/absurd/asinine
- - (?:so|very|really) frail: decrepit/feeble
- - (?:so|very|really) frequent: perpetual/incessant/ceaseless/persistent
- - (?:so|very|really) frustrated: irked/vexed/infuriating
- - (?:so|very|really) funny: hysterical/hilarious
- - (?:so|very|really) gay: Mystik/Mystik/Mystik
- - (?:so|very|really) gentle: benign/tame/subdued/serene/placid
- - (?:so|very|really) glad: beaming/contented/gleeful/overjoyed
- - (?:so|very|really) good: banner/choice/cool/crack/dope/excellent/exceptional/great/heavenly/marvelous/sterling/splendid/super/top/top-shelf/wonderful
- - (?:so|very|really) happy: beaming/gleeful/mirthful/thrilled #checked
- - (?:so|very|really) hard: formidable/demanding/arduous/grueling/backbreaking
- - (?:so|very|really) healthy: exuberant/prospering/robust
- - (?:so|very|really) hot: blistering/boiling/scalding/sweltering/scorching/scalding/sultry/torrid/
- - (?:so|very|really) hungry: ravenous
- - (?:so|very|really) hurt: battered/crushed
- - (?:so|very|really) important: critical/decisive/distinguished/earth-shaking/historic/imperative/paramount
- - (?:so|very|really) intelligent: bright/adept/ingenious/brilliant/gifted/pointed/astute
- - (?:so|very|really) interesting: provocative/alluring/riveting/gripping/engrossing/enchanting/stimulating/fascinating
- - (?:so|very|really) large: hulking/enormous/momentous/thundering/walloping/strapping/colossal
- - (?:so|very|really) lazy: comatose/apathetic/loafing
- - (?:so|very|really) little: infinitesimal/diminutive/paltry/tiny/meager/slight
- - (?:so|very|really) lively: chipper/frisky/frolicsome/high-strung # checked
- - (?:so|very|really) loved: adored
- - (?:so|very|really) lucky: fortunate/blessed
- - (?:so|very|really) mad: frenzied/psychotic/fuming/enraged/livid/furious/demented
- - (?:so|very|really) nervous: high-strung/distressed/skittish
- - (?:so|very|really) new: cutting edge/state-of-the-art/novel
- - (?:so|very|really) odd: incomparable/peculiar/distinctive
- - (?:so|very|really) old: ancient/elderly/long-lived/old-fashioned/old-world/timeless/time-honored/timeworn #checked
- - (?:so|very|really) open: revealed/gaping/exposed
- - (?:so|very|really) outrageous: unconscionable/preposterous
- - (?:so|very|really) plain: austere/blunt/stark
- - (?:so|very|really) poor: hard up/hardscrabble/penniless
- - (?:so|very|really) popular: renowned/prominent/widespread
- - (?:so|very|really) pretty: beautiful/elegant/ravishing/statuesque/sublime/stunning/bewitching/dazzling/charming
- - (?:so|very|really) public: universal/exposed/overt
- - (?:so|very|really) quaint: enchanting/whimsical/bizarre/charming
- - (?:so|very|really) quiet: faint/hushed/muted/reserved/reticent/silent/taciturn
- - (?:so|very|really) recently: lately,not long ago, a moment ago
- - (?:so|very|really) rich: opulent/prosperous/sumptuous/lavish/affluent
- - (?:so|very|really) right: indubitable/perfect/legitimate
- - (?:so|very|really) roomy: spacious
- - (?:so|very|really) rude: boorish/discourteous/ill-mannered/vulgar
- - (?:so|very|really) sad: dispirited/forlorn/gloomy/inconsolable/miserable/somber/
- - (?:so|very|really) scared: petrified/horrified/terrified
- - (?:so|very|really) scary: bloodcurdling/chilling/horrifying/petrifying/terrifying/
- - (?:so|very|really) serious: solemn
- - (?:so|very|really) sexy: provocative/seductive/tantalizing
- - (?:so|very|really) shiny: sparkling/lustrous/gleaming
- - (?:so|very|really) silly: ludicrous/frivolous/preposterous
- - (?:so|very|really) simple: child's play/elementary/straightforward/transparent
- - (?:so|very|really) skinny: scrawny/emaciated/gangly
- - (?:so|very|really) sleepy: exhausted/lethargic
- - (?:so|very|really) small: minute/modest/petite/tiny/insignificant/miniscule
- - (?:so|very|really) smelly: foul/putrid/pungent/rank/rancid
- - (?:so|very|really) strong: unyielding
- - (?:so|very|really) stupid: half-baked/idiotic/nonsensical/ludicrous/mindless/foolish
- - (?:so|very|really) successful: reigning/undefeated/triumphant
- - (?:so|very|really) sweet: saccharine/cloying/delectable
- - (?:so|very|really) talented: ingenious/expert/masterful/brilliant
- - (?:so|very|really) tame: docile/harmless/submissive/subdued
- - (?:so|very|really) tasty: choice/delectable/divine/heavenly/mouth-watering/pungent/scrumptious #checked
- - (?:so|very|really) tense: up the wall/taut/rigid
- - (?:so|very|really) thankful: grateful/beholden/indebted
- - (?:so|very|really) tired: bleary/drained/exhausted/flagging/spent/tapped/weary/worn out # checked
- - (?:so|very|really) troubled: psychotic/neurotic/tormented/disturbed
- - (?:so|very|really) unique: incomparable/exceptional/singular
- - (?:so|very|really) upset: in disarray/fuming
- - (?:so|very|really) uptight: prudish/exacting/draconian
- - (?:so|very|really) useful: instrumental/all-purpose
- - (?:so|very|really) useless: expendable/meaningless/futile
- - (?:so|very|really) valuable: precious
- - (?:so|very|really) weak: feeble
- - (?:so|very|really) well: easily/readily/successfully/without trouble
- - (?:so|very|really) wet: soaked/drenched/swamped
- - (?:so|very|really) wicked: villainous
- - (?:so|very|really) young: pubescent/green/juvenile
+ - (?:so|very|really|pretty) (?:big|large): bumper/giant/leviathan/mighty/whopping #checked
+ - (?:so|very|really|pretty) (?:hard|difficult): back breaking/bruising/draining/grueling/harrowing/harsh/killer/tiresome/wearisome #checked
+ - (?:so|very|really|pretty) (?:smart|wise): brainy/knowledgeable/well-read #checked
+ - (?:so|very|really|pretty) angry: livid/enraged/fuming/furious
+ - (?:so|very|really|pretty) annoying: aggravating/irritating/disturbing
+ - (?:so|very|really|pretty) anxious: spooked/restless
+ - (?:so|very|really|pretty) aroused: lascivious/horny
+ - (?:so|very|really|pretty) ashamed: contrite/repentant/humiliated
+ - (?:so|very|really|pretty) awful: dire/atrocious/deplorable/abominable/harrowing/appalling
+ - (?:so|very|really|pretty) bad: abominable/atrocious/awful/criminal/detrimental/dreadful/evil/foul/frightful/ghastly/loathsome/scary/sickening/ugly/unsightly/unspeakable/vile/wicked/
+ - (?:so|very|really|pretty) beautiful: lovely/striking # checked
+ - (?:so|very|really|pretty) bold: gumptious/enterprising/brazen/audacious
+ - (?:so|very|really|pretty) brave: resolute/valiant/audacious
+ - (?:so|very|really|pretty) bright: beaming/dazzling/keen/brilliant/glistening
+ - (?:so|very|really|pretty) calm: placid/serene/zen/temperate/tranquil
+ - (?:so|very|really|pretty) capable: accomplished 
+ - (?:so|very|really|pretty) careful: meticulous/scrupulous/deliberate/vigilant/fastidious
+ - (?:so|very|really|pretty) cautious: calculating/circumspect/judicious
+ - (?:so|very|really|pretty) challenging: strenuous/laborious
+ - (?:so|very|really|pretty) clearly: distinctly/precisely/overtly/explicitly
+ - (?:so|very|really|pretty) clever: crafty/cunning/keen/nimble/quick-witted/sharp-witted/shrewd #checked
+ - (?:so|very|really|pretty) clumsy: all thumbs/unwieldy/bumbling/inept
+ - (?:so|very|really|pretty) cold: freezing
+ - (?:so|very|really|pretty) complex: convoluted/labyrinthine/byzantine/perplexing
+ - (?:so|very|really|pretty) concerned: perturbed/exercised/distressed
+ - (?:so|very|really|pretty) confused: bewildered/befuddled/flummoxed/perplexed/baffled
+ - (?:so|very|really|pretty) cool: dandy/nifty/composed/unflappable/swell/neat
+ - (?:so|very|really|pretty) creepy: ghastly/creepy/macabre
+ - (?:so|very|really|pretty) cute: dainty/adorable
+ - (?:so|very|really|pretty) dangerous: formidable/perilous/treacherous
+ - (?:so|very|really|pretty) different: incomparable/peculiar/distinctive
+ - (?:so|very|really|pretty) difficult: challenging/strenuous/laborious
+ - (?:so|very|really|pretty) dirty: disarrayed/unkempt/disheveled/sullied/filthy
+ - (?:so|very|really|pretty) dirty: filthy/foul/grimy/grubby/shabby/slovenly
+ - (?:so|very|really|pretty) disgusted: abhorred/outraged/repulsed/repelled/appalled
+ - (?:so|very|really|pretty) dry: arid
+ - (?:so|very|really|pretty) easy: effortless/picnic
+ - (?:so|very|really|pretty) entertaining: engrossing/captivating/gripping/delightful/thrilling/absorbing
+ - (?:so|very|really|pretty) envious: yearning/hankering
+ - (?:so|very|really|pretty) exciting: inspiring/astonishing/breathtaking
+ - (?:so|very|really|pretty) expensive: exorbitant/lavish/extravagant
+ - (?:so|very|really|pretty) fair: principled/honorable/courteous
+ - (?:so|very|really|pretty) faithful: unwavering/enduring/ardent/devoted
+ - (?:so|very|really|pretty) fancy: ornate/lavish/baroque/ostentatious/sumptuous/gaudy
+ - (?:so|very|really|pretty) fast: breakneck/dashing/nimble/quick/rapid
+ - (?:so|very|really|pretty) foolish: preposterous/ludicrous/absurd/asinine
+ - (?:so|very|really|pretty) frail: decrepit/feeble
+ - (?:so|very|really|pretty) frequent: perpetual/incessant/ceaseless/persistent
+ - (?:so|very|really|pretty) frustrated: irked/vexed/infuriating
+ - (?:so|very|really|pretty) funny: hysterical/hilarious
+ - (?:so|very|really|pretty) gay: Mystik/Mystik/Mystik
+ - (?:so|very|really|pretty) gentle: benign/tame/subdued/serene/placid
+ - (?:so|very|really|pretty) glad: beaming/contented/gleeful/overjoyed
+ - (?:so|very|really|pretty) good: banner/choice/cool/crack/dope/excellent/exceptional/great/heavenly/marvelous/sterling/splendid/super/top/top-shelf/wonderful
+ - (?:so|very|really|pretty) happy: beaming/gleeful/mirthful/thrilled #checked
+ - (?:so|very|really|pretty) hard: formidable/demanding/arduous/grueling/backbreaking
+ - (?:so|very|really|pretty) healthy: exuberant/prospering/robust
+ - (?:so|very|really|pretty) hot: blistering/boiling/scalding/sweltering/scorching/scalding/sultry/torrid/
+ - (?:so|very|really|pretty) hungry: ravenous
+ - (?:so|very|really|pretty) hurt: battered/crushed
+ - (?:so|very|really|pretty) important: critical/decisive/distinguished/earth-shaking/historic/imperative/paramount
+ - (?:so|very|really|pretty) intelligent: bright/adept/ingenious/brilliant/gifted/pointed/astute
+ - (?:so|very|really|pretty) interesting: provocative/alluring/riveting/gripping/engrossing/enchanting/stimulating/fascinating
+ - (?:so|very|really|pretty) large: hulking/enormous/momentous/thundering/walloping/strapping/colossal
+ - (?:so|very|really|pretty) lazy: comatose/apathetic/loafing
+ - (?:so|very|really|pretty) little: infinitesimal/diminutive/paltry/tiny/meager/slight
+ - (?:so|very|really|pretty) lively: chipper/frisky/frolicsome/high-strung # checked
+ - (?:so|very|really|pretty) loved: adored
+ - (?:so|very|really|pretty) lucky: fortunate/blessed
+ - (?:so|very|really|pretty) mad: frenzied/psychotic/fuming/enraged/livid/furious/demented
+ - (?:so|very|really|pretty) nervous: high-strung/distressed/skittish
+ - (?:so|very|really|pretty) new: cutting edge/state-of-the-art/novel
+ - (?:so|very|really|pretty) odd: incomparable/peculiar/distinctive
+ - (?:so|very|really|pretty) old: ancient/elderly/long-lived/old-fashioned/old-world/timeless/time-honored/timeworn #checked
+ - (?:so|very|really|pretty) open: revealed/gaping/exposed
+ - (?:so|very|really|pretty) outrageous: unconscionable/preposterous
+ - (?:so|very|really|pretty) plain: austere/blunt/stark
+ - (?:so|very|really|pretty) poor: hard up/hardscrabble/penniless
+ - (?:so|very|really|pretty) popular: renowned/prominent/widespread
+ - (?:so|very|really|pretty) pretty: beautiful/elegant/ravishing/statuesque/sublime/stunning/bewitching/dazzling/charming
+ - (?:so|very|really|pretty) public: universal/exposed/overt
+ - (?:so|very|really|pretty) quaint: enchanting/whimsical/bizarre/charming
+ - (?:so|very|really|pretty) quiet: faint/hushed/muted/reserved/reticent/silent/taciturn
+ - (?:so|very|really|pretty) recently: lately,not long ago, a moment ago
+ - (?:so|very|really|pretty) rich: opulent/prosperous/sumptuous/lavish/affluent
+ - (?:so|very|really|pretty) right: indubitable/perfect/legitimate
+ - (?:so|very|really|pretty) roomy: spacious
+ - (?:so|very|really|pretty) rude: boorish/discourteous/ill-mannered/vulgar
+ - (?:so|very|really|pretty) sad: dispirited/forlorn/gloomy/inconsolable/miserable/somber/
+ - (?:so|very|really|pretty) scared: petrified/horrified/terrified
+ - (?:so|very|really|pretty) scary: bloodcurdling/chilling/horrifying/petrifying/terrifying/
+ - (?:so|very|really|pretty) serious: solemn
+ - (?:so|very|really|pretty) sexy: provocative/seductive/tantalizing
+ - (?:so|very|really|pretty) shiny: sparkling/lustrous/gleaming
+ - (?:so|very|really|pretty) silly: ludicrous/frivolous/preposterous
+ - (?:so|very|really|pretty) simple: child's play/elementary/straightforward/transparent
+ - (?:so|very|really|pretty) skinny: scrawny/emaciated/gangly
+ - (?:so|very|really|pretty) sleepy: exhausted/lethargic
+ - (?:so|very|really|pretty) small: minute/modest/petite/tiny/insignificant/miniscule
+ - (?:so|very|really|pretty) smelly: foul/putrid/pungent/rank/rancid
+ - (?:so|very|really|pretty) strong: unyielding
+ - (?:so|very|really|pretty) stupid: half-baked/idiotic/nonsensical/ludicrous/mindless/foolish
+ - (?:so|very|really|pretty) successful: reigning/undefeated/triumphant
+ - (?:so|very|really|pretty) sweet: saccharine/cloying/delectable
+ - (?:so|very|really|pretty) talented: ingenious/expert/masterful/brilliant
+ - (?:so|very|really|pretty) tame: docile/harmless/submissive/subdued
+ - (?:so|very|really|pretty) tasty: choice/delectable/divine/heavenly/mouth-watering/pungent/scrumptious #checked
+ - (?:so|very|really|pretty) tense: up the wall/taut/rigid
+ - (?:so|very|really|pretty) thankful: grateful/beholden/indebted
+ - (?:so|very|really|pretty) tired: bleary/drained/exhausted/flagging/spent/tapped/weary/worn out # checked
+ - (?:so|very|really|pretty) troubled: psychotic/neurotic/tormented/disturbed
+ - (?:so|very|really|pretty) unique: incomparable/exceptional/singular
+ - (?:so|very|really|pretty) upset: in disarray/fuming
+ - (?:so|very|really|pretty) uptight: prudish/exacting/draconian
+ - (?:so|very|really|pretty) useful: instrumental/all-purpose
+ - (?:so|very|really|pretty) useless: expendable/meaningless/futile
+ - (?:so|very|really|pretty) valuable: precious
+ - (?:so|very|really|pretty) weak: feeble
+ - (?:so|very|really|pretty) well: easily/readily/successfully/without trouble
+ - (?:so|very|really|pretty) wet: soaked/drenched/swamped
+ - (?:so|very|really|pretty) wicked: villainous
+ - (?:so|very|really|pretty) young: pubescent/green/juvenile
