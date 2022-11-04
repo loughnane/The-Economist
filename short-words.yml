@@ -1217,11 +1217,8 @@ swap:
   - regular: even/steady
   - regulate: shape
   - rehabilitation: renewal
-  - relate: link/touch
-  - relate|narrate: tell/kithe/make/known
-  - relax: loose
-  - relaxation: rest
-  - relax|relaxation: rest 
+  - relat(?:e|ion|ionship): bond/tie/link/make known/tell/touch
+  - relax|relaxation: loose/rest 
   - release: free/loose/loss/outlet/turn
   - reliable: true
   - reliance: trust
