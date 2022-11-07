@@ -13,6 +13,7 @@ ignore:
   - style/tech-terms/java.txt
   - style/tech-terms/linux.txt
   - style/tech-terms/tech-slang.txt
+  - style/tech-terms/electrical.txt
   - style/tech-terms/csharp.txt
   - style/tech-terms/ddd.txt
   - style/tech-terms/business.txt
