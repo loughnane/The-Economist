@@ -17,8 +17,7 @@ swap:
   - \w*(?<!of\s)view: see/sight/thought/watch
   - \w*(?<!our )duty: tariff
   - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
-  - abandon: empty
-  - abandons{0,1}: empty
+  - abandons{0,1}|discard: ditch/dump/empty/give up/leave/scrap/shed/strand/
   - abdomens{0,1}: belly/midriff
   - aberrations{0,1}: odd/oddity
   - ability: gift/skill/talent/wherewithal
