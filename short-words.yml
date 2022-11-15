@@ -434,20 +434,18 @@ swap:
   - depends on: is grounded on/hangs on/hinges on/leans on/needs/rests on
   - deposit: bank/stick
   - depression: low
-  - deprive: bereave/strip
-  - deprived: left bereft/stripped
+  - depriv(?:ed|es|ing|e): bereft/stripped
   - derive: come
   - descend: come/fall/settle
   - describ(?:e|ed|ing): draw/show/sketch out/sum up/tell/
   - designate: doom/show
   - desirable: worthy
-  - desire: hope/trust/want
-  - desire|cupidity: wish/will/yearning/longing/lust/want
+  - desire|cupidity: hope/longing/lust/trust/want/wish/will/yearning/
   - desktop: background
   - destination: goal
   - destiny: lot/luck
   - destruction: death/end
-  - detect: find
+  - detect(?:s|ed|ion){0,1}: find/look for/spot
   - deterioriate|deterioration|deteriorating: ebb/rot/sink/worsen
   - determination: finding
   - determine: check/find/learn/see/set/settle/shape/watch
