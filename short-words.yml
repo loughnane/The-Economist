@@ -354,7 +354,7 @@ swap:
   - contrast: line
   - contribute: bring/give/lead
   - contribution: share
-  - control: check/hold/see
+  - (?<!motor )control: check/hold/see
   - controlling: check/hold/see
   - convenience: gadget
   - conversation: banter/chat/talk
