@@ -449,6 +449,7 @@ swap:
   - destiny: lot/luck
   - destruction: death/end
   - detect: find
+  - deter(?:rent): hamper/hinder/stall/thwart 
   - deterioriate|deterioration|deteriorating: ebb/rot/sink/worsen
   - determination: finding
   - determine: check/find/learn/see/set/settle/shape/watch
@@ -1251,7 +1252,7 @@ swap:
   - resist: stand
   - resistance: underground
   - resolution: answer/settlement
-  - resolve: answer/settle
+  - resolv(?:ed|ing): answer/bent/set on/intent/settle
   - respond: answer
   - response: answer
   - result: answer/lead/leave/outcome
