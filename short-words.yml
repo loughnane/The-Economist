@@ -17,8 +17,7 @@ swap:
   - \w*(?<!of\s)view: see/sight/thought/watch
   - \w*(?<!our )duty: tariff
   - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
-  - abandon: empty
-  - abandons{0,1}: empty
+  - abandons{0,1}|discard: ditch/dump/empty/give up/leave/scrap/shed/strand/
   - abdomens{0,1}: belly/midriff
   - aberrations{0,1}: odd/oddity
   - ability: gift/skill/talent/wherewithal
@@ -355,7 +354,7 @@ swap:
   - contrast: line
   - contribute: bring/give/lead
   - contribution: share
-  - control: check/hold/see
+  - (?<!motor )control: check/hold/see
   - controlling: check/hold/see
   - convenience: gadget
   - conversation: banter/chat/talk
@@ -435,21 +434,19 @@ swap:
   - depends on: is grounded on/hangs on/hinges on/leans on/needs/rests on
   - deposit: bank/stick
   - depression: low
-  - deprive: bereave/strip
-  - deprived: left bereft/stripped
+  - depriv(?:ed|es|ing|e): bereft/stripped
   - derive: come
   - descend: come/fall/settle
   - describ(?:e|ed|ing): draw/show/sketch out/sum up/tell/
   - designate: doom/show
   - desirable: worthy
-  - desire: hope/trust/want
-  - desire|cupidity: wish/will/yearning/longing/lust/want
+  - desire|cupidity: hope/longing/lust/trust/want/wish/will/yearning/
   - desktop: background
   - destination: goal
   - destiny: lot/luck
   - destruction: death/end
-  - detect: find
   - deter(?:rent): hamper/hinder/stall/thwart 
+  - detect(?:s|ed|ion){0,1}: find/look for/spot
   - deterioriate|deterioration|deteriorating: ebb/rot/sink/worsen
   - determination: finding
   - determine: check/find/learn/see/set/settle/shape/watch
@@ -902,7 +899,6 @@ swap:
   - mortal|fatal: deadly/baneful
   - motivate: bait/fire up/goad/lure/spark/spur/stir/tempt
   - motivation: need
-  - motor: drive
   - motorcycle: bike/cycle
   - mould: cast/shape/stamp/work
   - mount: hill/barrow/mound/down/dune
@@ -1060,7 +1056,6 @@ swap:
   - police: law
   - polish: Polish/down/shine/smooth
   - pool: kitty/pond
-  - poor: short
   - popular: pop
   - pork: swine/farrow/sow/boar/pig/hog
   - port: harbour/haven
