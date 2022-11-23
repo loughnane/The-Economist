@@ -1274,7 +1274,7 @@ swap:
   - sacred: holy/hallowed
   - sacrifice: give
   - safe: good/rubber/secure
-  - safety: guard/rubber
+  - safety(?! testing): shelter
   - salary: wage/meed/hire
   - sally: crack
   - sass: lip/mouth
