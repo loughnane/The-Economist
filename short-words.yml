@@ -1257,7 +1257,7 @@ swap:
   - reveal: break/unwrap
   - revealed: break/unwrap
   - reverse: blow/lift/turn
-  - reviewer: reader
+  - (?<!(?:design|code)\s)\breview(?:er|ed|ing){0,1}: go over/look at/read
   - rhythm: beat/cycle
   - risk: gamble/hazard
   - robust: rich
