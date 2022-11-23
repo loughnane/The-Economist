@@ -1212,8 +1212,8 @@ swap:
   - rehabilitation: renewal
   - relat(?:e|ion|ionship): bond/tie/link/make known/tell/touch
   - relax|relaxation: loose/rest 
-  - release: free/loose/loss/outlet/turn
   - release(?:\s\w+){1,3}\s\b(?:docs|doc|documents)\b: bless/endorse/give the OK/sign off on
+  - release(?!(?:\s\w+){1,3}\s\b(?:docs|doc|documents)\b): free/loose/loss/outlet/turn
   - reliable: true
   - reliance: trust
   - relief: rest
