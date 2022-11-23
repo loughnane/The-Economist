@@ -459,12 +459,10 @@ swap:
   - diagram: plot
   - dictionary: wordbook
   - die: break/go
-  - difference: remainder
-  - different: unlike
+  - different: other/unlike
   - differently: otherwise
   - different|alternative: other/else
-  - difficult(?:y|ies){0,1}: hardness/hardship/ordeal
-  - difficult: hard
+  - difficult(?:y|ies){0,1}: hard/hardness/hardship/ordeal
   - dig: hollow/shaft/shot
   - digest: bear/brook/stand
   - digit: finger
