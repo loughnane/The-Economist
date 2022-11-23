@@ -14,7 +14,6 @@ swap:
   - \w*(?<!do )just: barely/but/fair/good/hardly/only
   - \w*(?<!get )familiar: companion/fellow
   - \w*(?<!of )course: feed/flow/line/path/row/run/track/trend
-  - \w*(?<!of\s)view: see/sight/thought/watch
   - \w*(?<!our )duty: tariff
   - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
   - abandons{0,1}|discard: ditch/dump/empty/give up/leave/scrap/shed/strand/
@@ -1521,7 +1520,7 @@ swap:
   - vertex: peak
   - victor: winner
   - video: television
-  - view: see/sight/thought/watch
+  - \w*(?<!of\s)\bview: see/sight/thought/watch
   - viewer: witness
   - vigilant: watchful/waking/wary
   - village: settlement
