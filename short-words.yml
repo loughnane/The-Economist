@@ -1447,7 +1447,7 @@ swap:
   - terribl[ey]: deep/keen/startling/thoroughly
   - terrible: awful
   - terror: threat
-  - test: quiz/run/try
+  - (?<!(?:safety|verification|validation)\s)test: quiz/run/try
   - testament: will
   - textile: cloth
   - the cause: mother/root/spring/ 
