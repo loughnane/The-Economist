@@ -1,0 +1,11 @@
+extends: existence
+message: "'%s' sounds pretentious"
+ignorecase: true
+level: warning
+raw:
+  - \b(one\b\s*)
+tokens:
+  - could
+  - might
+  - would
+
