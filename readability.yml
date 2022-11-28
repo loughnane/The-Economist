@@ -2,7 +2,7 @@
 extends: readability
 message: "Grade level (%s) too high!"
 level: warning
-grade: 6
+grade: 5
 metrics:
   - Flesch-Kincaid
   - Gunning Fog
