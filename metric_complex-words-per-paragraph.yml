@@ -1,0 +1,8 @@
+extends: metric
+message: "%s complex words per paragraph. Try to stay below 3."
+link: https://insidegovuk.blog.gov.uk/2014/08/04/sentence-length-why-25-words-is-our-limit/
+
+formula: |
+    (complex_words/paragraphs)
+
+condition: "> 3"
