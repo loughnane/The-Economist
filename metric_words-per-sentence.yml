@@ -1,8 +1,8 @@
 extends: metric
-message: "%s words per sentence. Try to stay below 25."
+message: "%s words per sentence. Try to keep the average below 15."
 link: https://insidegovuk.blog.gov.uk/2014/08/04/sentence-length-why-25-words-is-our-limit/
 
 formula: |
     (words / sentences)
 
-condition: "> 25"
+condition: "> 10"
