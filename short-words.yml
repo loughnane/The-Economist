@@ -308,9 +308,7 @@ swap:
   - compose: frame/pen/write
   - composition: make-up/paper/writing
   - comprehend: understand/get/grasp
-  - concern: business/care/fear/interest/touch/worry
-  - concern[ed]{0,2}: ail/angered/fluster/gall/grate/put off/rattled/shook/weird/worried
-  - concerned: interest/touch/worry
+  - concern[ed|s|ing]{0,2}: ail/angered/business/care/fear/fluster/gall/grate/interest/put off/rattled/shook/touch/weird/worried
   - conclusion: end/last
   - concord: hold
   - condition: check/shape
