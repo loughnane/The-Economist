@@ -841,7 +841,7 @@ swap:
   - manager: coach
   - manner: way
   - manufacfture: make
-  - manufacturer: maker
+  - (?<!contract\s)manufacturer: maker
   - margin: border
   - mark: brand/check/label/marker/mug/pit/score/scratch/set/tag/target
   - market: marketplace/mart
