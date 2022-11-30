@@ -348,7 +348,7 @@ swap:
   - continue: abide/go on/hold/keep/last
   - continued: keep
   - continued{0,1}: keep
-  - contract: cut/get/narrow/take/undertake
+  - contract(?!\smanufacturer): cut/get/narrow/take/undertake
   - contradict: fight
   - contrast: line
   - contribute: bring/give/lead
