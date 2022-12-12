@@ -1,0 +1,7 @@
+extends: metric
+message: "%s Gunning-Fog index. Try to keep it below 10."
+link: https://en.wikipedia.org/wiki/Gunning_fog_index
+
+formula: |
+  0.4 * ((words / sentences) + 100 * (complex_words / words))
+condition: "> 2"

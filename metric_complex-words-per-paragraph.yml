@@ -5,4 +5,4 @@ link: https://insidegovuk.blog.gov.uk/2014/08/04/sentence-length-why-25-words-is
 formula: |
     (complex_words/paragraphs)
 
-condition: "> 3"
+condition: "> 1"
