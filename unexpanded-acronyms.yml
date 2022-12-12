@@ -13,6 +13,7 @@ exceptions:
   - AIDS
   - APA
   - API
+  - BLE
   - CBS
   - CEO
   - CIA
@@ -56,6 +57,7 @@ exceptions:
   - TODO
   - URL
   - USA
+  - USB
   - USSR
   - XML
   - XXX
