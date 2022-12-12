@@ -73,7 +73,6 @@ swap:
   - agree: acknowledge/check/find/fit/hold/match/placate/settle/yield
   - agreement: accord/understanding
   - aid: care/help
-  - aim: bearing/drive/get/place/take/target
   - air: bare/beam/broadcast/line/send
   - alert: alive/tip-off/warn/
   - alien: unknown
@@ -309,9 +308,7 @@ swap:
   - compose: frame/pen/write
   - composition: make-up/paper/writing
   - comprehend: understand/get/grasp
-  - concern: business/care/fear/interest/touch/worry
-  - concern[ed]{0,2}: ail/angered/fluster/gall/grate/put off/rattled/shook/weird/worried
-  - concerned: interest/touch/worry
+  - concern[ed|s|ing]{0,2}: ail/angered/business/care/fear/fluster/gall/grate/interest/put off/rattled/shook/touch/weird/worried
   - conclusion: end/last
   - concord: hold
   - condition: check/shape
@@ -348,7 +345,7 @@ swap:
   - continue: abide/go on/hold/keep/last
   - continued: keep
   - continued{0,1}: keep
-  - contract: cut/get/narrow/take/undertake
+  - contract(?!\smanufacturer): cut/get/narrow/take/undertake
   - contradict: fight
   - contrast: line
   - contribute: bring/give/lead
@@ -465,7 +462,7 @@ swap:
   - digest: bear/brook/stand
   - digit: finger
   - dine|consume|devour|ingest: eat/sup/break/bread/banquet/feed/snack/swallow/nosh/take/in/bite/scarf
-  - direct: engineer/head/lead/place/send/steer/straight/take/target
+  - direct: aim/engineer/head/lead/place/send/steer/straight/take/target
   - direction: way
   - directly: flat/now/straight
   - disappear|disappearing|disappearance: die out/fade/melt away
@@ -841,7 +838,7 @@ swap:
   - manager: coach
   - manner: way
   - manufacfture: make
-  - manufacturer: maker
+  - (?<!contract\s)manufacturer: maker
   - margin: border
   - mark: brand/check/label/marker/mug/pit/score/scratch/set/tag/target
   - market: marketplace/mart
@@ -1500,7 +1497,6 @@ swap:
   - utilise: use
   - utilize: use
   - vacation: holiday/leave/break/furlough
-  - validation: establishment
   - value: treasure/worth
   - variety: kind
   - various|miscellaneous: sundry/mixed
