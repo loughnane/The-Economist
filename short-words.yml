@@ -1495,10 +1495,9 @@ swap:
   - unity: I/one
   - universe: world
   - unnecessary: undue/unneeded/uncalled-for
-  - utilise: use
-  - utilize: use
+  - utili[sz]e: use
   - vacation: holiday/leave/break/furlough
-  - value: treasure/worth
+  - valued{0,1}: treasure/worth
   - variety: kind
   - various|miscellaneous: sundry/mixed
   - veal: calf
