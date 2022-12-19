@@ -735,8 +735,8 @@ swap:
   - induction: trigger
   - infant: babe/baby/child/bairn/kid/newborn
   - inferiors{0,1}: lesser/worse
-  - influence(?:d|s){0,1}: sway 
-  - influence: shape/work
+  - influence(?:d|s){0,1}: sway/shape/work 
+  - influential: weighty
   - informal: loose
   - initiate: beginner/start
   - initiative: first/maiden/opening
@@ -1025,7 +1025,7 @@ swap:
   - pic: film
   - picnic: snap
   - picture: film/see/show
-  - piece: bit/man/pick/spell
+  - piece(?:s){0,1}: bit/man/pick/spell
   - pigeon|culver: dove
   - pilot: buffer/fly
   - pine: yearn
