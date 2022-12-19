@@ -956,7 +956,6 @@ swap:
   - opt: choose
   - optic: eye
   - option: choice/pick
-  - opt|select: choose/pick
   - oracle: prophet
   - orbit: field/reach
   - order: club/guild/place/put/rank/say/tell
@@ -1296,8 +1295,7 @@ swap:
   - search: hunt/hunting/look/lookup/seek
   - secret: hidden/mysterious/underground
   - secure: good/guarantee/plug/strong
-  - select: choice/choose/take
-  - select|selection: choice/choosing/pick/picking
+  - select(?:s|ed|ion){0,1}: choice/choosing/pick/picking
   - self-evident: a given/open and shut/undeniable/unmistakeable
   - senior: elder/elderly
   - sense: feel/smell
@@ -1307,9 +1305,7 @@ swap:
   - separate: break/fork/split/tell
   - sept: folk
   - series|order|sequence: array/row/range/rank/line/lineup/set/lot/list
-  - serious: good/grave
-  - seriously: badly
-  - serious|grave|sober: earnest/grave/grim/sober/staid/stern/weighty
+  - serious(?:ly|ness)|grave(?:ly): earnest/grave/grim/sober/staid/stern/weighty
   - serpent: snake/worm
   - serve: answer/dish/do/help
   - service: help
