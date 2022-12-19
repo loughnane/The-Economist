@@ -1492,6 +1492,7 @@ swap:
   - utili[sz]e: use
   - vacation: holiday/leave/break/furlough
   - valued{0,1}: treasure/worth
+  - vanish(?:ed|es){0,1}: melt/sink
   - variety: kind
   - various|miscellaneous: sundry/mixed
   - veal: calf
