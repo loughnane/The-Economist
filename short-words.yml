@@ -1509,7 +1509,6 @@ swap:
   - verification: check
   - vertex: peak
   - victor: winner
-  - video: television
   - \w*(?<!of\s)\bview: see/sight/thought/watch
   - viewer: witness
   - vigilant: watchful/waking/wary
