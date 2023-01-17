@@ -14,6 +14,7 @@ exceptions:
   - APA
   - API
   - BLE
+  - BOM
   - CBS
   - CEO
   - CIA
@@ -46,6 +47,7 @@ exceptions:
   - NFL
   - NHL
   - NOTE
+  - OKR
   - PDF
   - PGA
   - PPV

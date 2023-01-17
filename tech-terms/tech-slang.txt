@@ -1,2 +1,10 @@
-n00b
+benchmark
+benchmarked
+benchmarks
 livestream
+n00b
+OKR
+spinout
+sprintly
+standup
+standups
