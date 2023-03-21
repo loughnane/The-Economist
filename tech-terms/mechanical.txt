@@ -4,3 +4,6 @@ Solidworks
 overmold
 overmolds
 autoinjector
+brushless
+windings
+brushless

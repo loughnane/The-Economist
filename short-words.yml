@@ -42,6 +42,7 @@ swap:
   - action|attitude|manner|conduct: behaviour/bearing/etiquette/way
   - activate: trigger
   - active: alive
+  - activit(?:y|ies): doings/duty/tasks/work
   - actor: player/worker
   - acute: keen/sharp
   - add: bring
@@ -88,6 +89,7 @@ swap:
   - amicable: friendly/kindly/warm
   - amorous: loving/fond
   - amount: come
+  - amplify: boost
   - anatomy: build/flesh/frame/shape/soma
   - anchor: ground
   - ancient|antediluvian: old/stale/elderly/of yore
@@ -101,7 +103,6 @@ swap:
   - annual(?:ly){0,1}: yearly
   - anticipate: call
   - anxiety: care/fear/worry
-  - apart: aside
   - apartment: flat
   - apparel: clothes
   - appear: look/seem
@@ -205,7 +206,6 @@ swap:
   - cable: line/wire
   - cad: dog/heel
   - calculate: bet/forecast/look
-  - calm: steady
   - camp: pack
   - campaign: drive/fight/run/safari
   - cancel: offset/scratch
@@ -241,7 +241,7 @@ swap:
   - chamber: bedroom
   - champion: fighter/friend/star/wizard
   - chance: find/gamble/ehappen/hazard/luck
-  - change: shift/switch
+  - chang(?:e|ed|ing): shift/switch
   - channel: groove/line
   - charge: accuse/bang/bearing/buck/burden/care/flush/kick/load/rush/send/shoot/tear
   - charm: spell
@@ -300,6 +300,7 @@ swap:
   - compan(?:y|ies): companion/fellowship/firm
   - companion: fellow
   - company: companion/fellowship
+  - compared to: over
   - comparable: corresponding/like
   - complaint: ill
   - complete: dispatch/nail/over
@@ -377,7 +378,7 @@ swap:
   - crap: bull/dirt/make/shit
   - crazy: mad/sick/wild
   - cream: lick/pick
-  - create: make
+  - creating: bringing about/making/turning out
   - created{0,1}: bring about/made/turned out
   - creation: world
   - creature: tool
@@ -493,7 +494,6 @@ swap:
   - dose: Zen/dot
   - double: twice
   - double|duplicate: twin/twofold/
-  - doubt: uncertainty
   - dozen: twelve
   - drafted: drew up/wrote/crafted
   - drama: play
@@ -621,9 +621,8 @@ swap:
   - final: last/net
   - finally: last
   - fine: all right/good/OK/ticket
-  - finish: end/goal/last/stop
-  - finish|complete|completing|discontinue|terminate: end/fulfill/halt/wrap up/stop
-  - firm: fast/house/steady/strong
+  - finish|complete|completing|discontinue|terminate: end/fulfill/goal/halt/last/stop/wrap up
+  - (?<!(?:every|the) )firm(?!s): fast/house/steady/strong
   - fix: get/hole/jam/make/ready/secure/set
   - flame: fire
   - flavour: feel/feeling/look/smell
@@ -634,10 +633,8 @@ swap:
   - following(?! up): after
   - folly|foolery|absurdity: blunder/drivel/madness 
   - fool: cod/mark/mug/sap/shoot
-  - force: draw/drive/pull/ram/storm/strength
   - forced{0,1}: draw/drive/pull/ram/storm/strength
-  - forest: timber/wood
-  - forest|copse,|coppice: wood/bush/grove/brush/thicket/timber/frith/shaw
+  - forest|copse,|coppice: brush/bush/frith/grove/thicket/timber/shaw/wood
   - forge: fake/hammer/shape/work
   - form: build/cast/flesh/frame/kind/make/shape/soma/spring/outline/work
   - formation: establishment
@@ -645,7 +642,6 @@ swap:
   - foundation: foot
   - founder: beginner/break/father/give
   - fountain: spring
-  - frank: dog/frankfurter
   - fraternal: brotherly
   - fraud: fake
   - frequent: shop
@@ -722,8 +718,7 @@ swap:
   - inception: begin/birth/start/the day
   - inch: edge/in
   - incorporate|incorporation: embody/embodiment
-  - increase: growth
-  - increase|increasing: build/pump/raise/stoke/swell/up
+  - increas(?:e|ed|ing): boost/build/growth/pump/raise/stoke/swell/up
   - incur: find/get
   - independent: freelance/main
   - indicate: show
@@ -851,7 +846,7 @@ swap:
   - material: cloth/stuff
   - maternal: motherly
   - matt: flat/mat
-  - matter: thing
+  - (?<!no )matter: thing
   - mature: grow/ripe
   - max: scoop/soap
   - measure: beat/step
@@ -926,6 +921,7 @@ swap:
   - nude: bare/naked
   - nuke: microwave
   - number: bit/come/list/turn
+  - number one: foremost/greatest/leading
   - nurse: harbour/hold/suck
   - nursery: greenhouse
   - nursing: harbour/hold/suck
@@ -950,7 +946,7 @@ swap:
   - omitted: left out/skipped
   - operate: go/lock/mesh/run/work
   - operating: go/lock/mesh/run/work
-  - opinion: belief/feeling/thought
+  - opinions{0,1}: belief/feeling/thought
   - oppose: fight/match/pit
   - opt: choose
   - optic: eye
@@ -1033,7 +1029,6 @@ swap:
   - piss: make/water
   - plain: bare/field/kick/knit/sheer/spare
   - plane: flat/shave/sheet
-  - plate: home/shell
   - plaza: place
   - plenty: batch/deal/enough/lot/mint/pot/sight/stack
   - pocket: bag/scoop
@@ -1093,6 +1088,7 @@ swap:
   - print: mark
   - prior to: before
   - prior: before/beforehand/ahead of/ere
+  - prioritize: rank/put first
   - prize: award/booty/choice/jimmy/treasure
   - probably: likely
   - problem: job
@@ -1108,7 +1104,6 @@ swap:
   - programme: broadcast
   - progress: build/further/growth
   - prohibit|prevent|interdict: forbid/ban/forestall
-  - project: cast/see/throw
   - projection: forecast/outlook
   - prominent: big/outstanding
   - promise: call/hope
@@ -1188,7 +1183,7 @@ swap:
   - recording: read/show/tape
   - recover: find
   - recruit: raise
-  - reduce: cut/slim/thin/trim
+  - reduc(?:e|ed|ing): cut/shrink/slim/thin/trim
   - reduction: debasement/dent/drop/fall/loss
   - refer: consult/name/touch
   - reference: extension
@@ -1215,7 +1210,7 @@ swap:
   - remark: input
   - remember: recall/think
   - remote: outside
-  - remove: dispatch/hit/murder/shed/shift/strip/take off/withdraw
+  - remov(?:e|ed|ing): dispatch/hit/murder/shed/shift/strip/take off/withdraw
   - render: give/show/try/yield
   - repeatedly: again and again/habitually/over and over
   - replace: swap/took the place of
