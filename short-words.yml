@@ -1498,8 +1498,6 @@ swap:
   - verification: check
   - vertex: peak
   - victor: winner
-  - \w*(?<!of\s)\bview: see/sight/thought/watch
-  - viewer: witness
   - vigilant: watchful/waking/wary
   - village: settlement
   - violent: red/wild
