@@ -302,6 +302,7 @@ swap:
   - company: companion/fellowship
   - compared to: over
   - comparable: corresponding/like
+  - compel(?:s|led|ling){0,1}: drive/make/threaten
   - complaint: ill
   - complete: dispatch/nail/over
   - completely: all/whole/wholly
@@ -372,7 +373,7 @@ swap:
   - count: bet/look
   - country: commonwealth/land
   - couple: match/mate/span/twin
-  - course: feed/flow/line/path/row/run/track/trend
+  - (?<!(?:of) )course: feed/flow/line/path/row/run/track/trend
   - court|enclosure: garden/yard/park/pound/paddock
   - cover: back/binding/breed/deal/handle/hide/top/track/treat
   - crap: bull/dirt/make/shit
@@ -688,7 +689,6 @@ swap:
   - hostel: inn
   - hour|moment|interval: stound/time/tide/while/throw/spell/stint
   - however: but
-  - human: man
   - humanity: world
   - humour: mood/wit
   - hurt: harm/smart
@@ -888,7 +888,6 @@ swap:
   - mould: cast/shape/stamp/work
   - mount: hill/barrow/mound/down/dune
   - mountain: batch/deal/lot/mint/mount/pot/sight/stack
-  - move: go/run/strike
   - movement: drive/trend
   - movie: film
   - multiple|numerous|abundant|copious: many/manifold/rife/teeming
@@ -1132,7 +1131,7 @@ swap:
   - purpose: dream/goal/end 
   - purse: bag/handbag
   - pursue: follow
-  - pursuit: interest
+  - pursuit(?:s){0,1}: interest/work
   - push: crowd/drive/fight
   - pussy: cunt/kitty
   - putrefy: rot/defile/befoul
@@ -1200,6 +1199,7 @@ swap:
   - relax|relaxation: loose/rest 
   - release(?:\s\w+){1,3}\s\b(?:docs|doc|documents)\b: bless/endorse/give the OK/sign off on
   - release(?!(?:\s\w+){1,3}\s\b(?:docs|doc|documents)\b): free/loose/loss/outlet/turn
+  - relevant: useful
   - reliable: true
   - reliance: trust
   - relief: rest
@@ -1208,7 +1208,7 @@ swap:
   - rely: bank/trust
   - remain: are still/belive/belave/abide/rest/tarry/stay
   - remark: input
-  - remember: recall/think
+  - remember: think
   - remote: outside
   - remov(?:e|ed|ing): dispatch/hit/murder/shed/shift/strip/take off/withdraw
   - render: give/show/try/yield
