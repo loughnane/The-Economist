@@ -792,7 +792,7 @@ swap:
   - label: mark/tag
   - labor: work/drudge/drudgery
   - labour: drive
-  - lament|deplore: weep/greet/(cry)/regret/bawl/wail/whine/cry/mourn/sob
+  - lament(?:ing|ed){0,1}|deplore: weep/greet/(cry)/regret/bawl/wail/whine/cry/mourn/sob
   - lance: gig/shaft/spear
   - language: lyric/tongue/speech/talk
   - large amount: bunch/good deal/great deal/load
@@ -1257,7 +1257,6 @@ swap:
   - route|avenue|itinerary: road/way/boulevard/drive/path/street
   - routine: bit/everyday/turn
   - ruby: cherry/red
-  - rule: find
   - sacred: holy/hallowed
   - sacrifice: give
   - safe: good/rubber/secure
@@ -1320,7 +1319,6 @@ swap:
   - simply: but/only
   - single: I/one
   - situation: place/spot
-  - society: club/fellowship/guild
   - soil: dirt/dirty/ground/land
   - sole: lone/only
   - solely: alone/only
