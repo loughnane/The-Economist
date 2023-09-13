@@ -6,5 +6,5 @@ scope: text
 level: warning
 ignorecase: true
 tokens:
-  - ought
-  - should
+  - (?<!i\s)ought
+  - (?<!i\s)should
