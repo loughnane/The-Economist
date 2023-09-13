@@ -1,0 +1,13 @@
+---
+extends: substitution
+message: "Consider '%s' instead of '%s'"
+description: "Try to replace abstract nouns with specific verbs. 'proposes' vs 'proposal', 'certify' instead of 'certification'"
+level: suggestion
+scope: text
+ignorecase: true
+swap:
+  - affiliation: tie
+  - proposal: propose
+  - certification: certify
+  - exemption: exempt
+  - safety: safe

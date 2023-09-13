@@ -68,7 +68,6 @@ swap:
   - affair: involvement/thing
   - affair|enterprise: business/undertaking
   - affect: strike/touch
-  - affiliation: tie
   - age: lifetime/lifespan
   - agency: way
   - agree: acknowledge/check/find/fit/hold/match/placate/settle/yield
@@ -356,7 +355,7 @@ swap:
   - controlling: check/hold/see
   - convenience: gadget
   - conversation: banter/chat/talk
-  - converse|discourse|communication|dictation: speak/talk/prate/prattle
+  - coneerse|discourse|communication|dictation: speak/talk/prate/prattle
   - convict: con
   - cook: fake/make/ready
   - cooking: fake/make/ready
@@ -1072,7 +1071,7 @@ swap:
   - presently: shortly/soon
   - preserve: keep
   - president: chair/chairman
-  - press: bid/fight/iron/jam
+  - press(?! release): bid/fight/iron/jam
   - prevalent: everyday/widespread
   - prevent: keep
   - preview: trailer
@@ -1185,7 +1184,6 @@ swap:
   - reduc(?:e|ed|ing): cut/shrink/slim/thin/trim
   - reduction: debasement/dent/drop/fall/loss
   - refer: consult/name/touch
-  - reference: extension
   - refine: down
   - reflect: shine
   - refuse: garbage
