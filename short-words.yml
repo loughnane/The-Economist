@@ -134,10 +134,8 @@ swap:
   - assess: set
   - assign: put
   - assist: help/give a hand/bestead
-  - assistance: help
   - assistant: help
   - associate: companion/fellow/link
-  - association: tie
   - assumed{0,1}: bear/believe/gather/guess/strike/take/think/understand/wear
   - assurances{0,1}: pledge
   - assure: check/guarantee/secure/see/tell
@@ -146,11 +144,11 @@ swap:
   - attack: blast/fire
   - attain: gain/have/win
   - attained: gained/had/won
-  - attempt: seek/try/undertake
-  - attend: hang/look/see
+  - attempt(?:s|ed|ing){0,1}: seek/try/undertake
+  - attend(?:s|ed|ing){0,1}: hang/look/see
   - attention: care/heed
   - attorney: lawyer
-  - attract: draw/pull
+  - attract(?:s|ed|ing){0,1}: draw/pull
   - attraction: draw
   - audience: hearing
   - audio: sound
@@ -216,7 +214,7 @@ swap:
   - capable: open
   - capital: great
   - captain|emperor|count|duke|president: leader/king/head
-  - capture: get
+  - capture(?:s|ed|ing){0,1}: get
   - card: board/plug-in/wit
   - career|profession|vocation|occupation|employment: calling/job/lifework/livelihood/living
   - cargo: freight/load/shipment
@@ -227,7 +225,7 @@ swap:
   - cartridge: magazine/pickup
   - case: lawsuit/shell/showcase/slip
   - casual: daily/everyday
-  - catch: get/grab/match/see/snap/stop/watch
+  - catch(?:es|ed|ing){0,1}: get/grab/match/see/snap/stop/watch
   - cause: do/drive/get/have/lawsuit/make
   - caution: care
   - celebrate: keep
@@ -962,9 +960,8 @@ swap:
   - oxygen: O
   - pa: dad/daddy/pop
   - pace: step/yard
-  - pain: bother
   - painful: awful
-  - pain|agony: ache/hurt/smart/woe/sore/throe
+  - pain|agony: ache/bother/hurt/smart/woe/sore/throe
   - pair: match/mate/span/twin
   - pale: sick/wan
   - palm: handle/ribbon
