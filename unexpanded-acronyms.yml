@@ -8,6 +8,7 @@ first: \b([A-Z]{3,5})\b
 second: (?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)
 exceptions:
   - ABC
+  - ACC
   - ADD
   - ADHD
   - AIDS
@@ -22,15 +23,18 @@ exceptions:
   - CSS
   - CST
   - ESPN
+  - ECG
   - EST
   - FAQ
   - FIXME
+  - FDA
   - GNU
   - HIV
   - HR
   - HTML
   - HTTP
   - HTTPS
+  - IMU
   - JSON
   - LAN
   - MIT
@@ -50,6 +54,7 @@ exceptions:
   - OKR
   - PDF
   - PGA
+  - PPG
   - PPV
   - PST
   - SGML
