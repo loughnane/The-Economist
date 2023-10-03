@@ -984,7 +984,7 @@ swap:
   - password: word
   - past: by
   - paste: spread
-  - patch: plot/spell/spot
+  - (?<!security )patch: plot/spell/spot
   - paternal: fatherly/fatherlike
   - pattern: shape
   - pay: bear/give/wage/yield
