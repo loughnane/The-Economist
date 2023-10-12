@@ -68,7 +68,6 @@ swap:
   - affair: involvement/thing
   - affair|enterprise: business/undertaking
   - affect: strike/touch
-  - age: lifetime/lifespan
   - agency: way
   - agree: acknowledge/check/find/fit/hold/match/placate/settle/yield
   - agreement: accord/understanding
@@ -855,7 +854,6 @@ swap:
   - mention: name
   - menu: fare
   - merchandise: trade/ware
-  - mere: bare
   - merely: but/only
   - merge: blend
   - mesa: table
@@ -982,7 +980,7 @@ swap:
   - passenger: rider
   - passion: heat/love
   - password: word
-  - past: by
+  - (?<!went|drove|flew|walked|ran|)\s{0,1}past: by
   - paste: spread
   - (?<!security )patch: plot/spell/spot
   - paternal: fatherly/fatherlike
