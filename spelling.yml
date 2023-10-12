@@ -10,6 +10,7 @@ ignore:
   - style/tech-terms/business.txt
   - style/tech-terms/csharp.txt
   - style/tech-terms/ddd.txt
+  - style/tech-terms/domains.txt
   - style/tech-terms/devops.txt
   - style/tech-terms/electrical.txt
   - style/tech-terms/firms.txt
@@ -17,6 +18,7 @@ ignore:
   - style/tech-terms/java.txt
   - style/tech-terms/linux.txt
   - style/tech-terms/mechanical.txt
+  - style/tech-terms/medical.txt
   - style/tech-terms/mobile.txt
   - style/tech-terms/monitoring.txt
   - style/tech-terms/security.txt
