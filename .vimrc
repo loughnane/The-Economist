@@ -1,4 +1,4 @@
-" Comments in Vimscript start with a `"`.
+"Plug 'psf/black', { 'branch': 'stable' } Comments in Vimscript start with a `"`.
 
 " If you open this file in Vim, it'll be syntax highlighted for you.
 
@@ -63,6 +63,13 @@ set noerrorbells visualbell t_vb=
 " sometimes be convenient.
 set mouse+=a
 
+" also copy to system's clipboard
+set clipboard=unnamedplus
+
+
+" set tags
+set tags=./tags;,
+
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
 " for movement, rather than using more efficient movement commands, is also a
@@ -80,25 +87,29 @@ inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 " markdown shortcuts
-nnoremap <leader>b viw:s/\(\w*\)/**\1**/<CR>
-nnoremap <leader>i viw:s/\(\w*\)/_\1_/<CR>
+nnoremap <leader>b ciw**<C-R>"**<Esc>
+nnoremap <leader>i ciw_<C-R>"_<Esc>
+
+" put quotes around a word
+nnoremap <leader>q viws""<Esc>P
 
 " hide markdown links
 set conceallevel=2
 autocmd FileType markdown syntax match MarkdownLink '\v\([^ ]+\)' containedin=ALL conceal cchar=✦
 
-
-
-
 nnoremap ' :ALENext<CR>
 nnoremap ; :ALEPrevious<CR>
 let g:ale_virtualtext_cursor=0
-let g:ale_linters = {'markdown':['vale'], 'python':['pylint']}
+let g:ale_linters = {'markdown':['vale'], 'python':['pylint','pylsp']}
+let g:ale_python_pylint_options = '--disable=E0401'
 let g:ale_set_balloons = 1
+let g:ale_completion_enabled = 1
+
+
+
 call plug#begin()
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
-"   - Vim (Windows): '~/vimfiles/plugged'
 "   - Neovim (Linux/macOS/Windows): stdpath('data') . '/plugged'
 " You can specify a custom plugin directory by passing it as the argument
 "   - e.g. `call plug#begin('~/.vim/plugged')`
@@ -111,6 +122,10 @@ Plug 'dense-analysis/ale'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'github/copilot.vim'
+Plug 'tpope/vim-commentary'
+Plug 'arcticicestudio/nord-vim'
+Plug 'psf/black', { 'branch': 'stable' }
 call plug#end()
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
