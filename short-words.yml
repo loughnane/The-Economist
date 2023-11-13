@@ -619,7 +619,7 @@ swap:
   - finally: last
   - fine: all right/good/OK/ticket
   - finish|complete|completing|discontinue|terminate: end/fulfill/goal/halt/last/stop/wrap up
-  - (?<!(?:every|the) )firm(?!s): fast/house/steady/strong
+  - (?<!(?:every|the) )firm(?!s|'s): fast/house/steady/strong
   - fix: get/hole/jam/make/ready/secure/set
   - flame: fire
   - flavour: feel/feeling/look/smell
@@ -632,7 +632,7 @@ swap:
   - fool: cod/mark/mug/sap/shoot
   - forced{0,1}: draw/drive/pull/ram/storm/strength
   - forest|copse,|coppice: brush/bush/frith/grove/thicket/timber/shaw/wood
-  - forge: fake/hammer/shape/work
+  - forge: hammer/shape/work
   - form: build/cast/flesh/frame/kind/make/shape/soma/spring/outline/work
   - formation: establishment
   - fortune: hazard/lot/luck
@@ -640,7 +640,7 @@ swap:
   - founder: beginner/break/father/give
   - fountain: spring
   - fraternal: brotherly
-  - fraud: fake
+  - fraud: fake/phoney
   - frequent: shop
   - frequently: often
   - frigid: cold/chilly/freezing
@@ -982,7 +982,7 @@ swap:
   - password: word
   - (?<!went|drove|flew|walked|ran|)\s{0,1}past: by
   - paste: spread
-  - (?<!security )patch: plot/spell/spot
+  - (?<!security |temp |chest |ecg )patch: plot/spell/spot
   - paternal: fatherly/fatherlike
   - pattern: shape
   - pay: bear/give/wage/yield
