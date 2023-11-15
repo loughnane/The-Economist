@@ -85,7 +85,7 @@ autocmd FileType markdown syntax match MarkdownLink '\v\([^ ]+\)' containedin=AL
 let w:ProseModeOn = 0
 
 function EnableProseMode()
-	setlocal spell spelllang=en_us
+	" setlocal spell spelllang=en_us
 	Goyo 66
 	SoftPencil
 	echo "Prose Mode On"
