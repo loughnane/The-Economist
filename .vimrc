@@ -25,6 +25,13 @@ set backspace=indent,eol,start
 set hidden
 set clipboard=unnamedplus
 
+
+set foldmethod=syntax
+set foldnestmax=10
+set foldenable
+set foldlevel=2
+
+
 " =======================
 " Key Mappings
 " =======================
