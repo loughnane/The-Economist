@@ -1125,8 +1125,6 @@ swap:
   - purse: bag/handbag
   - pursue: follow
   - pursuit(?:s){0,1}: interest/work
-  - push: crowd/drive/fight
-  - pussy: cunt/kitty
   - putrefy: rot/defile/befoul
   - qualified: characterize
   - qualify: characterize
