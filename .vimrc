@@ -18,6 +18,8 @@ set tags=./tags;,
 set noerrorbells visualbell t_vb=
 filetype on
 
+colorscheme habamax
+
 " =======================
 " Editor Behavior
 " =======================
@@ -50,6 +52,12 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+nnoremap <leader>ad :ALEDisable<CR>
+nnoremap <leader>ae :ALEEnable<CR>
+nnoremap <leader>p :Prose<CR>
+nnoremap <leader>up :UnProse<CR>
+nnoremap go }j
+nnoremap gp {k
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
@@ -131,15 +139,15 @@ endfu
 " =======================
 
 " Color name (:help cterm-colors) or ANSI code
-let g:limelight_conceal_ctermfg = 'gray'
-" let g:limelight_conceal_ctermfg = 240
+" let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
 
 " Color name (:help gui-colors) or RGB color
 " let g:limelight_conceal_guifg = 'DarkGray'
 " let g:limelight_conceal_guifg = '#777777'
 
 " Default: 0.5
-" let g:limelight_default_coefficient = 0.7
+let g:limelight_default_coefficient = 0.1
 
 " Number of preceding/following paragraphs to include (default: 0)
 " let g:limelight_paragraph_span = 1
@@ -147,7 +155,7 @@ let g:limelight_conceal_ctermfg = 'gray'
 " Beginning/end of paragraph
 "   When there's no empty line between the paragraphs
 "   and each paragraph starts with indentation
-" let g:limelight_bop = '^\s'
+let g:limelight_bop = '\n' " so it doesn't highlight two paragraphs when I'm on the blank line in between
 " let g:limelight_eop = '\ze\n^\s'
 
 " Highlighting priority (default: 10)
