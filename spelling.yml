@@ -14,6 +14,7 @@ ignore:
   - style/tech-terms/devops.txt
   - style/tech-terms/electrical.txt
   - style/tech-terms/firms.txt
+  - style/tech-terms/filetypes.txt
   - style/tech-terms/general.txt
   - style/tech-terms/java.txt
   - style/tech-terms/linux.txt
