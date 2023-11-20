@@ -963,7 +963,7 @@ swap:
   - palm: handle/ribbon
   - panel: board/gore
   - panic: scare
-  - paper: newspaper/wallpaper
+  - (?<!wrapping) paper: newspaper/wallpaper
   - parallel: twin
   - parcel: bundle/package/packet/share
   - parent: raise
