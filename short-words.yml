@@ -700,7 +700,7 @@ swap:
   - impact: touch
   - imply: mean
   - import: spell
-  - important|grave: big/key/material/meaningful/profound/weighty
+  - important|grave: big/key/meaningful/profound/weighty
   - impossible: far-fetched/outlandish/unthinkable
   - impressed: shanghai/strike
   - impression: belief/feeling/stamp
