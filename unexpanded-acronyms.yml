@@ -89,6 +89,7 @@ exceptions:
   - IMU
   - IRR
   - ISO
+  - ISTA
   - IV
   - IX
   - JNJ
