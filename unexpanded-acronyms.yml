@@ -9,6 +9,7 @@ second: (?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)
 exceptions:
   - AAMI
   - ABC
+  - ABS
   - ACC
   - ADD
   - ADHD
@@ -128,12 +129,14 @@ exceptions:
   - OEM
   - OKR
   - PAF
+  - PC
   - PCB
   - PCBA
   - PCP
   - PDF
   - PGA
   - PMA
+  - PMMA
   - POC
   - PPG
   - PPV
@@ -141,6 +144,7 @@ exceptions:
   - PSPEC
   - PST
   - PST
+  - PVC
   - QMS
   - RAM
   - RAW
