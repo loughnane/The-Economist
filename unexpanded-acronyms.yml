@@ -26,6 +26,9 @@ exceptions:
   - ESPN
   - ECG
   - EST
+  - EOW
+  - EOD
+  - EOY
   - FAQ
   - FIXME
   - FDA
