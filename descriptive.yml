@@ -9,4 +9,4 @@ swap:
   - ambigu(?:ity|ous): amorphous/nebulous/opaque
   - poor: destitute/indigent
   - rich: opulent
-  - food: bread/fare/meat
+  - food(?! and drug): bread/fare/meat
