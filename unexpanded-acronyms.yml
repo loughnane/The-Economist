@@ -19,6 +19,8 @@ exceptions:
   - API
   - ASAP
   - ASME
+  - BAA
+  - BIDMC
   - BLE
   - BOM
   - BYOD
@@ -31,6 +33,8 @@ exceptions:
   - CFR
   - CGM
   - CIA
+  - CKD
+  - CMS
   - COGS
   - COPD
   - COVID
@@ -39,10 +43,12 @@ exceptions:
   - CST
   - DATA
   - DCT
+  - DDP
   - DEMO
   - DHF
   - DHT
   - DIX
+  - DMR
   - DOA
   - DSPEC
   - DTX
@@ -68,6 +74,8 @@ exceptions:
   - GNU
   - GSR
   - HBR
+  - HCP
+  - HIPAA
   - HIV
   - HLTH
   - HR
@@ -91,14 +99,19 @@ exceptions:
   - LOG
   - LTE
   - LTE
+  - MBA
   - MCT
   - MDD
+  - MDDS
   - MDM
   - MDR
+  - MGB
+  - MGH
   - MIR
   - MIT
   - MLA
   - MLB
+  - MQTT
   - MTV
   - NASA
   - NATO
@@ -114,17 +127,24 @@ exceptions:
   - OEM
   - OKR
   - PAF
+  - PCB
+  - PCBA
   - PCP
   - PDF
   - PGA
+  - PMA
+  - POC
   - PPG
   - PPV
   - PROD
+  - PSPEC
   - PST
   - PST
   - QMS
   - RAM
   - RAW
+  - RFP
+  - RMP
   - RPM
   - RR
   - SDK
@@ -134,10 +154,12 @@ exceptions:
   - SOP
   - SSN
   - SSPEC
+  - TLS
   - TNT
   - TOC
   - TODO
   - UAT
+  - UREQ
   - URL
   - USA
   - USB
@@ -145,7 +167,9 @@ exceptions:
   - VI
   - VII
   - VIII
+  - VPLAN
   - WCDMA
+  - WPA
   - XI
   - XII
   - XML
