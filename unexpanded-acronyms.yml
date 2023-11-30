@@ -7,40 +7,95 @@ description: "Write the words in full on first appearance, unless the abbreviati
 first: \b([A-Z]{3,5})\b
 second: (?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)
 exceptions:
+  - AAMI
   - ABC
   - ACC
   - ADD
   - ADHD
+  - ADI
   - AIDS
+  - ANSI
   - APA
   - API
+  - ASAP
+  - ASME
   - BLE
   - BOM
+  - BYOD
+  - CAPA
   - CBS
+  - CDMA
   - CEO
-  - CIA
+  - CES
+  - CET
+  - CFR
   - CGM
+  - CIA
+  - COGS
+  - COPD
+  - COVID
   - CSI
   - CSS
   - CST
-  - ESPN
+  - DATA
+  - DCT
+  - DEMO
+  - DHF
+  - DHT
+  - DIX
+  - DOA
+  - DSPEC
+  - DTX
   - ECG
-  - EST
-  - EOW
+  - ECG
+  - EDA
+  - EEG
+  - EKG
+  - ELT
+  - EMR
   - EOD
+  - EOW
   - EOY
+  - ESPN
+  - EST
+  - EST
   - FAQ
-  - FIXME
   - FDA
+  - FIXME
+  - FTE
+  - FVC
+  - GMT
   - GNU
+  - GSR
+  - HBR
   - HIV
+  - HLTH
   - HR
+  - HRV
   - HTML
   - HTTP
   - HTTPS
+  - IFU
+  - II
+  - III
   - IMU
+  - IRR
+  - ISO
+  - IV
+  - IX
+  - JNJ
   - JSON
+  - KPI
   - LAN
+  - LED
+  - LOG
+  - LTE
+  - LTE
+  - MCT
+  - MDD
+  - MDM
+  - MDR
+  - MIR
   - MIT
   - MLA
   - MLB
@@ -52,24 +107,46 @@ exceptions:
   - NCAA
   - NCAAB
   - NCAAF
+  - NDA
   - NFL
   - NHL
   - NOTE
+  - OEM
   - OKR
+  - PAF
+  - PCP
   - PDF
   - PGA
   - PPG
   - PPV
+  - PROD
   - PST
+  - PST
+  - QMS
+  - RAM
+  - RAW
+  - RPM
+  - RR
   - SDK
   - SGML
+  - SLA
   - SLT
+  - SOP
   - SSN
+  - SSPEC
   - TNT
+  - TOC
   - TODO
+  - UAT
   - URL
   - USA
   - USB
   - USSR
+  - VI
+  - VII
+  - VIII
+  - WCDMA
+  - XI
+  - XII
   - XML
   - XXX
