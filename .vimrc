@@ -26,7 +26,7 @@ colorscheme habamax
 set backspace=indent,eol,start
 set hidden
 set clipboard=unnamedplus
-
+set shiftwidth=4
 
 set foldmethod=syntax
 set foldnestmax=10
