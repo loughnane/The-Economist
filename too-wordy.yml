@@ -2,7 +2,7 @@
 extends: substitution
 message: "Consider '%s' instead of '%s'"
 description: "Don't be too wordy"
-level: suggestion
+level: warning
 scope: text
 ignorecase: true
 swap:
