@@ -7,32 +7,43 @@ description: Some words add nothing but length to your prose.
 ignorecase: true
 tokens:
   - any time soon
+  - a total of
   - bought up
   - cut back
   - cutbacks
+  - definitely
+  - essentially
+  - for all intents and purposes
   - for free
   - free gift
   - freed up
+  - generally
   - hatched up
   - headed up by
   - large-scale
-  - meet with
   - manage to
   - managed to
-  - Most especially
-  - Most probably
+  - meet with
+  - most especially
+  - most probably
   - policymaking process
+  - really
   - safe haven
   - sale events
   - sent off to bed
   - so-called
   - sold off
   - strike action
-  - The fact that
+  - the fact that
+  - tend to
+  - tends to
+  - the thing is that
+  - the truth is that
   - there are
   - there is
-  - This time around
+  - this time around
   - top priority
   - track record
+  - various
   - weather conditions
   - wilderness area

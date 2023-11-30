@@ -1,0 +1,314 @@
+---
+extends: substitution
+message: "Consider '%s' instead of '%s'"
+description: "Don't be too wordy"
+level: suggestion
+scope: text
+ignorecase: true
+swap:
+  - a little bit: “a bit” or “a little”
+  - a number of: some/many
+  - a variety of different things: a variety
+  - accomplish: do
+  - add together: add
+  - add up: add
+  - added bonus: bonus
+  - addressee: you
+  - advance forward: advance
+  - advance planning: planning
+  - advance reservation: reservation
+  - advance warning: warning
+  - after the conclusion of: after
+  - all of: all
+  - all-time record: record
+  - annoyingly frustrating: frustrating/annoying
+  - anonymous stranger: stranger
+  - any and all: any or all
+  - apportion out: apportion
+  - are representative of: represent
+  - as a matter of fact: in fact
+  - as far as \w+ is concerned: regarding 
+  - as of this writing: now/currently
+  - as per: per
+  - as regards: about
+  - ascend up: ascend
+  - ask a question: ask
+  - at the current time: now
+  - at the present time: now
+  - at the same time as: as
+  - at the time of publication: now/currently
+  - at this point in time: now/currently
+  - ATM machine: ATM
+  - based on the fact that: because
+  - basic essentials: essentials
+  - basic fundementals: fundementals
+  - basic necessities: necessities
+  - be aware of the fact: know/understand
+  - beat out: beat
+  - biography of her life: biography
+  - both agree: agree
+  - both of them: both
+  - brief jaunt: jaunt
+  - brief moment: moment
+  - brief summary: summary
+  - by means of: by/via
+  - by way of: by/via
+  - cameo appearance: cameo
+  - cheaper price: cheaper or “lower price”
+  - check and see: check
+  - circle around: circle
+  - clean up: clean
+  - click on: click
+  - climb up: climb
+  - close intimates: intimates
+  - close proximity: near/proximity
+  - close scrutiny: scrutiny
+  - cluster together: cluster
+  - colder temperature: colder or “lower temperature”
+  - collaborate together: collaborate
+  - collide into each other: collide
+  - combine together: combine
+  - come to an end: end
+  - comes equipped with: includes/comes with/is preinstalled/is preloaded
+  - comes with it right out of the box: includes/comes with/is preinstalled/is preloaded
+  - commence: start
+  - compete with each other: compete
+  - completely destroyed: destroyed
+  - completely finished: finished
+  - completely opposite: opposite
+  - completely surrounded: surrounded
+  - completely unanimous: unanimous
+  - components that make up: components
+  - concerning the matter of: about
+  - consensus of opinion: consensus
+  - consequently: so
+  - considering the fact that: because/since
+  - continue on: continue
+  - cooperate together: cooperate
+  - crammed close together: crammed
+  - currently at this time: currently/now
+  - dark/black sky: black sky
+  - debris left behind: debris
+  - debut of a new product: product debut
+  - deceptive lie: lie
+  - decrease in size: shrink
+  - depart from: depart
+  - descend down: descend
+  - describe in words: describe
+  - despite the fact that: although/even though
+  - detrimentally affect: harm/hurt
+  - dry desert: desert
+  - due to the fact that: because
+  - during the period: during
+  - each and every: each
+  - elements that are a part of: elements
+  - emit out: emit
+  - empty out: empty
+  - empty void: void
+  - encounter: meet
+  - end result: result
+  - endure for <length of time>: endure <length of time>
+  - ensure the largest amount: maximize
+  - ensure the least amount: minimize
+  - enter into: enter
+  - escape from: escape
+  - exact same: same
+  - exactly the same: the same
+  - exactly word for word: exactly or “word for word” (pick one)
+  - exit out of: exit
+  - expedite: speed up
+  - factor that plays a role: factor
+  - fade away: fade
+  - famous celebrity: celebrity
+  - far away from: far from
+  - fill up: fill
+  - finish up: finish
+  - first and foremost: foremost
+  - flee from: flee
+  - following on: after
+  - for the purpose of: to
+  - for the reason that: because
+  - foreign imports: imports
+  - forward progress: progress
+  - free gift: gift
+  - fundamental basis: basis
+  - fuse together: fuse
+  - future ahead: future
+  - give the opportunity to: let/allow
+  - glide smoothly: glide
+  - good-quality: quality
+  - grab onto: grab
+  - grow larger: grow
+  - has enough space on the inside to fully accommodate: fits
+  - has the ability to: can
+  - has the capacity to/for: can
+  - have an effect on: affect/influence
+  - have an impact on: affect/influence
+  - have got: have
+  - have the capability to: can
+  - he is a man who is: he is
+  - head up: head
+  - help out: help
+  - high up in: high in
+  - hotter temperature: hotter or “higher temperature”
+  - how-to tutorials: tutorials
+  - human artifact: artifact
+  - impacts that result from: impacts/results
+  - In a place where: where
+  - in a similar manner: similarly
+  - in a situation in which: when
+  - in advance of: before
+  - in an effort to: to
+  - in close proximity to: close to
+  - in connection with: about
+  - in excess of: more than/over
+  - in light of the fact that: considering
+  - in my own personal opinion: in my opinion
+  - in order for: for
+  - in order to: to
+  - in reference to: about
+  - in spite of the fact that: although or though
+  - in terms of: regarding (or recast the sentence)
+  - in the amount of: for
+  - in the amount of <specific amount>: for <specific amount>
+  - in the direction of: toward (U.S.) or towards (UK)
+  - in the event that: if
+  - in the near future: soon (or be more specific about the time)
+  - in view of the fact that: because
+  - inadvertent error: error
+  - increase in size: grow
+  - insist adamantly: insist
+  - is able to: can
+  - is capable of: can
+  - is located in: is in
+  - it could happen that: may/might/can/could
+  - it is often the case that: often
+  - it is possible that: may/might/can/could
+  - it is requested: please
+  - it’s important to note that: notably
+  - join together: join
+  - jump up: jump
+  - laptop computer: laptop
+  - last for <length of time>: last <length of time>
+  - leak out: leak
+  - leave from: leave
+  - less than great: subpar/mediocre/OK
+  - less than spectacular: subpar/mediocre/OK
+  - lift up: lift
+  - linger around: linger
+  - lower down: lower
+  - mail out: mail
+  - make a choice: choose
+  - make a contribution to: contribute
+  - make a decision: decide
+  - match up: match
+  - merge together: merge
+  - methodology: method
+  - middle ground in between: middle ground
+  - minor tweaks: tweaks
+  - minute details: minutiae
+  - more better: better
+  - more often than not: usually
+  - more ways than one: multiple ways
+  - morph for the worse: deform
+  - mutual agreement: agreement
+  - new innovation: innovation
+  - not too long from now: soon (or be more specific about the time)
+  - not very good: subpar/mediocre/OK
+  - notification alert: notification or alert
+  - notwithstanding the fact that: although/even/though
+  - now pending: pending
+  - numerous: many
+  - on sale for a discounted rate: “on sale,” “on discount,” or discounted
+  - on the grounds that: because
+  - on the occasion of: when
+  - on the part of: by
+  - once used to do: did (or used to)
+  - one and the same: the same
+  - orbit around: orbit
+  - over the course of: throughout
+  - overexaggerate: exaggerate
+  - owing to the fact that: because
+  - past history: history
+  - period of four days: four days
+  - permeate through: permeate
+  - pick and choose: pick/choose/select
+  - plan out: plan
+  - precisely adjust: fine-tune
+  - present incumbent: incumbent
+  - prior to: before
+  - proceed forward: proceed
+  - progress forward: progress
+  - provide the ability to let/allow: let/allow
+  - provided that: if
+  - raise up: raise
+  - rarely ever: rarely
+  - reconsider again: reconsider
+  - reflect back on: reflect on
+  - regardless of the fact that: although/even/though
+  - regress backward: regress
+  - rejected outcast: outcast
+  - related to each other: related
+  - relative to: about
+  - repeat again: repeat
+  - retain the same: retain
+  - retreat back: retreat
+  - return back: return
+  - revert back: revert
+  - rise up: rise
+  - roasting in heat: roasting
+  - sad lament: lament
+  - safe haven: haven
+  - same identical: identical
+  - scrutinize very carefully: scrutinize
+  - send out: send
+  - share in common: share together
+  - share the same: share (or have the same)
+  - shift around: shift
+  - shorter/longer in length: shorter/longer
+  - shout out: shout
+  - shrink smaller: shrink
+  - simultaneously with: as
+  - sink down: sink
+  - sit down: sit
+  - slam forcefully: slam
+  - small bits: bits
+  - soar up: soar
+  - specific details: details
+  - specific enough to say exactly: specify
+  - specific to your wants and needs: customized
+  - spin around: spin
+  - start off: start
+  - still remain: remain
+  - subsequent to: after
+  - sudden impulse: impulse
+  - tailored to fit: tailored
+  - take into consideration: consider
+  - tall skyscraper: skyscraper
+  - tap on: tap
+  - test out: test
+  - the majority of: most
+  - the place at which: where
+  - the reason for: because/since
+  - the reason why is that: because
+  - the time at which: when
+  - the way in which: how
+  - there are times when: sometimes
+  - there is a chance that: may/might/can/could
+  - tragically sad: tragic
+  - trailing behind: trailing
+  - true fact: fact
+  - two opposites: opposites
+  - under circumstances in which: when
+  - unexpected surprise: surprise
+  - used to at one time: used to
+  - used to in the past: used to
+  - utilize: use
+  - vast majority: majority
+  - when it comes to: regarding (or reword the sentence)
+  - where . . . is concerned: about
+  - whether or not: whether (unless it means regardless of whether)
+  - which was when: when
+  - with regard to: about
+  - with the exception of: except
+  - yearly annual: annual or annually

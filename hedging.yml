@@ -4,17 +4,20 @@ message: "Consider removing '%s'"
 ignorecase: true
 level: warning
 tokens:
+  - \w*(?<!how )could|may
+  - apparently
   - appear to be
   - arguably
-  - as far as I know
-  - \w*(?<!How )could|may
+  - as far as i know
+  - basically
   - from my point of view
   - hopefully
-  - I believe
-  - I doubt
-  - I think
+  - i believe
+  - i doubt
+  - i think
   - in general
-  - In my opinion
+  - in my opinion
+  - in some ways
   - likely
   - might
   - more or less
@@ -27,3 +30,4 @@ tokens:
   - to my knowledge
   - unlikely
   - usually
+  - virtually
