@@ -37,7 +37,7 @@ swap:
   - ace: I/crack/nail/one/star/wizard
   - achieve: reach
   - acid: Zen/dot
-  - acquire: get/grow/learn/take/win
+  - acquire: buy/get/grow/learn/take/win
   - acquisition: skill
   - action|attitude|manner|conduct: behaviour/bearing/etiquette/way
   - activate: trigger
@@ -315,7 +315,6 @@ swap:
   - confidence: trust
   - configuration: shape
   - confirmation: check
-  - conflict: fight/struggle
   - congratulate|laud: praise
   - connect: link/tie
   - connection: link
@@ -477,13 +476,13 @@ swap:
   - distance: length
   - distinguish(?:es|ed){0,1}: mark off/set apart
   - distinguish: key/mark/name/spot/tell
-  - distribute(?:s|d){0,1}: broadcast/deal/gettable/lot/spread
-  - distribute: broadcast/deal/lot/spread
+  - distribute(?:s|d){0,1}: broadcast/deal/gettable/hand out/lot/spread
   - disturb: touch/upset
   - diurnal|quotidian: daily
   - divide: split/watershed
   - domain: field/land/world
   - dome: bean
+  - donate: give
   - dormant|hibernate|torpid: sleeping/slumbering/idle/fallow
   - dose: Zen/dot
   - double: twice
@@ -568,6 +567,7 @@ swap:
   - expand: boom
   - explain(?:ed|ing){0,1}: break down/spell out 
   - expect(?:ed){0,1}: ask/await/bear/bide/look/wait/ween
+  - expenditure: spending
   - expectation: outlook
   - experience(?:s){0,1}: chops/deed/eminence/feel/get/have/know/know-how/live/see/ordeal/venerable/venture
   - expert: good/technical
@@ -757,7 +757,6 @@ swap:
   - interpretation: reading
   - intimate: inner
   - inundate: flood/overwhelm/overset
-  - inventory: stock
   - invest: gift/place/put/seat
   - invite: bid
   - involve: ask/need/take
@@ -1482,6 +1481,8 @@ swap:
   - victor: winner
   - vigilant: watchful/waking/wary
   - village: settlement
+  - violate: break
+  - violation: breaking
   - violent: red/wild
   - virtually: about/almost/near/nearly
   - visceral: knee-jerk/deep-rooted/deep-seated
@@ -1493,4 +1494,5 @@ swap:
   - volume: book/bulk
   - warranty: guarantee
   - waste: blow/ware/wild
+  - witnessed: saw
   - zero: nil/nothing

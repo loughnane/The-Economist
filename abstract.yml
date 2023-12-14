@@ -7,7 +7,7 @@ scope: text
 ignorecase: true
 swap:
   - accountability: x
-  - adaptability: x
+  - academic community: scholars
   - adaptability: x
   - affinity: x
   - agility: x
@@ -23,10 +23,12 @@ swap:
   - coherence: x
   - collaboration: x
   - compatibility: x
+  - compensation: pay
   - competitiveness: x
   - complexity: x
   - compliance: x
   - confidentiality: x
+  - conflict: fight/struggle/war
   - conformity: x
   - connectivity: x
   - connectivity: x
@@ -38,7 +40,6 @@ swap:
   - discernment: x
   - diversity: x
   - efficiency: x
-  - elasticity: x
   - elasticity: x
   - engagement: x
   - equity: x
@@ -54,6 +55,7 @@ swap:
   - generativity: x
   - generosity: x
   - governance: x
+  - high-net-worth individuals: rich people
   - impeccability: x
   - inclusivity: x
   - initiative: x
@@ -62,6 +64,7 @@ swap:
   - integrity: x
   - interoperability: x
   - intuition: x
+  - inventory: goods/products on shelves/stock
   - leadership: x
   - legitimacy: x
   - liquidity: x
@@ -88,6 +91,7 @@ swap:
   - resilience: x
   - resilience: x
   - responsiveness: x
+  - revenue: sales
   - scalability: x
   - sensitivity: x
   - serenity: x
@@ -109,3 +113,4 @@ swap:
   - visibility: x
   - vitality: x
   - vulnerability: x
+  - workforce: workers
