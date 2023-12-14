@@ -1,0 +1,17 @@
+---
+extends: substitution
+message: "Consider '%s' instead of '%s'. Euphemism hides truth, but so does hyperbole."
+description: "Euphemism hides truth. So does hyperbole"
+level: suggestion
+scope: text
+ignorecase: true
+swap:
+  - homelessness: people sleeping rough
+  - human-rights abuses: massacre/murder/torture
+  - civilian casualtiess: dead civilians
+  - collateral damage: dead civilians
+  - mortality: death
+  - irregularities: fraud
+  - redundancies: layoffs
+  - reduction in force: layoff
+    

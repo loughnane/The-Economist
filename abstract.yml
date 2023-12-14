@@ -8,10 +8,11 @@ ignorecase: true
 swap:
   - accountability: x
   - academic community: scholars
-  - adaptability: x
+  - adaptability: adapt
   - affinity: x
-  - agility: x
+  - agility: u
   - alignment: x
+  - approval: approving/approved
   - assistance: assist
   - association: associate
   - authenticity: x
@@ -38,6 +39,7 @@ swap:
   - differentiation: x
   - dignity: x
   - discernment: x
+  - discussion: talk about
   - diversity: x
   - efficiency: x
   - elasticity: x

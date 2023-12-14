@@ -8,6 +8,7 @@ swap:
   - acquainted: know
   - carer: x
   - chattering classes: x
+  - contact: talk to/send a message
   - escalate: talk
   - facilitate: help/grease/smooth
   - Governance: x
@@ -22,4 +23,4 @@ swap:
   - rack up: x
   - savvy: know-how
   - segue: shift
-  - stakeholder: folks with an interest
+  - stakeholders{0,1}: folks with an interest
