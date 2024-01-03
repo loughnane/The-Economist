@@ -1,7 +1,5 @@
 " Initialization Settings
 " =======================
-set nocompatible
-syntax on
 set shortmess+=I
 
 " =======================
@@ -15,8 +13,7 @@ set smartcase
 set incsearch
 set conceallevel=2
 set tags=./tags;,
-set noerrorbells visualbell t_vb=
-filetype on
+  set noerrorbells visualbell t_vb=
 
 colorscheme habamax
 
@@ -32,6 +29,32 @@ set foldmethod=syntax
 set foldnestmax=10
 set foldenable
 set foldlevel=2
+let g:javaScript_fold = 1
+
+set expandtab        " Use spaces instead of tabs
+set tabstop=2        " Number of spaces that a tab counts for
+set shiftwidth=2     " Number of spaces to use for each step of (auto)indent
+set softtabstop=2    " Number of spaces that a tab counts for while performing editing operations
+
+
+
+" ===================
+" vimwiki
+" ==================
+
+set nocompatible
+syntax on
+filetype plugin indent on
+let g:vimwiki_global_ext = 0
+" let g:vimwiki_list = [{'path': "~/code/chrislco/content",
+" \ 'syntax': 'markdown', 'ext': '.md','index':"vw.md"}]
+
+let wikiPath = getenv('VIMWIKI_PATH')
+if wikiPath != ''
+  let g:vimwiki_list = [{'path': wikiPath,
+        \ 'syntax': 'markdown', 'ext': '.md', 'index': 'vw.md'}]
+endif
+
 
 
 " =======================
@@ -56,6 +79,8 @@ nnoremap <leader>ad :ALEDisable<CR>
 nnoremap <leader>ae :ALEEnable<CR>
 nnoremap <leader>p :Prose<CR>
 nnoremap <leader>up :UnProse<CR>
+nnoremap <leader>a vip:EasyAlign<CR>*|
+
 nnoremap go }j
 nnoremap gp {k
 
@@ -81,6 +106,10 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'prettier/vim-prettier'
+Plug 'vimwiki/vimwiki'
+Plug 'michal-h21/vim-zettel'
+Plug 'dhruvasagar/vim-table-mode'
 call plug#end()
 
 " =======================
@@ -100,38 +129,44 @@ autocmd FileType markdown syntax match MarkdownLink '\v\([^ ]+\)' containedin=AL
 " =======================
 let w:ProseModeOn = 0
 
+
+function! NoConsole()
+  %g/console\./norm I//
+endfunction
+
 function EnableProseMode()
-	" setlocal spell spelllang=en_us
-	Goyo 66
-	SoftPencil
-	echo "Prose Mode On"
+  " setlocal spell spelllang=en_us
+  Goyo 66
+  SoftPencil
+  echo "Prose Mode On"
 endfu
 
 function DisableProseMode()
-	Goyo!
-	NoPencil
-	setlocal nospell
-	echo "Prose Mode Off"
+  Goyo!
+  NoPencil
+  setlocal nospell
+  echo "Prose Mode Off"
 endfu
 
 function ToggleProseMode()
-	if w:ProseModeOn == 0
-		call EnableProseMode()
-		let w:ProseModeOn = 1
-	else
-		call DisableProseMode()
-		let w:ProseModeOn = 0
-	endif
+  if w:ProseModeOn == 0
+    call EnableProseMode()
+    let w:ProseModeOn = 1
+  else
+    call DisableProseMode()
+    let w:ProseModeOn = 0
+  endif
 endfu
 
 command Prose call EnableProseMode()
 command UnProse call DisableProseMode()
 command ToggleProse call ToggleProseMode()
+command NoConsole call NoConsole()
 
 function ScratchBufferize()
-	setlocal buftype=nofile
-	setlocal bufhidden=hide
-	setlocal noswapfile
+  setlocal buftype=nofile
+  setlocal bufhidden=hide
+  setlocal noswapfile
 endfu
 
 " =======================
