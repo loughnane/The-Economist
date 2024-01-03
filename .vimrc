@@ -55,7 +55,22 @@ if wikiPath != ''
         \ 'syntax': 'markdown', 'ext': '.md', 'index': 'vw.md'}]
 endif
 
+"  The following will open a QuickFix window with incomplete tasks, 
+"  but only those which are in a hyphenated (-) list. This is a 
+"  simple way to filter only on tasks which are ready to be performed. 
 
+function! VimwikiFindIncompleteTasks()
+  lvimgrep /- \[ \]/ %:p
+  lopen
+endfunction
+
+function! VimwikiFindAllIncompleteTasks()
+  VimwikiSearch /- \[ \]/
+  lopen
+endfunction
+
+nmap <Leader>wa :call VimwikiFindAllIncompleteTasks()<CR>
+nmap <Leader>wx :call VimwikiFindIncompleteTasks()<CR>
 
 " =======================
 " Key Mappings
