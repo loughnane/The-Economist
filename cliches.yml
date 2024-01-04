@@ -12,6 +12,7 @@ tokens:
   - a penny saved is a penny earned
   - a tough row to hoe
   - a word to the wise
+  - accident waiting to happen
   - ace in the hole
   - acid test
   - add insult to injury
@@ -25,7 +26,7 @@ tokens:
   - all's fair in love and war
   - all's well that ends well
   - almighty dollar
-  - American as apple pie
+  - american as apple pie
   - an axe to grind
   - another day, another dollar
   - armed to the teeth
@@ -125,6 +126,7 @@ tokens:
   - cat's meow
   - caught in the crossfire
   - caught red-handed
+  - chattering classes
   - checkered past
   - chomping at the bit
   - cleanliness is next to godliness
@@ -158,6 +160,7 @@ tokens:
   - dark before the dawn
   - day in, day out
   - dead as a doornail
+  - deer in the headlights
   - devil is in the details
   - dime a dozen
   - divide and conquer
@@ -167,6 +170,7 @@ tokens:
   - dog tired
   - don't burn your bridges
   - don't count your chickens
+  - don't cry for
   - don't look a gift horse in the mouth
   - don't rock the boat
   - don't step on anyone's toes
@@ -195,6 +199,7 @@ tokens:
   - every fiber of my being
   - everything but the kitchen sink
   - eye for an eye
+  - eye-watering suyms
   - face the music
   - facts of life
   - fair weather friend
@@ -210,6 +215,7 @@ tokens:
   - fish out of water
   - fishing for a compliment
   - fit as a fiddle
+  - fit for purpose
   - fit the bill
   - fit to be tied
   - flash in the pan
@@ -231,6 +237,7 @@ tokens:
   - fresh as a daisy
   - full steam ahead
   - fun in the sun
+  - game-changer
   - garbage in, garbage out
   - gentle as a lamb
   - get a kick out of
@@ -249,6 +256,7 @@ tokens:
   - go the extra mile
   - go with the flow
   - goes without saying
+  - going forward
   - good as gold
   - good deed for the day
   - good things come to those who wait
@@ -258,6 +266,7 @@ tokens:
   - greek to me
   - green thumb
   - green-eyed monster
+  - grinding to a halt
   - grist for the mill
   - growing like a weed
   - hair of the dog
@@ -275,6 +284,7 @@ tokens:
   - heard it through the grapevine
   - heart's content
   - heavy as lead
+  - heavy lifting
   - hem and haw
   - high and dry
   - high and mighty
@@ -285,11 +295,12 @@ tokens:
   - hold your own
   - hold your tongue
   - honest as the day is long
+  - honeymoon period
   - horns of a dilemma
   - horse of a different color
   - hot under the collar
   - hour of need
-  - I beg to differ
+  - i beg to differ
   - icing on the cake
   - if the shoe fits
   - if the shoe were on the other foot
@@ -311,7 +322,7 @@ tokens:
   - it's a small world
   - it's only a matter of time
   - ivory tower
-  - Jack of all trades
+  - jack of all trades
   - jockey for position
   - jog your memory
   - joined at the hip
@@ -363,6 +374,7 @@ tokens:
   - let your hair down
   - let's talk turkey
   - letter perfect
+  - level playing field
   - lick your wounds
   - lies like a rug
   - life's a bitch
@@ -391,8 +403,8 @@ tokens:
   - lounge lizard
   - loved and lost
   - low man on the totem pole
-  - luck of the draw
   - luck of the Irish
+  - luck of the draw
   - make hay while the sun shines
   - make money hand over fist
   - make my day
@@ -403,6 +415,7 @@ tokens:
   - man's best friend
   - mark my words
   - meaningful dialogue
+  - mind the gap
   - missed the boat on that one
   - moment in the sun
   - moment of glory
@@ -444,8 +457,8 @@ tokens:
   - off the wall
   - old hat
   - older and wiser
-  - older than dirt
   - older than Methuselah
+  - older than dirt
   - on a roll
   - on cloud nine
   - on pins and needles
@@ -480,12 +493,14 @@ tokens:
   - pain in the
   - panic button
   - par for the course
+  - paradigm shift
   - part and parcel
   - party pooper
   - pass the buck
   - patience is a virtue
   - pay through the nose
   - penny pincher
+  - perfecft storm
   - perfect storm
   - pig in a poke
   - pile it on
@@ -502,10 +517,12 @@ tokens:
   - plenty of fish in the sea
   - point with pride
   - poor as a church mouse
+  - poster child
   - pot calling the kettle black
   - pretty as a picture
   - pull a fast one
   - pull your punches
+  - pulling teeth
   - pulling your leg
   - pure as the driven snow
   - put it in a nutshell
@@ -519,9 +536,11 @@ tokens:
   - quick as a wink
   - quick as lightning
   - quiet as a dormouse
+  - rack up
   - rags to riches
   - raining buckets
   - raining cats and dogs
+  - ramping up
   - rank and file
   - rat race
   - reap what you sow
@@ -533,6 +552,7 @@ tokens:
   - ripe old age
   - ripped me off
   - rise and shine
+  - rise of the machines
   - road to hell is paved with good intentions
   - rob Peter to pay Paul
   - roll over in the grave
@@ -571,7 +591,10 @@ tokens:
   - smooth as a baby's bottom
   - sneaking suspicion
   - snug as a bug in a rug
+  - southern comfort
+  - southern discomfort
   - sow wild oats
+  - spare the rod
   - spare the rod, spoil the child
   - speak of the devil
   - spilled the beans
@@ -602,9 +625,10 @@ tokens:
   - take the plunge
   - takes one to know one
   - takes two to tango
+  - the green light
   - the more the merrier
-  - the real deal
   - the real McCoy
+  - the real deal
   - the red carpet treatment
   - the same old story
   - there is no accounting for taste
@@ -624,6 +648,7 @@ tokens:
   - time and time again
   - time is of the essence
   - tip of the iceberg
+  - tipping point
   - tired but happy
   - to coin a phrase
   - to each his own
@@ -631,6 +656,7 @@ tokens:
   - to the best of my knowledge
   - toe the line
   - tongue in cheek
+  - too close to call
   - too good to be true
   - too hot to handle
   - too numerous to mention
@@ -659,6 +685,7 @@ tokens:
   - vanquish the enemy
   - vested interest
   - waiting for the other shoe to drop
+  - wake-up call
   - wakeup call
   - warm welcome
   - watch your p's and q's
@@ -680,6 +707,7 @@ tokens:
   - whole ball of wax
   - whole hog
   - whole nine yards
+  - whopping bills
   - wild goose chase
   - will wonders never cease?
   - wisdom of the ages
