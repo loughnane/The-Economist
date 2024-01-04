@@ -46,7 +46,6 @@ swap:
   - actor: player/worker
   - acute: keen/sharp
   - add: bring
-  - address(?:ed){0,1}: call/deal/handle/speak/speech/treat
   - adept: skillful/crafty/deft
   - adequate: enough/good
   - adhere: cling/hew/stick
@@ -586,7 +585,6 @@ swap:
   - extremely: highly
   - fabric: cloth/framework
   - face: brass/look/nerve/side
-  - facilitate: ease/forward/further/help/smooth
   - facility: plant,club,warehouse
   - factory: mill
   - faculty: staff
@@ -616,8 +614,7 @@ swap:
   - finally: last
   - fine: all right/good/OK/ticket
   - finish|complete|completing|discontinue|terminate: end/fulfill/goal/halt/last/stop/wrap up
-  - (?<!(?:every|the) )firm(?!s|'s): fast/house/steady/strong
-  - fix: get/hole/jam/make/ready/secure/set
+  - (?<!(?:every|the|big|some) )firm(?!s|'s): fast/house/steady/strong
   - flame: fire
   - flavour: feel/feeling/look/smell
   - flex: bend/turn/twist

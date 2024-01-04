@@ -6,7 +6,7 @@ level: warning
 scope: text
 ignorecase: true
 swap:
-  - address (?:the|your): cope with/deal with/field/handle/work on/
+  - address (?:the|your): cope with/deal with/field/handle/treat/work on/
   - adopt(?:|ed|ion|ing): take on/use
   - ambigu(?:ity|ous): amorphous/nebulous/opaque
   - backfill: replacement
