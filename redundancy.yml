@@ -1,0 +1,85 @@
+---
+extends: substitution
+message: "Consider '%s' instead of '%s'"
+description: "Many words add nothing but length"
+level: suggestion
+scope: text
+ignorecase: true
+swap:
+  - (?:past|lived|personal) experience: experience
+  - absolute certainty: certainty
+  - absolutely certain: certain
+  - bought up: bought
+  - cut back: cut
+  - cutbacks: cuts
+  - final otucome: outcome
+  - for free: free
+  - from whence: whence
+  - headed up by: headed by
+  - in close proximity to: close to
+  - large-scale: big/large
+  - located in: in
+  - major speech: speech
+  - nod your head: nod
+  - pilotless drone: drone
+  - policymaking process: policymaking
+  - role model: model
+  - safe haven: haven
+  - shrug your shoulders: shrug
+  - sold off: sold
+  - the \w+ sector: eg industry/agriculture
+  - the fact that: that
+  - top priority: priority
+  - track record: record
+  - wilderness area: wilderness
+  - advance warning: warning
+  - added bonus: bonus
+  - advance planning: planning
+  - basic fundamentals: fundamentals
+  - close scrutiny: scrutiny
+  - completely destroy: destroy
+  - consensus of opinion: consensus
+  - end result: result
+  - false pretense: pretense
+  - first began: began
+  - free gift: gift
+  - future plans: plans
+  - general public: public
+  - honest truth: truth
+  - join together: join
+  - mental cognition: cognition
+  - mutual cooperation: cooperation
+  - new beginning: beginning
+  - past history: history
+  - personal opinion: opinion
+  - plan ahead: plan
+  - revert back: revert
+  - small size: small
+  - unexpected surprise: surprise
+  - unintended mistake: mistake
+  - armed gunman: gunman
+  - brief moment: moment
+  - burning fire: fire
+  - circle around: circle
+  - climb up: climb
+  - collaborate together: collaborate
+  - combine together: combine
+  - continue on: continue
+  - descend down: descend
+  - each and every: each
+  - enter in: enter
+  - final conclusion: conclusion
+  - gather together: gather
+  - kneel down: kneel
+  - mix together: mix
+  - outside exterior: exterior
+  - over exaggerate: exaggerate
+  - pair together: pair
+  - postpone until later: postpone
+  - raise up: raise
+  - repeat again: repeat
+  - round in shape: round
+  - sink down: sink
+  - surrounded on all sides: surrounded
+  - tune up: tune
+  - visible to the eye: visible
