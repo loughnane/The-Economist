@@ -234,7 +234,6 @@ swap:
   - chamber: bedroom
   - champion: fighter/friend/star/wizard
   - chance: find/gamble/ehappen/hazard/luck
-  - chang(?:e|ed|ing): shift/switch
   - channel: groove/line
   - charge: accuse/bang/bearing/buck/burden/care/flush/kick/load/rush/send/shoot/tear
   - charm: spell
