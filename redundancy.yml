@@ -9,81 +9,84 @@ swap:
   - (?:past|lived|personal) experience: experience
   - absolute certainty: certainty
   - absolutely certain: certain
-  - bought up: bought
-  - cut back: cut
-  - cutbacks: cuts
-  - each one of: each of
-  - final otucome: outcome
-  - for free: free
-  - free gift: gift
-  - from whence: whence
-  - headed up by: headed by
-  - in close proximity to: close to
-  - just one of: just one
-  - large-scale: big/large
-  - located in: in
-  - major speech: speech
-  - most of them: most
-  - nod your head: nod
-  - pilotless drone: drone
-  - policymaking process: policymaking
-  - role model: model
-  - safe haven: haven
-  - shrug your shoulders: shrug
-  - sold off: sold
-  - the \w+ sector: eg industry/agriculture
-  - the fact that: that
-  - top priority: priority
-  - track record: record
-  - wilderness area: wilderness
-  - advance warning: warning
   - added bonus: bonus
   - advance planning: planning
-  - basic fundamentals: fundamentals
-  - close scrutiny: scrutiny
-  - completely destroy: destroy
-  - consensus of opinion: consensus
-  - end result: result
-  - false pretense: pretense
-  - first began: began
-  - free gift: gift
-  - future plans: plans
-  - general public: public
-  - honest truth: truth
-  - join together: join
-  - mental cognition: cognition
-  - mutual cooperation: cooperation
-  - new beginning: beginning
-  - past history: history
-  - personal opinion: opinion
-  - plan ahead: plan
-  - revert back: revert
-  - small size: small
-  - unexpected surprise: surprise
-  - unintended mistake: mistake
+  - advance warning: warning
   - armed gunman: gunman
+  - basic fundamentals: fundamentals
+  - bought up: bought
   - brief moment: moment
   - burning fire: fire
   - circle around: circle
   - climb up: climb
+  - close scrutiny: scrutiny
   - collaborate together: collaborate
   - combine together: combine
+  - completely destroy: destroy
+  - consensus of opinion: consensus
   - continue on: continue
+  - cut back: cut
+  - cutbacks: cuts
   - descend down: descend
   - each and every: each
+  - each one of: each of
+  - end result: result
   - enter in: enter
+  - false pretense: pretense
   - final conclusion: conclusion
+  - final otucome: outcome
+  - first began: began
+  - for free: free
+  - free gift: gift
+  - from whence: whence
+  - future plans: plans
   - gather together: gather
+  - general public: public
+  - headed up by: headed by
+  - honest truth: truth
+  - in close proximity to: close to
+  - join together: join
+  - just one of: just one
   - kneel down: kneel
+  - large-scale: big/large
+  - located in: in
+  - major speech: speech
+  - mental cognition: cognition
   - mix together: mix
+  - most of them: most
+  - mutual cooperation: cooperation
+  - new beginning: beginning
+  - nod your head: nod
   - outside exterior: exterior
   - over exaggerate: exaggerate
   - pair together: pair
+  - past history: history
+  - personal opinion: opinion
+  - pilotless drone: drone
+  - plan ahead: plan
+  - policymaking process: policymaking
   - postpone until later: postpone
   - raise up: raise
   - repeat again: repeat
+  - retreat back: retreat
+  - return back: return
+  - revert back: revert
+  - role model: model
   - round in shape: round
+  - safe haven: haven
+  - shrug your shoulders: shrug
   - sink down: sink
+  - sit down: sit
+  - small size: small
+  - soar up: soar
+  - sold off: sold
   - surrounded on all sides: surrounded
+  - the \w+ sector: eg industry/agriculture
+  - the fact that: that
+  - top priority: priority
+  - track record: record
   - tune up: tune
+  - unexpected surprise: surprise
+  - unintended mistake: mistake
   - visible to the eye: visible
+  - wilderness area: wilderness

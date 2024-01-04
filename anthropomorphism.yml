@@ -6,18 +6,17 @@ message: "[%s] Don't attribute human qualities to machines"
 raw:
   - \b(?:PC|computer|object|machine|software|hardware|data|database|engine|message|command|interface)\b\s*
 tokens:
+  - assumes
+  - behaves
+  - cares
+  - decides
+  - demands
+  - knows
+  - realizes
+  - refuses
+  - remembers
   - sees
   - tells
   - thinks
-  - wants
-  - cares
-  - realizes
-  - assumes
-  - knows
-  - remembers
-  - decides
-  - knows
-  - refuses
-  - demands
   - understands
-  - behaves
+  - wants

@@ -6,14 +6,11 @@ level: warning
 scope: text
 ignorecase: true
 swap:
-  - permit: let
-  - gift: present
-  - persons: people
-  - purchase: buy/cop
-  - peer: colleague
+  - demonstrate: show
   - exit: way out
   - gift: present
+  - peer: colleague
+  - permit: let
+  - persons: people
+  - purchase: buy/cop
   - wealthy: rich
-  - demonstrate: show
-  - violate: break
-

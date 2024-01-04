@@ -6,8 +6,8 @@ level: suggestion
 scope: text
 ignorecase: true
 swap:
-  - accountability: x
   - academic community: scholars
+  - accountability: x
   - adaptability: adapt
   - affinity: x
   - agility: u
@@ -17,7 +17,6 @@ swap:
   - association: associate
   - authenticity: x
   - autonomy: x
-  - capability: x
   - capability: x
   - certification: x
   - clarity: x
@@ -31,7 +30,6 @@ swap:
   - confidentiality: x
   - conflict: fight/struggle/war
   - conformity: x
-  - connectivity: x
   - connectivity: x
   - consistency: x
   - credibility: x
@@ -47,12 +45,10 @@ swap:
   - equity: x
   - evolution: evolve
   - exclusivity: x
-  - exclusivity: x
   - exemption: x
   - feasibility: x
   - flexibility: x
   - frugality: x
-  - functionality: x
   - functionality: x
   - generativity: x
   - generosity: x
@@ -85,12 +81,10 @@ swap:
   - progressivity: x
   - proposal: x
   - prosperity: x
-  - prosperity: x
   - quality: x
   - rationality: x
   - relevance: x
   - reliability: x
-  - resilience: x
   - resilience: x
   - responsiveness: x
   - revenue: sales
@@ -99,8 +93,6 @@ swap:
   - serenity: x
   - stability: x
   - strategy: x
-  - sustainability: x
-  - sustainability: x
   - sustainability: x
   - synchronicity: x
   - synergy: x
