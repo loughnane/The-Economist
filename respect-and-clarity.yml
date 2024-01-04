@@ -1,0 +1,29 @@
+---
+extends: existence
+message:  "Rarely do we need to speak of _all_ '%s'. Add an adjective."
+description: "Try not to lump people into a mass. Try modifying with an adjective as in 'black leaders'"
+scope: text
+level: warning
+ignorecase: true
+tokens:
+  - \b(the\s+asians|asian\s+people)\b
+  - \b(the\s+blacks|black\s+people)\b
+  - \b(the\s+gays|gay\s+people)\b
+  - \b(the\s+transgenders|transgender\s+people)\b
+  - \b(the\s+indians|indian\s+people)\b
+  - \b(the\s+jews|jewish\s+people)\b
+  - \b(the\s+disabled|disabled\s+people)\b
+  - \b(the\s+elderly|elderly\s+people)\b
+  - \b(the\s+incarcerated|incarcerated\s+people)\b
+  - \b(the\s+mentally ill|mentally ill\s+people)\b
+  - \b(the\s+obese|obese\s+people)\b
+  - \b(the\s+poor|poor\s+people)\b
+  - \b(the\s+rich|rich\s+people)\b
+  - \b(the\s+uneducated|uneducated\s+people)\b
+  - \b(the\s+unemployed|unemployed\s+people)\b
+  - \b(the\s+youth|young\s+people)\b
+  - \b(the\s+obese|obese\s+people)\b
+  - african americans
+  - foreigners
+  - immigrants
+  - the \w+ community
