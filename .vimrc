@@ -65,6 +65,8 @@ function! VimwikiFindIncompleteTasks()
 endfunction
 
 function! VimwikiFindAllIncompleteTasks()
+  ALEDisable
+  UnProse
   VimwikiSearch /- \[ \]/
   lopen
 endfunction
