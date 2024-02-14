@@ -661,7 +661,7 @@ swap:
   - globe: ball/earth/world
   - governance: brass/establishment
   - grace: deck
-  - grade: mark/place/rank/score
+  - (?<!1st|2nd|3rd|4th|5th|6th|7th|8th|9th|10th|11th|12th|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth) grade: mark/place/rank/score
   - grand: G/M/thou/thousand/wonderful/yard
   - grant: award/give/yield
   - granted: award/give/yield
