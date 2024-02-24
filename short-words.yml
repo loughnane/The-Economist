@@ -233,7 +233,8 @@ swap:
   - chair: chairman/lead
   - chamber: bedroom
   - champion: fighter/friend/star/wizard
-  - chance: find/gamble/ehappen/hazard/luck
+  - (?<!a )chance: find/gamble/ehappen/hazard/luck
+  - a chance: room/an opening/a shot/a way
   - channel: groove/line
   - charge: accuse/bang/bearing/buck/burden/care/flush/kick/load/rush/send/shoot/tear
   - charm: spell
@@ -502,7 +503,7 @@ swap:
   - effective: good
   - effectiveness: strength
   - effort: drive/try
-  - elegant|fashionable|stylish: chic/trendy/in/vogue/dapper/dashing/swanky/uptown
+  - elegant|fashionable|stylish: chic/trendy/in vogue/dapper/dashing/swanky/uptown
   - elevating: uplifting/raising/rearing
   - elevation: height/lift/peak/top
   - elite: elect
@@ -1095,12 +1096,11 @@ swap:
   - property: holding/place
   - prospect: outlook
   - protection: shelter
-  - prove: raise/rise/show/try
-  - proven: raise/rise/show/try
+  - proves{0,1}: show/try
   - provide: give/afford/furnish
   - proximity: closeness/nearness
   - prudent|intelligent|sapient: wise/clever/insightful/enlightened/keen/knowledgeable/shrewd
-  - public(?!\sschools): world
+  - public(?!\sschool): world
   - publicity: packaging
   - publish: write
   - pullet: hen

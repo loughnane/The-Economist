@@ -1,8 +1,8 @@
----
-message: "Don't use '%s' as the content of a link."
+# not working
 extends: existence
+message: "Don't use '%s' as the content of a link."
 ignorecase: true
-scope: raw 
-level: error
+level: warning
+scope: raw
 tokens:
-  - here
+  - "[here]"
