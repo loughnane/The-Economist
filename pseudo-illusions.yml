@@ -1,0 +1,8 @@
+extends: existence
+message: "'%s' is a repetition"
+ignorecase: true
+level: error
+tokens:
+  - \sa\san\s 
+  - \san\sa\s
+
