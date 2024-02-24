@@ -1100,7 +1100,7 @@ swap:
   - provide: give/afford/furnish
   - proximity: closeness/nearness
   - prudent|intelligent|sapient: wise/clever/insightful/enlightened/keen/knowledgeable/shrewd
-  - public: world
+  - public(?!\sschools): world
   - publicity: packaging
   - publish: write
   - pullet: hen
