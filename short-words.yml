@@ -12,7 +12,7 @@ swap:
   - \w*(?<!-)level|planar|equal: even/flat/floor/flush/smooth/in line/lined up/steady
   - \w*(?<!a )second[^,]: back/bit/mo
   - \w*(?<!do )just: barely/but/fair/good/hardly/only
-  - \w*(?<!get )familiar: companion/fellow
+  - \w*(?<!get |un)familiar: companion/fellow
   - \w*(?<!of )course: feed/flow/line/path/row/run/track/trend
   - \w*(?<!our )duty: tariff
   - \w*(?<!the )\bcause: bring on/bring about/do/drive/get/have/lawsuit/make/
@@ -530,6 +530,7 @@ swap:
   - equal: be/match/touch
   - equally: as
   - error: blunder/mistake
+  - erroneus: wrong
   - escape: break/flight/miss/run
   - eschew(?:s|ed): dodge/shirk/shun
   - escort: see
@@ -898,8 +899,7 @@ swap:
   - noon: midday
   - norm: average
   - note: line/mark
-  - notice: acknowledge/find/mark
-  - notice|recommendation|admonition: warning/tip off
+  - notice: acknowledge/find/mark/spot/spy
   - notion: belief/feeling
   - novel|modern: new/fresh/now
   - novice: beginner/fledgling/learner/newcomer
@@ -1152,6 +1152,7 @@ swap:
   - recent: late/new
   - recently: late/lately
   - recognize: acknowledge/greet/know/see/spot/tell
+  - recommendation|admonition: warning/tip off
   - reconcile[s]{0,1}: blend/dovetail
   - record: book/read/show/tape
   - recording: read/show/tape
